@@ -141,3 +141,19 @@ table.fs-table.decomp:not(.big) :is(th, td):nth-child(7) {
   border: 0;
   padding: 0;
 }
+
+/* ===== 第5章统计表（05-statistics.md，7-8 列数据表）紧凑化 =====
+   同 .decomp 思路：table-layout:fixed 占满内容区、列均分，防横向溢出
+   （对应 LaTeX \resizebox{\textwidth} / {0.75\textwidth} 的受控宽度）。
+   移动端仍由 .table-wrap 兜底。 */
+table.fs-table.stats {
+  table-layout: fixed;
+  width: 100%;
+}
+table.fs-table.stats th,
+table.fs-table.stats td {
+  padding: 0.3em 0.4em;
+  text-align: center;
+  vertical-align: middle;
+  word-break: keep-all;
+}

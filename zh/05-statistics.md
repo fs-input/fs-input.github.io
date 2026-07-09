@@ -22,7 +22,7 @@ permalink: /zh/05-statistics/
 
 风水输入法词库内置了近 15.5 万词条，已经足够绝大多数人的日常输入需要。码数详细统计如下表。
 
-<div class="table-wrap"><table class="fs-table">
+<div class="table-wrap"><table class="fs-table stats">
 <thead><tr><th>码数</th><th>候选级别</th><th>单字</th><th>双字</th><th>三字</th><th>≥四字</th><th>小计</th><th>击键数</th></tr></thead>
 <tbody>
 <tr><td rowspan="2">一码字</td><td>第一候选</td><td>26</td><td>/</td><td>/</td><td>/</td><td rowspan="2">78</td><td rowspan="2">两次</td></tr>
@@ -40,7 +40,7 @@ permalink: /zh/05-statistics/
 
 将上表转换为码率表，表中百分比为各档位编码空间的利用率（实际编码数 ÷ 该档位可能码数）。
 
-<div class="table-wrap"><table class="fs-table">
+<div class="table-wrap"><table class="fs-table stats">
 <thead><tr><th>码数</th><th>候选级别</th><th>单字</th><th>双字</th><th>三字</th><th>≥四字</th><th>总计</th></tr></thead>
 <tbody>
 <tr><td rowspan="2">一码字</td><td>第一候选</td><td>100.00%</td><td>/</td><td>/</td><td>/</td><td>100.00%</td></tr>
@@ -58,12 +58,15 @@ permalink: /zh/05-statistics/
 
 各码长的重码率分析如下表。一码字 26 个编码全部被使用；二码字 676 个编码因配齐三级候选，均有重码、最大重码仅 3；三码字零重码率 6.27%，最大重码 3；四码字零重码率高达 71.0%，最大重码仅为 5。总体来看，16.2 万字词仅使用约 12.9 万个编码，全程无需翻页，重码控制非常优秀。
 
-| 码长 | 唯一编码数 | 零重码数 | 零重码率 | 重码组数 | 最大重码 | 总条目数 |
-|---|---|---|---|---|---|---|
-| 一码 | 26 | 0 | 0.00% | 26 | 3 | 78 |
-| 二码 | 676 | 0 | 0.00% | 676 | 3 | 2028 |
-| 三码 | 16967 | 1064 | 6.27% | 15903 | 3 | 47563 |
-| 四码 | 111632 | 79264 | 71.00% | 32368 | 5 | 160468 |
+<div class="table-wrap"><table class="fs-table stats">
+<thead><tr><th>码长</th><th>唯一编码数</th><th>零重码数</th><th>零重码率</th><th>重码组数</th><th>最大重码</th><th>总条目数</th></tr></thead>
+<tbody>
+<tr><td>一码</td><td>26</td><td>0</td><td>0.00%</td><td>26</td><td>3</td><td>78</td></tr>
+<tr><td>二码</td><td>676</td><td>0</td><td>0.00%</td><td>676</td><td>3</td><td>2028</td></tr>
+<tr><td>三码</td><td>16967</td><td>1064</td><td>6.27%</td><td>15903</td><td>3</td><td>47563</td></tr>
+<tr><td>四码</td><td>111632</td><td>79264</td><td>71.00%</td><td>32368</td><td>5</td><td>160468</td></tr>
+</tbody>
+</table></div>
 
 基于频数加权的平均击键次数分析如下表。总体平均击键仅 4.05 次，单字平均仅 2.82 次，说明高频字大多分配了简码，输入效率极高。各类词组的平均击键均在 4.0–4.1 次之间，体现了编码分配的均匀性。
 
@@ -73,7 +76,7 @@ permalink: /zh/05-statistics/
 
 对所有单字的码表进行统计如下表，可见所有键符各级码数分布都很均匀，在合计列中，位于"米人"主键区的"EDC—SDFG—HJKL—I"数量最高，符合设计。
 
-<div class="table-wrap"><table class="fs-table">
+<div class="table-wrap"><table class="fs-table stats">
 <thead><tr><th>字母</th><th>一码</th><th>二码</th><th>三码</th><th>四码</th><th>音补</th><th>合计</th></tr></thead>
 <tbody>
 <tr><td>A</td><td>156</td><td>86</td><td>86</td><td>32</td><td>32</td><td>392</td></tr>
