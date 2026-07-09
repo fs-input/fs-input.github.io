@@ -50,3 +50,35 @@ table.fs-table th {
   background: #f0f4fa;
   color: var(--fengshui-blue);
 }
+
+/* ===== 26 键键盘网格表（第2章各布局表）===== */
+table.fs-table.kbd {
+  table-layout: fixed;
+  width: 100%;
+  max-width: 760px;
+  text-align: center;
+  font-size: 0.9em;
+}
+table.fs-table.kbd td {
+  padding: 0.35em 0.15em;
+  line-height: 1.25;
+  word-break: keep-all;
+}
+table.fs-table.kbd .k {
+  display: block;
+  font-weight: bold;
+  font-size: 1.05em;
+  color: var(--fengshui-blue);
+}
+/* 高亮底色（对应 LaTeX \cellcolor）*/
+table.fs-table.kbd .hl1 { background: #f0f0f0; }
+table.fs-table.kbd .hl2 { background: #d9d9d9; }
+table.fs-table.kbd .hl3 { background: #bfbfbf; }
+table.fs-table.kbd .red { background: var(--fengshui-red); color: #fff; }
+table.fs-table.kbd .red .k { color: #fff; }
+table.fs-table.kbd .redl { background: #f4b3b3; }
+table.fs-table.kbd .yellow { background: #ffe680; }
+table.fs-table.kbd .black { background: #000; color: #fff; }
+table.fs-table.kbd .black .k { color: #fff; }
+table.fs-table.kbd .blue { background: #b3cdee; }
+table.fs-table.kbd .green { background: #a3d9a3; }
