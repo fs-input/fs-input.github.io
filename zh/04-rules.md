@@ -17,11 +17,11 @@ permalink: /zh/04-rules/
 由于右手小指放置于"；"键位，平时处于空置状态，两手的拇指平时也处于空置状态，比较浪费，因此空格键、分号键（；）和引号键（'）分别设置为三级候选键。三级一简字均无需记忆，输入法会自动提示。78 个三级一简字均为使用频率最高的单字，长期使用后形成自然记忆，可大大加快输入速度。
 
 <div class="table-wrap"><table class="fs-table kbd yijian">
-<tr><td class="k">Q</td><td class="k">W</td><td class="k">E</td><td class="k">R</td><td class="k">T</td><td class="k">Y</td><td class="k">U</td><td class="k">I</td><td class="k">O</td><td class="k">P</td><td></td></tr>
+<tr><td><span class="k">Q</span></td><td><span class="k">W</span></td><td><span class="k">E</span></td><td><span class="k">R</span></td><td><span class="k">T</span></td><td><span class="k">Y</span></td><td><span class="k">U</span></td><td><span class="k">I</span></td><td><span class="k">O</span></td><td><span class="k">P</span></td><td></td></tr>
 <tr><td>无</td><td>就</td><td>上</td><td>和</td><td>应</td><td>新</td><td>问</td><td>他</td><td>这</td><td>对</td><td></td></tr>
-<tr><td class="k">A</td><td class="k">S</td><td class="k">D</td><td class="k">F</td><td class="k">G</td><td class="k">H</td><td class="k">J</td><td class="k">K</td><td class="k">L</td><td class="k">；</td><td class="k">’</td></tr>
+<tr><td><span class="k">A</span></td><td><span class="k">S</span></td><td><span class="k">D</span></td><td><span class="k">F</span></td><td><span class="k">G</span></td><td><span class="k">H</span></td><td><span class="k">J</span></td><td><span class="k">K</span></td><td><span class="k">L</span></td><td><span class="k">；</span></td><td><span class="k">’</span></td></tr>
 <tr><td>好</td><td>要</td><td>将</td><td>的</td><td>都</td><td>其</td><td>我</td><td>很</td><td>以</td><td class="yellow">第二候选</td><td class="yellow">第三候选</td></tr>
-<tr><td class="k">Z</td><td class="k">X</td><td class="k">C</td><td class="k">V</td><td class="k">B</td><td class="k">N</td><td class="k">M</td><td class="k">，</td><td class="k">。</td><td></td><td></td></tr>
+<tr><td><span class="k">Z</span></td><td><span class="k">X</span></td><td><span class="k">C</span></td><td><span class="k">V</span></td><td><span class="k">B</span></td><td><span class="k">N</span></td><td><span class="k">M</span></td><td><span class="k">，</span></td><td><span class="k">。</span></td><td></td><td></td></tr>
 <tr><td>之</td><td>给</td><td>国</td><td>没</td><td>了</td><td>在</td><td>想</td><td>，</td><td>。</td><td></td><td></td></tr>
 <tr><td colspan="3"></td><td colspan="5" class="hl2"><strong>SPACE</strong></td><td colspan="3"></td></tr>
 <tr><td colspan="3"></td><td colspan="5" class="yellow">第一候选，空格上屏</td><td colspan="3"></td></tr>
@@ -29,15 +29,14 @@ permalink: /zh/04-rules/
 
 注：一级一简字不再设置其他输入码。
 
-**我　J\_**
-
-| 第一码 | 空格上屏 |
-|---|---|
-| J | 空格 |
-
-| J 码一简字 | 第一个候选字，按空格上屏 |
-|---|---|
-| **可　J；**（第二候选上屏） | **看　J’**（第三候选上屏） |
+<table class="fs-table ex">
+  <tr><th colspan="3">我　J_</th></tr>
+  <tr><td>第一码</td><td colspan="2">空格上屏</td></tr>
+  <tr><td>J</td><td colspan="2">空格</td></tr>
+  <tr><td>J码一简字</td><td colspan="2">第一个候选字，按空格上屏</td></tr>
+  <tr><td style="background:#eef1f5">可　J；</td><td colspan="2" style="background:#eef1f5">看　J’</td></tr>
+  <tr><td>第二候选字上屏</td><td colspan="2">第三候选字上屏</td></tr>
+</table>
 
 ### 字根字
 
@@ -80,45 +79,45 @@ permalink: /zh/04-rules/
 </tr>
 </table></div>
 
-**气　RQ\_**
+<table class="fs-table ex">
+  <tr><th colspan="3">气　RQ_</th></tr>
+  <tr><td>第一码</td><td>音补</td><td>空格上屏</td></tr>
+  <tr><td>气R</td><td>Q</td><td>空格</td></tr>
+</table>
 
-| 第一码 | 音补 | 空格上屏 |
-|---|---|---|
-| 气R | Q | 空格 |
-
-**入　IR；**
-
-| 第一码 | 音补 | 第二候选词上屏 |
-|---|---|---|
-| 入I | R | ； |
+<table class="fs-table ex">
+  <tr><th colspan="3">入　IR；</th></tr>
+  <tr><td>第一码</td><td>音补</td><td>第二候选词上屏</td></tr>
+  <tr><td>入I</td><td>R</td><td>；</td></tr>
+</table>
 
 ### 普通字
 
 不足四码者，以该字的拼音首字母作为补码。超过四码者，第四码为该字末码。
 
-**如　AKR\_**
+<table class="fs-table ex">
+  <tr><th colspan="4">如　AKR_</th></tr>
+  <tr><td>第一码</td><td>第二码</td><td>音补</td><td>空格上屏</td></tr>
+  <tr><td>女A</td><td>口K</td><td>R</td><td>空格</td></tr>
+</table>
 
-| 第一码 | 第二码 | 音补 | 空格上屏 |
-|---|---|---|---|
-| 女A | 口K | R | 空格 |
+<table class="fs-table ex">
+  <tr><th colspan="4">通　PQZT</th></tr>
+  <tr><td>第一码</td><td>第二码</td><td>第三码</td><td>音补</td></tr>
+  <tr><td>P</td><td>用Q</td><td>辶Z</td><td>T</td></tr>
+</table>
 
-**通　PQZT**
+<table class="fs-table ex">
+  <tr><th colspan="4">弱　ADAD</th></tr>
+  <tr><td>第一码</td><td>第二码</td><td>第三码</td><td>第四码</td></tr>
+  <tr><td>弓A</td><td>冫D</td><td>弓A</td><td>冫D</td></tr>
+</table>
 
-| 第一码 | 第二码 | 第三码 | 音补 |
-|---|---|---|---|
-| P | 用Q | 辶Z | T |
-
-**弱　ADAD**
-
-| 第一码 | 第二码 | 第三码 | 第四码 |
-|---|---|---|---|
-| 弓A | 冫D | 弓A | 冫D |
-
-**微　KESO**
-
-| 第一码 | 第二码 | 第三码 | 第四码（末码） |
-|---|---|---|---|
-| 彳K | 山E | 一S | 攵O |
+<table class="fs-table ex">
+  <tr><th colspan="4">微　KESO</th></tr>
+  <tr><td>第一码</td><td>第二码</td><td>第三码</td><td>第四码（末码）</td></tr>
+  <tr><td>彳K</td><td>山E</td><td>一S</td><td>攵O</td></tr>
+</table>
 
 ### 二简字、三简字
 
@@ -128,11 +127,11 @@ permalink: /zh/04-rules/
 
 为了提高单字的输入速度，单字设置有一级简码、二级简码、三级简码，也就是说用户不需要输入全部字码就可以打出单字。比如"是"字有以下四种输入方式，无需任何记忆，输入法自动提示，为用户提供最大的自由度，轻松实现盲打。
 
-**是：日一龰S**
-
-| 二级一简 | 二级二简 | 一级三简 | 全码 |
-|---|---|---|---|
-| F;/F2 | F;/FS2 | FSE\_ | FSES |
+<table class="fs-table ex">
+  <tr><th colspan="4">是：日一龰S</th></tr>
+  <tr><td>二级一简</td><td>二级二简</td><td>一级三简</td><td>全码</td></tr>
+  <tr><td>F;/F2</td><td>F;/FS2</td><td>FSE_</td><td>FSES</td></tr>
+</table>
 
 除了单字，另外还有使用频率最高的 33997 个词设置了三简字，因此最大程度上节省了输入码数。
 
@@ -140,44 +139,44 @@ permalink: /zh/04-rules/
 
 每个字选前两码，若两个字中出现字根字，则该字第二码为音补。
 
-**我们　JLIU**
+<table class="fs-table ex">
+  <tr><th colspan="4">我们　JLIU</th></tr>
+  <tr><td>第一字第一码</td><td>第一字第二码</td><td>第二字第一码</td><td>第二字第二码</td></tr>
+  <tr><td>手J</td><td>戈L</td><td>人I</td><td>门U</td></tr>
+</table>
 
-| 第一字第一码 | 第一字第二码 | 第二字第一码 | 第二字第二码 |
-|---|---|---|---|
-| 手J | 戈L | 人I | 门U |
-
-**生气　RSRQ**
-
-| 第一码 | 音补 | 第一码 | 音补 |
-|---|---|---|---|
-| 生R | S | 气R | Q |
+<table class="fs-table ex">
+  <tr><th colspan="4">生气　RSRQ</th></tr>
+  <tr><td>第一码</td><td>音补</td><td>第一码</td><td>音补</td></tr>
+  <tr><td>生R</td><td>S</td><td>气R</td><td>Q</td></tr>
+</table>
 
 ## 三字
 
 前两个字选第一码，最后一个字选前两码。
 
-**创作者　IBGF**
-
-| 第一字第一码 | 第二字第一码 | 第三字第一码 | 第三字第二码 |
-|---|---|---|---|
-| 人I | 亻I | 耂G | 日F |
+<table class="fs-table ex">
+  <tr><th colspan="4">创作者　IBGF</th></tr>
+  <tr><td>第一字第一码</td><td>第二字第一码</td><td>第三字第一码</td><td>第三字第二码</td></tr>
+  <tr><td>人I</td><td>亻I</td><td>耂G</td><td>日F</td></tr>
+</table>
 
 ## 四字
 
 以每个字的第一码作为输入码。
 
-**不劳而获　NHAH**
-
-| 第一字第一码 | 第二字第一码 | 第三字第一码 | 第四字第一码 |
-|---|---|---|---|
-| N | H | A | H |
+<table class="fs-table ex">
+  <tr><th colspan="4">不劳而获　NHAH</th></tr>
+  <tr><td>第一字第一码</td><td>第二字第一码</td><td>第三字第一码</td><td>第四字第一码</td></tr>
+  <tr><td>N</td><td>H</td><td>A</td><td>H</td></tr>
+</table>
 
 ## 四字以上
 
 以第一、第二、第三字和最末字的第一码作为输入码。
 
-**做一天和尚撞一天钟　ISYQ**
-
-| 第一字第一码 | 第二字第一码 | 第三字第一码 | 最末字第一码 |
-|---|---|---|---|
-| I | S | Y | Q |
+<table class="fs-table ex">
+  <tr><th colspan="4">做一天和尚撞一天钟　ISYQ</th></tr>
+  <tr><td>第一字第一码</td><td>第二字第一码</td><td>第三字第一码</td><td>最末字第一码</td></tr>
+  <tr><td>I</td><td>S</td><td>Y</td><td>Q</td></tr>
+</table>

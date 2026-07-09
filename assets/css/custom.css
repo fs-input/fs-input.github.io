@@ -83,6 +83,9 @@ table.fs-table.kbd .black .k { color: #fff; }
 table.fs-table.kbd .blue { background: #b3cdee; }
 table.fs-table.kbd .green { background: #a3d9a3; }
 
+/* ===== 编码示例表（第4章：首行合并标题 + 居中）===== */
+table.fs-table.ex { text-align: center; }
+
 /* ===== 单字拆分 / 拆解表 ===== */
 table.fs-table.decomp { font-size: 0.92em; }
 table.fs-table.decomp .kw {
