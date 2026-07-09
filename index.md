@@ -43,8 +43,6 @@ Geomancy Form-Phonetic Input Method
 
 ## 开始学习
 
-> 🚧 本站建设中，章节内容将陆续发布。
-
 - [字根表](/zh/01-roots) —— 26 键"米人"布局全景
 - [文化解读](/zh/02-culture) —— 阴阳五行、字母象形与记忆口诀
 - [单字拆分](/zh/03-decomposition) —— 174 个拆字示例
