@@ -169,9 +169,11 @@ table.fs-table.stats td {
 }
 
 /* ===== 阿拉伯语 RTL（/ar/ 页面，由 head_custom.html 注入 html[dir="rtl"]）=====
-   主题布局（正文/标题/侧栏/列表）随 dir 自动 RTL；此处只处理不能自动镜像的部分：
-   所有数据表格强制 LTR（键盘物理布局、编码时序、拆解方向、统计列序均须保持 LTR，
-   与 LTR 语言一致）；语言切换器贴起始边。正文嵌入的汉字/PUA 依赖 Unicode bidi 算法。 */
+   侧栏目录保持左侧不动：主题 .side-bar 为 position:fixed 且未显式设 left，
+   dir=rtl 下其静态位置偏到右侧 → 显式 left:0 钉回左侧（.main 的 margin-left 是
+   物理属性，不随 dir 反转，已为主区正确左留白）。数据表格强制 LTR（键盘物理布局/
+   编码时序/拆解方向/统计列序，与 LTR 语言一致）；语言切换器贴起始边。 */
 [dir="rtl"] body { text-align: right; }
+[dir="rtl"] .side-bar { left: 0; right: auto; }
 [dir="rtl"] table.fs-table { direction: ltr; }
 [dir="rtl"] .lang-switch { text-align: right; }
