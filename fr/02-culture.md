@@ -562,4 +562,4 @@ Chaque touche a défini un « nom primaire » et un « nom secondaire ». Comme 
 
 右手区风水格局：左右<strong><span class="fs-red">刀戈</span></strong>护卫，水<strong><span class="fs-red">井</span></strong>居中，明<strong><span class="fs-red">月</span></strong>沉沉，忠<strong><span class="fs-red">犬</span></strong>护院，<strong><span class="fs-red">人丁</span></strong>兴旺，夏<strong><span class="fs-red">虫</span></strong>低吟，<strong><span class="fs-red">瓜</span></strong>果飘香，丰<strong><span class="fs-red">衣</span></strong>足食（<strong><span class="fs-red">饣</span></strong>），<strong><span class="fs-red">文</span></strong>教兴盛，<strong><span class="fs-red">鱼</span></strong>跃龙<strong><span class="fs-red">门</span></strong>。
 
-在如此绝妙的风水庇佑下，长期使用该输入法的朋友，有如护身符随身，必时来运转，键字如神，飞黄腾达，官运亨通，福及天下。
+Sous la protection d'un Feng Shui aussi merveilleux, ceux qui utilisent longtemps cette méthode de saisie la portent comme un talisman : la fortune tournera en leur faveur, leurs doigts voleront sur les touches comme par magie, ils s'élèveront au succès, leur carrière prospérera, et les bienfaits s'étendront au monde entier.

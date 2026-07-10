@@ -562,4 +562,4 @@ Mỗi phím định nghĩa «tên phím chính» và «tên phím phụ». Vì c
 
 右手区风水格局：左右<strong><span class="fs-red">刀戈</span></strong>护卫，水<strong><span class="fs-red">井</span></strong>居中，明<strong><span class="fs-red">月</span></strong>沉沉，忠<strong><span class="fs-red">犬</span></strong>护院，<strong><span class="fs-red">人丁</span></strong>兴旺，夏<strong><span class="fs-red">虫</span></strong>低吟，<strong><span class="fs-red">瓜</span></strong>果飘香，丰<strong><span class="fs-red">衣</span></strong>足食（<strong><span class="fs-red">饣</span></strong>），<strong><span class="fs-red">文</span></strong>教兴盛，<strong><span class="fs-red">鱼</span></strong>跃龙<strong><span class="fs-red">门</span></strong>。
 
-在如此绝妙的风水庇佑下，长期使用该输入法的朋友，有如护身符随身，必时来运转，键字如神，飞黄腾达，官运亨通，福及天下。
+Dưới sự che chở của một phong thủy tuyệt diệu như vậy, những ai lâu dài sử dụng phương pháp gõ này sẽ mang theo nó như bùa hộ mệnh: thời vận sẽ chuyển đến, những ngón tay lướt trên bàn phím như có phép thuật, sự nghiệp thăng tiến rực rỡ, đường quan lộ hanh thông, và phước lành lan tỏa khắp thiên hạ.

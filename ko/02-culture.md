@@ -562,4 +562,4 @@ permalink: /ko/02-culture/
 
 右手区风水格局：左右<strong><span class="fs-red">刀戈</span></strong>护卫，水<strong><span class="fs-red">井</span></strong>居中，明<strong><span class="fs-red">月</span></strong>沉沉，忠<strong><span class="fs-red">犬</span></strong>护院，<strong><span class="fs-red">人丁</span></strong>兴旺，夏<strong><span class="fs-red">虫</span></strong>低吟，<strong><span class="fs-red">瓜</span></strong>果飘香，丰<strong><span class="fs-red">衣</span></strong>足食（<strong><span class="fs-red">饣</span></strong>），<strong><span class="fs-red">文</span></strong>教兴盛，<strong><span class="fs-red">鱼</span></strong>跃龙<strong><span class="fs-red">门</span></strong>。
 
-在如此绝妙的风水庇佑下，长期使用该输入法的朋友，有如护身符随身，必时来运转，键字如神，飞黄腾达，官运亨通，福及天下。
+이토록 절묘한 풍수의 가호 아래, 이 입력법을 오래 쓰는 이는 마치 부적을 지닌 것과 같으니, 때가 되면 운이 열리고 손가락은 신들린 듯 자판을 춤추며, 승승장구하여 앞길이 창창하고, 그 복이 천하에 미칠 것입니다.
