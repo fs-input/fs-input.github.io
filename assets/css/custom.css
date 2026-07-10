@@ -180,19 +180,11 @@ table.fs-table.stats td {
 [dir="rtl"] table.fs-table { direction: ltr; }
 [dir="rtl"] .lang-switch { text-align: right; }
 
-/* 导航镜像：主题 .nav-list-* 全用物理 left/right（无逻辑属性），dir=rtl 下点击展开父级后，
-   .nav-list-link 的 padding-right:3rem 与子菜单 padding-left 未镜像，起始边（右）被占、
-   文字被推向左 → 表现为"目录左偏"。将起止边对调、展开箭头移到起始边、子菜单缩进改到起始边。
-   选择器特异性(0,4,0)高于主题(0,3,0)，且 custom.css 后于主题 CSS 加载，桌面/移动端均生效。 */
-[dir="rtl"] .nav-list .nav-list-item .nav-list-link {
-  padding-right: 1rem;    /* 起始边（右）小留白，镜像自原 padding-left:1rem */
-  padding-left: 3rem;     /* 结束边（左）留位给展开箭头，镜像自原 padding-right:3rem */
-}
-[dir="rtl"] .nav-list .nav-list-item .nav-list-expander {
-  right: auto;
-  left: 0;                /* 展开箭头移到起始边（左） */
-}
+/* 导航 RTL：主题 .nav-list-* 全用物理 left/right（无逻辑属性）。容器贴正文由 .side-bar
+   的 align-items:flex-start 解决（见上）；展开箭头与 .nav-list-link 的 padding 保持
+   主题原值（箭头在右、右侧留位），与 LTR 一致。仅子菜单缩进需改：文字右对齐时主题原
+   padding-left 无视觉效果，改 padding-right 让子项比父项向左缩进一层。特异性(0,4,0)>主题(0,3,0)。 */
 [dir="rtl"] .nav-list .nav-list-item > .nav-list {
   padding-left: 0;
-  padding-right: 0.75rem; /* 子菜单缩进改到起始边（右） */
+  padding-right: 0.75rem; /* 子菜单缩进：右对齐下需右侧缩进才有层级 */
 }
