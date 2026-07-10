@@ -133,16 +133,18 @@ La tabla de radicales incorpora también la teoría del «Yin-Yang y los Cinco E
 
 {: .note }
 
-	*Lectura en español de la Canción de los Cinco Elementos:*
-El agua humedece hacia abajo, el fuego arde hacia arriba, la madera se dobla y se endereza, el metal cede y se transforma, la tierra es para sembrar y cosechar.
-La madera rige el crecimiento, el fuego el ascenso, la tierra el sostén, el metal la recolección y el agua el almacenamiento.
-El hígado pertenece a la madera, el corazón al fuego, el bazo a la tierra, los pulmones al metal y los riñones al agua.
-Lo ácido entra en la madera, lo amargo en el fuego, lo dulce en la tierra, lo picante en el metal y lo salado en el agua.
-El este es madera, el sur fuego, el centro tierra, el oeste metal y el norte agua.
-La madera es verde, el fuego rojo, la tierra amarilla, el metal blanco y el agua negra.
+*Lectura en español de la Canción de los Cinco Elementos:*
+
+	El agua humedece hacia abajo, el fuego arde hacia arriba, la madera se dobla y se endereza, el metal cede y se transforma, la tierra es para sembrar y cosechar.
+	La madera rige el crecimiento, el fuego el ascenso, la tierra el sostén, el metal la recolección y el agua el almacenamiento.
+	El hígado pertenece a la madera, el corazón al fuego, el bazo a la tierra, los pulmones al metal y los riñones al agua.
+	Lo ácido entra en la madera, lo amargo en el fuego, lo dulce en la tierra, lo picante en el metal y lo salado en el agua.
+	El este es madera, el sur fuego, el centro tierra, el oeste metal y el norte agua.
+	La madera es verde, el fuego rojo, la tierra amarilla, el metal blanco y el agua negra.
 
 *Original chino:*
-水曰润下，火曰炎上，木曰曲直，金曰从革，土爰稼穑。
+
+	水曰润下，火曰炎上，木曰曲直，金曰从革，土爰稼穑。
 	木主生发，火主升腾，土主承载，金主肃敛，水主归藏。
 	肝属木，心属火，脾属土，肺属金，肾属水。
 	酸入木，苦入火，甘入土，辛入金，咸入水。

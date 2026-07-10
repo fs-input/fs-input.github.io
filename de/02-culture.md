@@ -133,16 +133,18 @@ Die Grundzeichentabelle schließt auch die Theorie von „Yin-Yang und den Fünf
 
 {: .note }
 
-	*Deutsche Nacherzählung des Lieds von den Fünf Elementen:*
-Wasser befeuchtet nach unten, Feuer brennt nach oben, Holz biegt sich und richtet sich auf, Metall gibt nach und verwandelt sich, Erde dient Aussaat und Ernte.
-Holz lenkt das Wachstum, Feuer den Aufstieg, Erde die Stütze, Metall das Sammeln, Wasser das Bewahren.
-Die Leber gehört zu Holz, das Herz zu Feuer, die Milz zu Erde, die Lungen zu Metall, die Nieren zu Wasser.
-Säuerliches geht in Holz ein, Bitterliches in Feuer, Süßes in Erde, Scharfes in Metall, Salziges in Wasser.
-Osten — Holz, Süden — Feuer, Zentrum — Erde, Westen — Metall, Norden — Wasser.
-Holz — Grün, Feuer — Rot, Erde — Gelb, Metall — Weiß, Wasser — Schwarz.
+*Deutsche Nacherzählung des Lieds von den Fünf Elementen:*
+
+	Wasser befeuchtet nach unten, Feuer brennt nach oben, Holz biegt sich und richtet sich auf, Metall gibt nach und verwandelt sich, Erde dient Aussaat und Ernte.
+	Holz lenkt das Wachstum, Feuer den Aufstieg, Erde die Stütze, Metall das Sammeln, Wasser das Bewahren.
+	Die Leber gehört zu Holz, das Herz zu Feuer, die Milz zu Erde, die Lungen zu Metall, die Nieren zu Wasser.
+	Säuerliches geht in Holz ein, Bitterliches in Feuer, Süßes in Erde, Scharfes in Metall, Salziges in Wasser.
+	Osten — Holz, Süden — Feuer, Zentrum — Erde, Westen — Metall, Norden — Wasser.
+	Holz — Grün, Feuer — Rot, Erde — Gelb, Metall — Weiß, Wasser — Schwarz.
 
 *Chinesischer Originaltext:*
-水曰润下，火曰炎上，木曰曲直，金曰从革，土爰稼穑。
+
+	水曰润下，火曰炎上，木曰曲直，金曰从革，土爰稼穑。
 	木主生发，火主升腾，土主承载，金主肃敛，水主归藏。
 	肝属木，心属火，脾属土，肺属金，肾属水。
 	酸入木，苦入火，甘入土，辛入金，咸入水。

@@ -133,16 +133,18 @@ Bảng căn chữ cũng tiếp thu lý luận «Âm Dương Ngũ Hành» của c
 
 {: .note }
 
-	*Bản dịch tiếng Việt bài ca Ngũ Hành:*
-Nước thấm chảy xuống, lửa cháy bốc lên, gỗ cong rồi thẳng, kim thuận theo mà đổi, đất gieo gặt.
-Gỗ chủ sinh phát, lửa chủ thăng đằng, đất chủ thừa tải, kim chủ túc liễm, nước chủ quy tàng.
-Gan thuộc mộc, tim thuộc hỏa, tỳ thuộc thổ, phổi thuộc kim, thận thuộc thủy.
-Chua nhập mộc, đắng nhập hỏa, ngọt nhập thổ, cay nhập kim, mặn nhập thủy.
-Đông là mộc, nam là hỏa, trung là thổ, tây là kim, bắc là thủy.
-Mộc là xanh, hỏa là đỏ, thổ là vàng, kim là trắng, thủy là đen.
+*Bản dịch tiếng Việt bài ca Ngũ Hành:*
+
+	Nước thấm chảy xuống, lửa cháy bốc lên, gỗ cong rồi thẳng, kim thuận theo mà đổi, đất gieo gặt.
+	Gỗ chủ sinh phát, lửa chủ thăng đằng, đất chủ thừa tải, kim chủ túc liễm, nước chủ quy tàng.
+	Gan thuộc mộc, tim thuộc hỏa, tỳ thuộc thổ, phổi thuộc kim, thận thuộc thủy.
+	Chua nhập mộc, đắng nhập hỏa, ngọt nhập thổ, cay nhập kim, mặn nhập thủy.
+	Đông là mộc, nam là hỏa, trung là thổ, tây là kim, bắc là thủy.
+	Mộc là xanh, hỏa là đỏ, thổ là vàng, kim là trắng, thủy là đen.
 
 *Bản gốc tiếng Trung:*
-水曰润下，火曰炎上，木曰曲直，金曰从革，土爰稼穑。
+
+	水曰润下，火曰炎上，木曰曲直，金曰从革，土爰稼穑。
 	木主生发，火主升腾，土主承载，金主肃敛，水主归藏。
 	肝属木，心属火，脾属土，肺属金，肾属水。
 	酸入木，苦入火，甘入土，辛入金，咸入水。
