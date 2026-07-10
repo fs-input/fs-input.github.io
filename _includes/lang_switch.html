@@ -2,11 +2,10 @@
   多语言切换器：列出已启用语言，当前页高亮，点击跳到同路径的对端语言。
   · 中文：根 / 或 /zh/xxx/ ；其他语言：/<lang>/ 或 /<lang>/xxx/ 。
   · 新增语言：把 "代码:名称" 加入下方 langs（页面存在后再加，避免死链）。
-  · 待启用：ko:한국어
   · 渲染段（<p>…</p>）必须写在同一行：本文件被 {% include %} 进 Markdown 页面后，
     其内部换行会被 kramdown 转成 <br/>，导致语言竖直堆叠（线上已验证踩坑）。
 {%- endcomment -%}
-{%- assign langs = "zh:中文, en:English, es:Español, fr:Français, ar:العربية, ru:Русский, de:Deutsch, ja:日本語, vi:Tiếng Việt" | split: ", " -%}
+{%- assign langs = "zh:中文, en:English, es:Español, fr:Français, ar:العربية, ru:Русский, de:Deutsch, ja:日本語, vi:Tiếng Việt, ko:한국어" | split: ", " -%}
 {%- comment -%} 1) 当前页面去掉语言前缀后的路径后缀（如 '01-roots/'，首页为 ''）{%- endcomment -%}
 {%- assign suffix = page.url -%}
 {%- if suffix == '/' -%}
