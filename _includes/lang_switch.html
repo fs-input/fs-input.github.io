@@ -1,43 +1,27 @@
-{% comment %}
+{%- comment -%}
   多语言切换器：列出已启用语言，当前页高亮，点击跳到同路径的对端语言。
   · 中文：根 / 或 /zh/xxx/ ；其他语言：/<lang>/ 或 /<lang>/xxx/ 。
   · 新增语言：把 "代码:名称" 加入下方 langs（页面存在后再加，避免死链）。
   · 待启用：es:Español, fr:Français, ar:العربية, ru:Русский,
             de:Deutsch, ja:日本語, vi:Tiếng Việt, ko:한국어
-{% endcomment %}
-{% assign langs = "zh:中文, en:English" | split: ", " %}
-
-{% comment %} 1) 当前页面去掉语言前缀后的路径后缀（如 '01-roots/'，首页为 ''）{% endcomment %}
-{% assign suffix = page.url %}
-{% if suffix == '/' %}
-  {% assign suffix = '' %}
-{% elsif suffix contains '/zh/' %}
-  {% assign suffix = suffix | remove_first: '/zh/' %}
-{% else %}
-  {% for l in langs %}
-    {% assign code = l | split: ':' | first %}
-    {% if code != 'zh' %}
-      {% assign prefix = '/' | append: code | append: '/' %}
-      {% if suffix contains prefix %}{% assign suffix = suffix | remove_first: prefix %}{% endif %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
-{% comment %} 2) 渲染语言列表 {% endcomment %}
-<p class="text-right lang-switch">
-{% for l in langs %}
-  {% assign code = l | split: ':' | first %}
-  {% assign label = l | split: ':' | last %}
-  {% if code == 'zh' %}
-    {% if suffix == '' %}{% assign url = '/' %}{% else %}{% assign url = '/zh/' | append: suffix %}{% endif %}
-  {% else %}
-    {% assign url = '/' | append: code | append: '/' | append: suffix %}
-  {% endif %}
-  {% if url == page.url %}
-    <span class="lang-current">🌐 {{ label }}</span>
-  {% else %}
-    <a href="{{ url | relative_url }}">🌐 {{ label }}</a>
-  {% endif %}
-  {% unless forloop.last %}<span class="lang-sep"> · </span>{% endunless %}
-{% endfor %}
-</p>
+  · 渲染段（<p>…</p>）必须写在同一行：本文件被 {% include %} 进 Markdown 页面后，
+    其内部换行会被 kramdown 转成 <br/>，导致语言竖直堆叠（线上已验证踩坑）。
+{%- endcomment -%}
+{%- assign langs = "zh:中文, en:English" | split: ", " -%}
+{%- comment -%} 1) 当前页面去掉语言前缀后的路径后缀（如 '01-roots/'，首页为 ''）{%- endcomment -%}
+{%- assign suffix = page.url -%}
+{%- if suffix == '/' -%}
+  {%- assign suffix = '' -%}
+{%- elsif suffix contains '/zh/' -%}
+  {%- assign suffix = suffix | remove_first: '/zh/' -%}
+{%- else -%}
+  {%- for l in langs -%}
+    {%- assign code = l | split: ':' | first -%}
+    {%- if code != 'zh' -%}
+      {%- assign prefix = '/' | append: code | append: '/' -%}
+      {%- if suffix contains prefix -%}{%- assign suffix = suffix | remove_first: prefix -%}{%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- comment -%} 2) 渲染语言列表（单行，勿拆行）{%- endcomment -%}
+<p class="text-right lang-switch">{% for l in langs %}{% assign code = l | split: ':' | first %}{% assign label = l | split: ':' | last %}{% if code == 'zh' %}{% if suffix == '' %}{% assign url = '/' %}{% else %}{% assign url = '/zh/' | append: suffix %}{% endif %}{% else %}{% assign url = '/' | append: code | append: '/' | append: suffix %}{% endif %}{% if url == page.url %}<span class="lang-current">🌐 {{ label }}</span>{% else %}<a href="{{ url | relative_url }}">🌐 {{ label }}</a>{% endif %}{% unless forloop.last %}<span class="lang-sep"> · </span>{% endunless %}{% endfor %}</p>
