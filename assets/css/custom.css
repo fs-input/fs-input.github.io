@@ -157,3 +157,17 @@ table.fs-table.stats td {
   vertical-align: middle;
   word-break: keep-all;
 }
+
+/* ===== 多语言切换器（_includes/lang_switch.html）===== */
+.lang-switch .lang-current {
+  font-weight: bold;
+  color: var(--fengshui-gray);
+}
+.lang-switch .lang-sep {
+  color: var(--fengshui-gray);
+  margin: 0 0.2em;
+}
+
+/* ===== 阿拉伯语 RTL 预留（/ar/ 页面，由 head_custom.html 注入 html[dir="rtl"]）=====
+   主题多数布局随 dir 自动镜像；此处仅放占位，具体调整在阶段 3（阿拉伯语版）按实机补充。 */
+[dir="rtl"] body { text-align: right; }

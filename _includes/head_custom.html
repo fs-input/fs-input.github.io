@@ -1,2 +1,7 @@
 <!-- 自定义样式：EUDC 自创字符字体 + 配色 + 表格移动端适配 -->
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+<!-- 阿拉伯语（/ar/）右到左：在 <html> 上设 dir="rtl"，具体微调见 custom.css [dir="rtl"] 段（阶段 3 补充）-->
+{% if page.url contains '/ar/' %}
+<script>document.documentElement.setAttribute('dir', 'rtl');</script>
+{% endif %}
