@@ -13,11 +13,11 @@ back_to_top_text: 返回顶部
 
 # 右上角辅助链接
 aux_links:
-  "GitHub": "https://github.com/fs-input/fs-input.github.io"
-  "Rime 下载": "https://rime.im/download/"
+  "GitHub": "https://github.com/fs-input"
+  "Download": "https://github.com/fs-input/fs-input.github.io/releases/download/V1.3.1/geomancy-rime-V1.3.1.zip"
 
 # 页脚
-footer_content: 'Copyright &copy; 2026 詹小虫 · 风水形音输入法 V1.3.1 · <a href="https://github.com/fs-input/fs-input.github.io">GitHub</a>'
+footer_content: 'Copyright &copy; 2026 詹小虫 · 风水形音输入法 V1.3.1 · <a href="https://github.com/fs-input">GitHub</a>'
 
 # Markdown 解析（允许在 Markdown 中嵌 HTML 表格）
 kramdown:
