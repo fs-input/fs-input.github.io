@@ -133,7 +133,8 @@ The radical table also incorporates the theory of “Yin-Yang and the Five Eleme
 
 {: .note }
 
-	*An English reading of the Song of the Five Elements:*
+*An English reading of the Song of the Five Elements:*
+
 	Water moistens downward, fire blazes upward, wood bends and straightens, metal yields and transforms, earth is for sowing and reaping. 
 	Wood governs growth, fire governs ascent, earth governs bearing, metal governs reaping-in, water governs storage. 
 	The liver belongs to wood, the heart to fire, the spleen to earth, the lungs to metal, the kidneys to water. 
