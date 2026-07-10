@@ -27,6 +27,7 @@ kramdown:
 # 不发布到站点的文件
 exclude:
   - README.md
+  - README_CN.md
   - Gemfile
   - Gemfile.lock
   - node_modules
