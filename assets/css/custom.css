@@ -18,6 +18,31 @@ body {
                'SimSun', serif, 'FengshuiEUDC', sans-serif;
 }
 
+/* --- 各语言字体优化（系统字体栈，零外部依赖；不影响中文默认）---
+   根因：SimSun 自带西里尔字母块，俄语被其渲染导致字距过宽；法语等带调拉丁字母
+   走 CJK 字体内置拉丁字形不够美观。由 head_custom.html 按语言路径注入 <html lang>，
+   在此用 :lang() 精准切换。每条栈末尾保留 'FengshuiEUDC' 以渲染 PUA 自创字根。 */
+/* 俄语：西里尔——交给标准衬线，避开 SimSun 的西里尔 */
+:lang(ru) body {
+  font-family: 'Times New Roman', 'Georgia', 'Cambria', 'PT Serif', serif, 'FengshuiEUDC';
+}
+/* 拉丁语系：法/西/德/英/越——Georgia 对带调字母支持好 */
+:lang(en) body, :lang(fr) body, :lang(es) body, :lang(de) body, :lang(vi) body {
+  font-family: 'Georgia', 'Times New Roman', 'Cambria', serif, 'FengshuiEUDC';
+}
+/* 日语 */
+:lang(ja) body {
+  font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'Noto Serif CJK SC', serif, 'FengshuiEUDC';
+}
+/* 韩语 */
+:lang(ko) body {
+  font-family: 'AppleMyungjo', 'Batang', 'Noto Serif KR', 'Noto Serif CJK SC', serif, 'FengshuiEUDC';
+}
+/* 阿拉伯语 */
+:lang(ar) body {
+  font-family: 'Amiri', 'Traditional Arabic', 'Noto Naskh Arabic', 'Scheherazade', serif, 'FengshuiEUDC';
+}
+
 /* 配色变量（取自 LaTeX 文档类 fengshui.cls）*/
 :root {
   --fengshui-blue: #003399; /* 蓝，主色 */
