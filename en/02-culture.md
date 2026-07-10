@@ -134,10 +134,16 @@ The radical table also incorporates the theory of “Yin-Yang and the Five Eleme
 {: .note }
 
 	*An English reading of the Song of the Five Elements:*
-Water moistens downward, fire blazes upward, wood bends and straightens, metal yields and transforms, earth is for sowing and reaping. Wood governs growth, fire governs ascent, earth governs bearing, metal governs reaping-in, water governs storage. The liver belongs to wood, the heart to fire, the spleen to earth, the lungs to metal, the kidneys to water. Sour enters wood, bitter enters fire, sweet enters earth, pungent enters metal, salty enters water. The east is wood, the south is fire, the center is earth, the west is metal, the north is water. Wood is green, fire is red, earth is yellow, metal is white, water is black.
+	Water moistens downward, fire blazes upward, wood bends and straightens, metal yields and transforms, earth is for sowing and reaping. 
+	Wood governs growth, fire governs ascent, earth governs bearing, metal governs reaping-in, water governs storage. 
+	The liver belongs to wood, the heart to fire, the spleen to earth, the lungs to metal, the kidneys to water. 
+	Sour enters wood, bitter enters fire, sweet enters earth, pungent enters metal, salty enters water. 
+	The east is wood, the south is fire, the center is earth, the west is metal, the north is water. 
+	Wood is green, fire is red, earth is yellow, metal is white, water is black.
 
 *Original Chinese:*
-水曰润下，火曰炎上，木曰曲直，金曰从革，土爰稼穑。
+
+	水曰润下，火曰炎上，木曰曲直，金曰从革，土爰稼穑。
 	木主生发，火主升腾，土主承载，金主肃敛，水主归藏。
 	肝属木，心属火，脾属土，肺属金，肾属水。
 	酸入木，苦入火，甘入土，辛入金，咸入水。
