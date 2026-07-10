@@ -7,7 +7,7 @@
   · 渲染段（<p>…</p>）必须写在同一行：本文件被 {% include %} 进 Markdown 页面后，
     其内部换行会被 kramdown 转成 <br/>，导致语言竖直堆叠（线上已验证踩坑）。
 {%- endcomment -%}
-{%- assign langs = "zh:中文, en:English" | split: ", " -%}
+{%- assign langs = "zh:中文, en:English, es:Español" | split: ", " -%}
 {%- comment -%} 1) 当前页面去掉语言前缀后的路径后缀（如 '01-roots/'，首页为 ''）{%- endcomment -%}
 {%- assign suffix = page.url -%}
 {%- if suffix == '/' -%}
