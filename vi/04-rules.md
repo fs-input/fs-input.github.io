@@ -17,7 +17,7 @@ permalink: /vi/04-rules/
 
 Chữ một phím là những chữ Hán có tần suất sử dụng cao nhất; ghi nhớ sẽ giúp nhập nhanh hơn.
 
-Ngón úi tay phải đặt ở phím ；, thường hay nhàn rỗi, hai ngón cái của hai tay cũng thường nhàn rỗi, hơi lãng phí. Vì vậy, phím Space, phím chấm phẩy (；) và phím apostrophe (') được đặt làm 3 cấp phím xác nhận ứng viên. Cả 3 cấp chữ một phím đều không cần ghi nhớ, bộ gõ sẽ tự động gợi ý. 78 chữ một phím 3 cấp đều là những chữ đơn có tần suất sử dụng cao nhất, dùng lâu sẽ tự khắc ghi nhớ, nâng tốc độ nhập lên đáng kể.
+Ngón út tay phải đặt ở phím ；, thường hay nhàn rỗi, hai ngón cái của hai tay cũng thường nhàn rỗi, hơi lãng phí. Vì vậy, phím Space, phím chấm phẩy (；) và phím apostrophe (') được đặt làm 3 cấp phím xác nhận ứng viên. Cả 3 cấp chữ một phím đều không cần ghi nhớ, bộ gõ sẽ tự động gợi ý. 78 chữ một phím 3 cấp đều là những chữ đơn có tần suất sử dụng cao nhất, dùng lâu sẽ tự khắc ghi nhớ, nâng tốc độ nhập lên đáng kể.
 
 <div class="table-wrap"><table class="fs-table kbd yijian">
 <tr><td><span class="k">Q</span></td><td><span class="k">W</span></td><td><span class="k">E</span></td><td><span class="k">R</span></td><td><span class="k">T</span></td><td><span class="k">Y</span></td><td><span class="k">U</span></td><td><span class="k">I</span></td><td><span class="k">O</span></td><td><span class="k">P</span></td><td></td></tr>
@@ -96,7 +96,7 @@ Quy tắc nhập chữ căn: phím đầu tiên là vị trí phím chứa chữ
 
 ### Chữ thông thường
 
-Những chữ dưới 4 phím lấy chữ cái đầu pinyin làm mã phụ trợ. Những chữ trên 4 phím thì phím thứ 4 là phím cuối của chữ đó.
+Những chữ dưới 4 phím lấy chữ cái đầu pinyin làm mã phụ trợ. Những chữ từ 4 phím trở lên thì phím thứ 4 là phím cuối của chữ đó.
 
 <table class="fs-table ex">
   <tr><th colspan="4">如　AKR_</th></tr>

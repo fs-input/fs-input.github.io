@@ -1,14 +1,14 @@
 ---
-title: Cài đặt
+title: Cài đặt bộ gõ
 nav_order: 7
 parent: Tiếng Việt
-description: Hướng dẫn cài đặt bộ gõ Phong Thủy —— Rime ＋ schema Phong Thủy
+description: Hướng dẫn cài đặt bộ gõ Phong Thủy —— Rime + schema Phong Thủy
 permalink: /vi/appendix-a-install/
 ---
 
 {% include lang_switch.html %}
 
-# Cài đặt
+# Cài đặt bộ gõ
 {: .fs-8 }
 
 ## Tải và cài đặt bộ gõ Rime
@@ -25,17 +25,17 @@ permalink: /vi/appendix-a-install/
 
    - `default.yaml` —— tệp cấu hình mặc định của bộ gõ
    - `weasel.yaml` —— tệp cấu hình giao diện của bộ gõ
-   - `geomancy.dict.yaml` —— tệp từ điển của bộ gõ Phong Thủy (15,7 vạn mục từ)
+   - `geomancy.dict.yaml` —— tệp từ điển của bộ gõ Phong Thủy (157 000 mục từ)
    - `geomancy.extended.dict.yaml` —— tệp từ điển tự định nghĩa của người dùng
    - `geomancy.schema.yaml` —— tệp cấu hình chức năng của bộ gõ Phong Thủy
 
 2. Nhấn «Start» —— «Bộ gõ Tiểu Lang Hào» —— «Cấu hình bộ gõ».
 
-3. Chọn «Phong Thủy Hình Âm», nhấn để xác nhận.
+3. Chọn «Phong Thủy Hình Âm», nhấn «中» để xác nhận.
 
    ![Cấu hình bộ gõ](/assets/images/install-1.png)
 
-4. Chọn kiểu giao diện bạn thích, nhấn để xác nhận.
+4. Chọn kiểu giao diện bạn thích, nhấn «中» để xác nhận.
 
    ![Kiểu giao diện](/assets/images/install-2.png)
 
