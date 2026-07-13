@@ -11,7 +11,7 @@ permalink: /ar/appendix-a-install/
 # التثبيت
 {: .fs-8 }
 
-## تنزيل Rime وتثبيته
+## تنزيل طريقة إدخال Rime وتثبيتها
 
 1. نزّل أحدث إصدار من Rime (Weasel / 小狼毫) المناسبَ لنظام تشغيلك من [الموقع الرسمي لـ Rime](https://rime.im/download/) ثم ثبّته.
 

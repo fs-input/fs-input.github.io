@@ -161,7 +161,7 @@ permalink: /ar/02-culture/
 
 ## التصوير الحرفي
 
-تُرتّب بعضُ الجذور وفق الشكل التصويري للحروف الإنجليزية، كما يوضح الجدول.
+تُرتّب بعضُ الجذور وفق التصوير الحرفي، كما يوضح الجدول.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -557,6 +557,8 @@ permalink: /ar/02-culture/
 **المنطقة اليسرى** — جبالٌ في الشمال، ونهرٌ كبير في الجنوب يسقي حقولًا خصبة؛ وفي الغرب صخورٌ غريبة وألحانٌ جميلة، وخمرٌ فاخر ونساءٌ حسان؛ وفي الشرق تربةٌ خصبة وعلماءُ تحت شمسٍ طالعة؛ وحولها أنعامٌ وخيولٌ وطيور، وقوسٌ حسنٌ في اليد؛ وفي الوسط حصادٌ وفير من الحبوب الخمس.
 
 **المنطقة اليمنى** — سيوفٌ وحرابٌ تحرس الجناحين، وبئرٌ في الوسط، وقمرٌ ساطع كثيف، وكلبٌ وفيّ يحرس الدار، وأسرةٌ مزدهرة، وحشراتُ صيفٍ تدوّي، وبطيخٌ وفواكه عطرة، وطعامٌ وكساءٌ وفير، وثقافةٌ مزدهرة، وأسماكٌ تطفر باب التنين.
+
+*الأصل الصيني:*
 
 左手区风水格局：北靠大<strong><span class="fs-red">山</span></strong>；南临大<strong><span class="fs-red">川</span></strong>，<strong><span class="fs-red">水</span></strong>泽沃<strong><span class="fs-red">田</span></strong>；<strong><span class="fs-red">西</span></strong>有奇<strong><span class="fs-red">石</span></strong>良<strong><span class="fs-red">曲</span></strong>、美酒（<strong><span class="fs-red">酉</span></strong>）佳人（<strong><span class="fs-red">女</span></strong>）；东有沃<strong><span class="fs-red">土千</span></strong>顷，<strong><span class="fs-red">才</span></strong>人<strong><span class="fs-red">士</span></strong>子，旭<strong><span class="fs-red">日</span></strong>东升；<strong><span class="fs-red">牛马鸟</span></strong>兽（<strong><span class="fs-red">豸、豕</span></strong>）环绕，良<strong><span class="fs-red">弓</span></strong>在侧；中间五谷（<strong><span class="fs-red">米</span></strong>）<strong><span class="fs-red">丰</span></strong>登。
 
