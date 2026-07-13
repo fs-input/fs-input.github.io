@@ -1,9 +1,9 @@
 ---
 title: Descomposición de caracteres
 nav_order: 4
-parent: Español
 description: 174 ejemplos de descomposición de caracteres del método Fengshui
 permalink: /es/03-decomposition/
+parent: Español
 ---
 
 {% include lang_switch.html %}

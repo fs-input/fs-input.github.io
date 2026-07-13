@@ -17,7 +17,7 @@ permalink: /es/04-rules/
 
 Los caracteres de una tecla utilizan los caracteres de mayor frecuencia; memorizarlos acelera la entrada.
 
-Como el meñique derecho descansa sobre la tecla «；», normalmente ociosa, y ambos pulgares también suelen estar ociosos —un desperdicio—, la barra espaciadora, la tecla de punto y coma (；) y la tecla de apóstrofo (') se configuran como las tres teclas de confirmación de candidato. Los caracteres de una tecla de los tres niveles no requieren memorización: el método de entrada los sugiere automáticamente. Los 78 caracteres de una tecla de nivel 3 son los caracteres individuales más usados; con el uso prolongado se memorizan de forma natural y aceleran enormemente la entrada.
+Como el meñique derecho descansa sobre la tecla «；», normalmente ociosa, y ambos pulgares también suelen estar ociosos —un desperdicio—, la barra espaciadora, la tecla de punto y coma «；» y la tecla de apóstrofo «'» se configuran como las tres teclas de confirmación de candidato. Los caracteres de una tecla de los tres niveles no requieren memorización: el método de entrada los sugiere automáticamente. Los 78 caracteres de una tecla de nivel 3 son los caracteres individuales más usados; con el uso prolongado se memorizan de forma natural y aceleran enormemente la entrada.
 
 <div class="table-wrap"><table class="fs-table kbd yijian">
 <tr><td><span class="k">Q</span></td><td><span class="k">W</span></td><td><span class="k">E</span></td><td><span class="k">R</span></td><td><span class="k">T</span></td><td><span class="k">Y</span></td><td><span class="k">U</span></td><td><span class="k">I</span></td><td><span class="k">O</span></td><td><span class="k">P</span></td><td></td></tr>
@@ -43,7 +43,7 @@ Nota: los caracteres de una tecla de nivel 1 no tienen otros códigos de entrada
 
 ### Caracteres raíz
 
-Regla de los caracteres raíz: la primera tecla es la tecla en la que se encuentra el carácter, más su suplemento fonético, y luego Espacio para confirmar. Algunos caracteres raíz presentan colisión: teclea (；) para confirmar el segundo candidato.
+Regla de los caracteres raíz: la primera tecla es la tecla en la que se encuentra el carácter, más su suplemento fonético, y luego Espacio para confirmar. Algunos caracteres raíz presentan colisión: teclea (；) para confirmar el 2.º candidato.
 
 <div class="table-wrap"><table class="fs-table kbd">
 <tr>
@@ -96,7 +96,7 @@ Regla de los caracteres raíz: la primera tecla es la tecla en la que se encuent
 
 ### Caracteres ordinarios
 
-Para los caracteres con menos de cuatro códigos, la primera letra del Pinyin del carácter sirve de suplemento. Para los caracteres con más de cuatro códigos, la cuarta tecla es el código final del carácter.
+Para los caracteres con menos de cuatro códigos, la primera letra del Pinyin del carácter sirve de suplemento. Para los caracteres con cuatro o más códigos, la cuarta tecla es el código final del carácter.
 
 <table class="fs-table ex">
   <tr><th colspan="4">如　AKR_</th></tr>
@@ -136,7 +136,7 @@ Para acelerar la entrada de caracteres individuales, estos disponen de códigos 
   <tr><td>F;/F2</td><td>F;/FS2</td><td>FSE_</td><td>FSES</td></tr>
 </table>
 
-Además de los caracteres individuales, las 33 997 palabras más usadas tienen asignado un código de tres teclas, ahorrando pulsaciones al máximo.
+Además de los caracteres individuales, las 33 997 palabras más usadas tienen asignado un código simplificado de tres teclas, ahorrando pulsaciones al máximo.
 
 ## Palabras de dos caracteres
 

@@ -96,7 +96,7 @@ Root character input rule: the first key is the key where the character sits, pl
 
 ### Ordinary Characters
 
-For characters with fewer than four codes, the first letter of the character's Pinyin serves as the supplement. For characters with more than four codes, the fourth key is the character's final code.
+For characters with fewer than four codes, the first letter of the character's Pinyin serves as the supplement. For characters with four or more codes, the fourth key is the character's final code.
 
 <table class="fs-table ex">
   <tr><th colspan="4">如　AKR_</th></tr>

@@ -10,7 +10,7 @@ parent: Español
 
 ## La disposición «米» y «人»
 
-La zona de teclas de la mano izquierda toma el glifo «米» como estructura básica, y la de la mano derecha, el glifo «人». Tanto 米 como 人 son esencias nurtidas por el cielo y la tierra. El pueblo vive de la comida: las personas cultivan el arroz y el arroz sustenta a las personas; a izquierda y derecha se complementan. Leer atentamente el texto siguiente ayuda a memorizar rápidamente la mayoría de los radicales y a empezar a escribir enseguida。
+La zona de teclas de la mano izquierda toma el glifo «米» como estructura básica, y la de la mano derecha, el glifo «人». Tanto 米 como 人 son esencias nutridas por el cielo y la tierra. El pueblo vive de la comida: las personas cultivan el arroz y el arroz sustenta a las personas; a izquierda y derecha se complementan. Leer atentamente el texto siguiente ayuda a memorizar rápidamente la mayoría de los radicales y a empezar a escribir enseguida.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -61,11 +61,11 @@ La zona de teclas de la mano izquierda toma el glifo «米» como estructura bá
   - E es «丨»,
   - D es «〢»,
   - C es «川»;
-- R, D y X se sitúan en la zona del trazo izquierdo:
+- R, D y X se sitúan en la zona del trazo izquierdo (撇):
   - R es «丿»,
   - D es «巜»,
   - X es «彡巛»;
-- W, D y V se sitúan en la zona del trazo derecho:
+- W, D y V se sitúan en la zona del trazo derecho (捺):
   - W es «丶»,
   - D es «冫丷»,
   - V es «氵灬».
@@ -86,11 +86,11 @@ La zona de teclas de la mano izquierda toma el glifo «米» como estructura bá
 - A ambos lados de la tecla I están la tecla U «门» (puerta) y la tecla O «鱼» (pez), que simbolizan «la carpa que salta la puerta del dragón», signo de éxito deslumbrante y de ascenso paso a paso.
 
 {: .note }
-Las 9 teclas del glifo «米» y las 3 del glifo «人» evolucionan cada una, sobre su estructura básica, un rico conjunto de radicales
+Las 9 teclas del glifo «米» y las 3 del glifo «人» evolucionan cada una, sobre su estructura básica, un rico conjunto de radicales.
 
 ## El Yin-Yang y los Cinco Elementos
 
-La tabla de radicales incorpora también la teoría del «Yin-Yang y los Cinco Elementos». Estos siete elementos son el núcleo filosófico de los caracteres chinos. Cuando todos están presentes, circulan y se repiten, generándose y dominándose unos a otros, formando el magnífico sistema cultural de los caracteres chinos。
+La tabla de radicales incorpora también la teoría del «Yin-Yang y los Cinco Elementos». Estos siete elementos son el núcleo filosófico de los caracteres chinos. Cuando todos están presentes, circulan y se repiten, generándose y dominándose unos a otros, formando el magnífico sistema cultural de los caracteres chinos.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -161,7 +161,7 @@ La tabla de radicales incorpora también la teoría del «Yin-Yang y los Cinco E
 
 ## Pictografía alfabética
 
-Algunos radicales se disponen según la forma pictórica de las letras inglesas, como muestra la tabla。
+Algunos radicales se disponen según la forma pictórica de las letras inglesas, como muestra la tabla.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -212,11 +212,11 @@ Algunos radicales se disponen según la forma pictórica de las letras inglesas,
 - La tecla F toma la forma pictórica de «日»
 - La tecla N toma la forma pictórica de «月»
 - La tecla J toma la forma pictórica de «丁»
-- La tecla L toma la forma pictórica de «乙»。
+- La tecla L toma la forma pictórica de «乙».
 
 ## Orientación direccional
 
-Las cuatro orientaciones del radical de marco abierto se muestran en la tabla。
+Las cuatro orientaciones del radical de marco abierto se muestran en la tabla.
 
 - «凵» abre hacia arriba, en la tecla E
 - «冂» abre hacia abajo, en la tecla C
@@ -264,7 +264,7 @@ Las cuatro orientaciones del radical de marco abierto se muestran en la tabla。
 
 ## Distribución de los radicales numerales
 
-La distribución de los radicales numerales se muestra en la tabla。
+La distribución de los radicales numerales se muestra en la tabla.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -309,7 +309,7 @@ Nota: 四 (cuatro) = 囗 (C) + 儿 (Q); 百 (cien) = 丆 (N) + 日 (F)
 
 ## Nombres primarios y secundarios de las teclas
 
-Cada tecla tiene definidos un «nombre primario» y un «nombre secundario». Como los radicales de cada tecla se asemejan a sus nombres, memorizar los nombres primario y secundario equivale a memorizar prácticamente todos los radicales。
+Cada tecla tiene definidos un «nombre primario» y un «nombre secundario». Como los radicales de cada tecla se asemejan a sus nombres, memorizar los nombres primario y secundario equivale a memorizar prácticamente todos los radicales.
 
 ### Nombres primarios
 
@@ -554,9 +554,11 @@ Cada tecla tiene definidos un «nombre primario» y un «nombre secundario». Co
 
 *Paráfrasis en español del paisaje Feng Shui:*
 
-**Zona izquierda** — montañas al norte, un gran río al sur que riega campos fértiles; al oeste, rocas extrañas y buenas melodías, vino exquisito y mujeres hermosas; al este, tierra fértil y hombres de letras bajo un sol naciente; alrededor, ganado, caballos y aves, con un buen arco a mano; en el centro, una cosecha abundante de los cinco cereales.
+**Zona izquierda** — montañas al norte, un gran río al sur que riega campos fértiles; al oeste, rocas extrañas y buenas melodías, vino exquisito y mujeres hermosas; al este, tierra fértil de miles de hectáreas y hombres de letras bajo un sol naciente; alrededor, ganado, caballos y aves, con un buen arco a mano; en el centro, una cosecha abundante de los cinco cereales.
 
 **Zona derecha** — espadas y alabardas custodian los flancos, un pozo en el centro, una luna brillante y densa, un perro leal que vigila el patio, una familia próspera, insectos de verano que zumban, melones y frutas fragantes, comida y ropa abundantes, una cultura floreciente y peces que saltan la puerta del dragón.
+
+*Original chino:*
 
 左手区风水格局：北靠大<strong><span class="fs-red">山</span></strong>；南临大<strong><span class="fs-red">川</span></strong>，<strong><span class="fs-red">水</span></strong>泽沃<strong><span class="fs-red">田</span></strong>；<strong><span class="fs-red">西</span></strong>有奇<strong><span class="fs-red">石</span></strong>良<strong><span class="fs-red">曲</span></strong>、美酒（<strong><span class="fs-red">酉</span></strong>）佳人（<strong><span class="fs-red">女</span></strong>）；东有沃<strong><span class="fs-red">土千</span></strong>顷，<strong><span class="fs-red">才</span></strong>人<strong><span class="fs-red">士</span></strong>子，旭<strong><span class="fs-red">日</span></strong>东升；<strong><span class="fs-red">牛马鸟</span></strong>兽（<strong><span class="fs-red">豸、豕</span></strong>）环绕，良<strong><span class="fs-red">弓</span></strong>在侧；中间五谷（<strong><span class="fs-red">米</span></strong>）<strong><span class="fs-red">丰</span></strong>登。
 

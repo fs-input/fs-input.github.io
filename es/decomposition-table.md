@@ -11,9 +11,9 @@ permalink: /es/decomposition-table/
 # Tabla de descomposición de caracteres
 {: .fs-8 }
 
-Esta tabla recoge la descomposición en radicales de 6 775 caracteres (del primero al último código, como máximo cuatro; los que tienen menos de cuatro se completan con el suplemento fonético). Escribe un **carácter o radical** en el recuadro superior para filtrar en tiempo real
+Esta tabla recoge la descomposición en radicales de 6 775 caracteres (del primero al último código, como máximo cuatro; los que tienen menos de cuatro se completan con el suplemento fonético). Escribe un **carácter o radical** en el recuadro superior para filtrar en tiempo real.
 
-> **Sugerencia**: los símbolos personalizados entre los radicales se renderizan mediante la fuente incrustada EUDC.ttf
+> **Sugerencia**: los símbolos personalizados entre los radicales se renderizan mediante la fuente incrustada EUDC.ttf.
 
 <input type="text" id="dt-filter" class="dt-filter" placeholder="Escribe un carácter o radical para filtrar (p. ej. 的, 氵, 宀)…" onkeyup="dtFilter()">
 <div class="table-wrap"><table class="fs-table decomp big" id="dt-table">

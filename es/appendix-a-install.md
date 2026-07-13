@@ -11,7 +11,7 @@ permalink: /es/appendix-a-install/
 # Instalación
 {: .fs-8 }
 
-## Descargar e instalar Rime
+## Descargar e instalar el método de entrada Rime
 
 1. Descarga la versión más reciente de Rime (Weasel / 小狼毫) para tu sistema operativo desde el [sitio oficial de Rime](https://rime.im/download/) e instálala.
 

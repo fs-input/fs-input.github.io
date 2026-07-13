@@ -28,9 +28,9 @@ has_toc: false
 
 ## Introducción
 
-El **método de entrada Fengshui forma-fonética** (风水形音输入法, abreviado como «método Fengshui») se ha desarrollado combinando las ideas de diseño de los métodos de entrada chinos más avanzados. Supera los inconvenientes de los métodos tradicionales Pinyin y Wubi —difíciles de aprender y de usar— y absorbe la disposición de radicales según el glifo «米» (arroz) y la idea de usar un código fonético como tecla final de identificación del «Wubi moderno», junto con el amplio catálogo de radicales y el gran diccionario del Wubi 091. Es un método de entrada de chino simplificado pensado para el mayor público posible。
+El **método de entrada Fengshui forma-fonética** (风水形音输入法, abreviado como «método Fengshui») se ha desarrollado combinando las ideas de diseño de los métodos de entrada chinos más avanzados. Supera los inconvenientes de los métodos tradicionales Pinyin y Wubi —difíciles de aprender y de usar— y absorbe la disposición de radicales según el glifo «米» (arroz) y la idea de usar un código fonético como tecla final de identificación del «Wubi moderno», junto con el amplio catálogo de radicales y el gran diccionario del Wubi 091. Es un método de entrada de chino simplificado pensado para el mayor público posible.
 
-Su cobertura de caracteres individuales abarca por completo la *Tabla de caracteres chinos estándar generales*: **8 105** caracteres en total (3 500 de nivel 1 de uso frecuente, 3 000 de nivel 2 de uso menos frecuente y 1 605 de nivel 3 especializados), además de un diccionario de hasta **157 000 palabras**
+Su cobertura de caracteres individuales abarca por completo la *Tabla de caracteres chinos estándar generales*: **8 105** caracteres en total (3 500 de nivel 1 de uso frecuente, 3 000 de nivel 2 de uso menos frecuente y 1 605 de nivel 3 especializados), además de un diccionario de hasta **157 000 palabras**.
 
 La tabla de radicales se basa en la estructura de los glifos **米 (arroz) / 人 (persona)** y combina el *I Ching*, el *Yin-Yang y los Cinco Elementos* con la pictografía alfabética, entretejiendo además aves y bestias, elementos naturales, partes del cuerpo y puntos cardinales. No solo es fácil de memorizar, sino que —se dice— aporta una prosperidad duradera al usuario y a sus descendientes: una obra maestra que funde la descomposición de los caracteres chinos con la filosofía tradicional china.
 
@@ -60,6 +60,6 @@ La tabla de radicales se basa en la estructura de los glifos **米 (arroz) / 人
 
 ## 🔤 Autocomprobación de representación de caracteres
 
-Este tutorial contiene 76 caracteres radicales personalizados (zona PUA de Unicode), renderizados por la fuente incrustada `EUDC.ttf`. El ejemplo siguiente debería mostrarse como un **símbolo gráfico**, no como un recuadro ni un signo de interrogación; si se muestra de forma incorrecta, actualiza la página o comprueba si tu navegador bloquea la carga de fuentes
+Este tutorial contiene 76 caracteres radicales personalizados (zona PUA de Unicode), renderizados por la fuente incrustada `EUDC.ttf`. El ejemplo siguiente debería mostrarse como un **símbolo gráfico**, no como un recuadro ni un signo de interrogación; si se muestra de forma incorrecta, actualiza la página o comprueba si tu navegador bloquea la carga de fuentes:
 
 > Radical de ejemplo: （carácter radical personalizado）

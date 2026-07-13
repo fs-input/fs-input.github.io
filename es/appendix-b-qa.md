@@ -19,9 +19,9 @@ Creo que todo el mundo conoce ya muy bien los métodos de entrada Pinyin, así q
 
 Cuando un usuario de Pinyin se ve obligado a escribir un carácter suelto, normalmente teclea primero una palabra y luego borra los caracteres que no quiere; o bien va pasando páginas de candidatos hasta encontrar ese carácter. Es un método viable, pero torpe; algo que personalmente me cuesta aceptar, y por eso en general evito usar Pinyin.
 
-**2) La velocidad de escritura es baja en general**
+**2) La velocidad de escritura es lenta en general**
 
-Si los usuarios de Pinyin quieren aumentar su velocidad, pueden pasar a un método de doble Pinyin, como el doble Pinyin Xiaohe (小鹤双拼). Pero el doble Pinyin, igual que Wubi, también tiene una curva de aprendizaje, y por eso la gran mayoría de los usuarios de Pinyin no lo usan. Además, el doble Pinyin también tiene reglas de descomposición: es un esquema de codificación «fonética-forma». Sin embargo, yo creo que los caracteres chinos deberían basarse en la forma, de modo que lo correcto es adoptar un esquema «forma-fonética»: la forma como base y el fonetismo como complemento. Esa es la manera correcta.
+Si los usuarios de Pinyin quieren aumentar su velocidad, pueden pasar a un método de doble Pinyin, como el doble Pinyin Xiaohe (小鹤双拼). Pero el doble Pinyin, igual que Wubi, también tiene una curva de aprendizaje, y por eso la gran mayoría de los usuarios de Pinyin no lo usan. Además, el doble Pinyin también tiene reglas de descomposición: es un esquema de codificación «fonética-forma». Sin embargo, yo creo que los caracteres chinos deberían basarse en la forma, de modo que lo correcto es adoptar un esquema «forma-fonética»: la forma como base y el suplemento fonético como complemento. Esa es la manera correcta.
 
 Que un escritor de novelas web use el Pinyin de Sogou es un desperdicio; si se pasara al método Fengshui, podría escribir dos libros en el tiempo que antes le llevaba escribir uno.
 
@@ -47,11 +47,11 @@ Hay quien dice: «Wubi no muere, solo se marchita». Como método basado en la f
 
 Tras leer varios esquemas de métodos de entrada distintos, me di cuenta de que, aunque cada uno tiene su carácter, ninguno es lo suficientemente bueno. El chino simplificado merece un método de entrada verdaderamente excelente, y así nació el método Fengshui.
 
-Cuantos más radicales haya, más sencilla será la descomposición; pero cuantos más radicales, más tendrá que memorizar un principiante, lo cual resulta poco amable para los recién llegados. Por eso, el método Fengshui tomó prestada la idea de disposición del «Wubi moderno» y la pictografía alfabética, entre otras, para crear la tabla de radicales Fengshui: aunque tiene muchos radicales, son muy fáciles de recordar.
+Cuantos más radicales haya, más sencilla será la descomposición; pero cuantos más radicales, más tendrá que memorizar un principiante, lo cual resulta poco amable para los principiantes. Por eso, el método Fengshui tomó prestada la idea de disposición del «Wubi moderno» y la pictografía alfabética, entre otras, para crear la tabla de radicales Fengshui: aunque tiene muchos radicales, son muy fáciles de recordar.
 
 Hoy se enseña Pinyin en el primer curso de primaria en China, pero el propio Pinyin no carece de dificultad. Para hablantes de algunas zonas dialectales y para amigos extranjeros, el método de descomposición Fengshui puede resultar más fácil de aprender que Pinyin.
 
-El método Fengshui emplea una codificación simplificada de tres niveles y tres teclas, junto con un gran diccionario de 150 000 palabras: usarlo resulta maravillosamente fluido.
+El método Fengshui emplea códigos simplificados de tres niveles, junto con un gran diccionario de 150 000 palabras: usarlo resulta maravillosamente fluido.
 
 ## ¿Para quién es el método Fengshui?
 
