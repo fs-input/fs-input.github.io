@@ -1,14 +1,14 @@
 ---
-title: 설치
+title: 입력기 설치
 nav_order: 7
 parent: 한국어
-description: 풍수 입력법 설치 가이드 —— Rime ＋ 풍수 schema
+description: 풍수 입력법 설치 가이드 —— Rime + 풍수 schema
 permalink: /ko/appendix-a-install/
 ---
 
 {% include lang_switch.html %}
 
-# 설치
+# 입력기 설치
 {: .fs-8 }
 
 ## Rime 입력기 다운로드 및 설치
@@ -25,17 +25,17 @@ permalink: /ko/appendix-a-install/
 
    - `default.yaml` —— 입력법 기본 설정 파일
    - `weasel.yaml` —— 입력법 인터페이스 설정 파일
-   - `geomancy.dict.yaml` —— 풍수 입력법 사전 파일 (15,7만 표제어)
+   - `geomancy.dict.yaml` —— 풍수 입력법 사전 파일 (157 000 표제어)
    - `geomancy.extended.dict.yaml` —— 사용자 자체 정의 사전 파일
    - `geomancy.schema.yaml` —— 풍수 입력법 기능 설정 파일
 
-2. 「시작」 —— 「소랑호 입력법」 —— 「입력법 설정」을 누른다.
+2. 「시작」 → 「소랑호 입력법」 → 「입력법 설정」을 누른다.
 
-3. 「풍수형음」을 선택하고 눌러 확정한다.
+3. 「풍수형음」을 선택하고 「中」 버튼을 눌러 확정한다.
 
    ![입력법 설정](/assets/images/install-1.png)
 
-4. 원하는 인터페이스 스타일을 선택하고 눌러 확정한다.
+4. 원하는 인터페이스 스타일을 선택하고 「中」 버튼을 눌러 확정한다.
 
    ![인터페이스 스타일](/assets/images/install-2.png)
 

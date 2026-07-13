@@ -10,7 +10,7 @@ permalink: /ko/02-culture/
 
 ## 「미·인」 배치 해독
 
-왼손 키 영역은 「米」 자형을 기본 구조로 삼고, 오른손 키 영역은 「人」 자형을 기본 구조로 삼는다. 「米」와 「人」은 모두 천지가 빚어낸 정화이다. 백성은 먹거리를 하늘로 삼으니, 사람이 벼를 기르고 벼가 사람을 기른다; 왼쪽과 오른쪽이 결합하여 서로 보완한다. 아래 글을 자세히 읽으면 학습자는 대부분의 자근을 빠르게 익히고 곧바로 입력을 시작할 수 있다.
+왼손 키 영역은 「米」 자형을 기본 구조로 삼고, 오른손 키 영역은 「人」 자형을 기본 구조로 삼는다. 「米」와 「人」은 모두 천지가 빚어낸 정화이다. 백성은 먹거리를 하늘로 삼으니, 사람이 벼를 기르고 벼가 사람을 기른다. 왼쪽과 오른쪽이 결합하여 서로 보완한다. 아래 글을 자세히 읽으면 학습자는 대부분의 자근을 빠르게 익히고 곧바로 입력을 시작할 수 있다.
 
 <div class="table-wrap"><table class="fs-table kbd">
   <tr>
@@ -305,7 +305,7 @@ permalink: /ko/02-culture/
   </tr>
 </table></div>
 
-참고: 四 = 囗 (C) ＋ 儿 (Q), 百 = 丆 (N) ＋ 日 (F)
+참고: 四 = 囗 (C) + 儿 (Q), 百 = 丆 (N) + 日 (F).
 
 ## 자근의 주키 이름과 보조키 이름
 
@@ -554,9 +554,11 @@ permalink: /ko/02-culture/
 
 *풍수 격국 한국어 역:*
 
-**왼손 영역** —— 북쪽은 큰 산을 등지고, 남쪽은 큰 강이 감싸며 물이 비옥한 들판을 적신다; 서쪽에는 기이한 돌과 아름다운 곡조, 좋은 술과 가인이 있고; 동쪽에는 비옥한 땅 천 마지기에 재인 사자, 해가 동쪽에서 뜬다; 주변에 우마 조수(豸, 豕)가 두루하고 좋은 활이 곁에 있으며; 가운데는 오곡(米)이 풍작이다.
+**왼손 영역** —— 북쪽은 큰 산을 등지고, 남쪽은 큰 강이 감싸며 물이 비옥한 들판을 적신다, 서쪽에는 기이한 돌과 아름다운 곡조, 좋은 술과 가인이 있고, 동쪽에는 비옥한 땅 천 마지기에 재인 사자, 해가 동쪽에서 뜬다, 주변에 우마 조수(豸, 豕)가 두루하고 좋은 활이 곁에 있으며, 가운데는 오곡(米)이 풍작이다.
 
-**오른손 영역** —— 양옆에 도과(刀戈)가 호위하고 샘이 가운데 자리하며, 밝은 달이 잠기고 충견이 뜰을 지키고, 인정이 흥왕하며, 여름 풀벌레가 읊조리고, 과일이 향기를 뿜고, 의식이 풍족(饣)하고, 문교가 흥성하며, 물고기가 용문을 뛰어넘는다.
+**오른손 영역** —— 양옆에 도과(刀戈)가 호위하고 샘이 가운데 자리하며, 밝은 달이 잠기고 충견이 뜰을 지키고, 인구가 번성하고, 여름 풀벌레가 읊조리고, 과일이 향기를 뿜고, 의식이 풍족(饣)하고, 문교가 흥성하며, 물고기가 용문을 뛰어넘는다.
+
+*중국어 원문:*
 
 左手区风水格局：北靠大<strong><span class="fs-red">山</span></strong>；南临大<strong><span class="fs-red">川</span></strong>，<strong><span class="fs-red">水</span></strong>泽沃<strong><span class="fs-red">田</span></strong>；<strong><span class="fs-red">西</span></strong>有奇<strong><span class="fs-red">石</span></strong>良<strong><span class="fs-red">曲</span></strong>、美酒（<strong><span class="fs-red">酉</span></strong>）佳人（<strong><span class="fs-red">女</span></strong>）；东有沃<strong><span class="fs-red">土千</span></strong>顷，<strong><span class="fs-red">才</span></strong>人<strong><span class="fs-red">士</span></strong>子，旭<strong><span class="fs-red">日</span></strong>东升；<strong><span class="fs-red">牛马鸟</span></strong>兽（<strong><span class="fs-red">豸、豕</span></strong>）环绕，良<strong><span class="fs-red">弓</span></strong>在侧；中间五谷（<strong><span class="fs-red">米</span></strong>）<strong><span class="fs-red">丰</span></strong>登。
 

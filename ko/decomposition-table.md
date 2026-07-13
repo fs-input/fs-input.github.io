@@ -11,9 +11,9 @@ permalink: /ko/decomposition-table/
 # 단자 분해표
 {: .fs-8 }
 
-이 표는 6 775개 한자의 자근 분해를 수록합니다(첫 번째 코드부터 마지막 코드까지 최대 4코드이며, 4코드에 미치지 못하는 글자는 음보로 보충합니다). 위쪽 입력란에 **한자 또는 자근**을 입력하면 실시간으로 필터링됩니다.
+이 표는 6 775개 한자의 자근 분해를 수록한다(첫 번째 코드부터 마지막 코드까지 최대 4코드이며, 4코드에 미치지 못하는 글자는 음보로 보충한다). 위쪽 입력란에 **한자 또는 자근**을 입력하면 실시간으로 필터링된다.
 
-> **참고**: 자근 사이의 고유 기호는 내장된 `EUDC.ttf` 글꼴로 표시됩니다.
+> **참고**: 자근 사이의 고유 기호는 내장된 `EUDC.ttf` 글꼴로 표시된다.
 
 <input type="text" id="dt-filter" class="dt-filter" placeholder="필터링할 한자 또는 자근 입력(예: 的, 氵, 宀)…" onkeyup="dtFilter()">
 <div class="table-wrap"><table class="fs-table decomp big" id="dt-table">

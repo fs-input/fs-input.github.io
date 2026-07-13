@@ -13,11 +13,11 @@ permalink: /ko/04-rules/
 
 ## 단자
 
-### 한 키 글자
+### 1키 글자
 
-한 키 글자는 사용 빈도가 가장 높은 한자이다; 외워두면 입력이 빨라진다.
+1키 글자는 사용 빈도가 가장 높은 한자이다. 외워두면 입력이 빨라진다.
 
-오른손 약지는 ；키에 두며 자주 쉬고, 양손 엄지도 자주 쉬어 약간 낭비이다. 그래서 Space 키, 세미콜론(；) 키, 어포스트로피(') 키를 3단계 후보 확정 키로 쓴다. 3단계 한 키 글자 모두 외울 필요 없이 입력기가 자동 제안한다. 3단계 78개 한 키 글자는 모두 사용 빈도가 가장 높은 단자이며, 오래 쓰면 자연히 외워져 입력 속도가 크게 빨라진다.
+오른손 약지는 ；키에 두며 자주 쉬고, 양손 엄지도 자주 쉬어 약간 낭비이다. 그래서 Space 키, 세미콜론(；) 키, 어포스트로피(') 키를 3단계 후보 확정 키로 쓴다. 3단계 1키 글자 모두 외울 필요 없이 입력기가 자동 제안한다. 3단계 78개 1키 글자는 모두 사용 빈도가 가장 높은 단자이며, 오래 쓰면 자연히 외워져 입력 속도가 크게 빨라진다.
 
 <div class="table-wrap"><table class="fs-table kbd yijian">
 <tr><td><span class="k">Q</span></td><td><span class="k">W</span></td><td><span class="k">E</span></td><td><span class="k">R</span></td><td><span class="k">T</span></td><td><span class="k">Y</span></td><td><span class="k">U</span></td><td><span class="k">I</span></td><td><span class="k">O</span></td><td><span class="k">P</span></td><td></td></tr>
@@ -30,13 +30,13 @@ permalink: /ko/04-rules/
 <tr><td colspan="3"></td><td colspan="5" class="yellow">후보 1 —— Space를 눌러 확정</td><td colspan="3"></td></tr>
 </table></div>
 
-참고: 1단계 한 키 글자에는 다른 입력 코드가 부여되지 않는다.
+참고: 1단계 1키 글자에는 다른 입력 코드가 부여되지 않는다.
 
 <table class="fs-table ex">
   <tr><th colspan="3">我　J_</th></tr>
   <tr><td>1 키</td><td colspan="2">Space를 눌러 확정</td></tr>
   <tr><td>J</td><td colspan="2">Space</td></tr>
-  <tr><td>J의 한 키 글자</td><td colspan="2">후보 1 —— Space를 눌러 확정</td></tr>
+  <tr><td>J의 1키 글자</td><td colspan="2">후보 1 —— Space를 눌러 확정</td></tr>
   <tr><td style="background:#eef1f5">可　J；</td><td colspan="2" style="background:#eef1f5">看　J’</td></tr>
   <tr><td>후보 2 확정</td><td colspan="2">후보 3 확정</td></tr>
 </table>
@@ -96,7 +96,7 @@ permalink: /ko/04-rules/
 
 ### 일반 글자
 
-4키 미만인 글자는 병음의 첫 글자를 보조 코드로 삼는다. 4키가 넘는 글자는 4번째 키가 그 글자의 마지막 키이다.
+4키 미만인 글자는 병음의 첫 글자를 보조 코드로 삼는다. 4키 이상인 글자는 4번째 키가 그 글자의 마지막 키이다.
 
 <table class="fs-table ex">
   <tr><th colspan="4">如　AKR_</th></tr>
