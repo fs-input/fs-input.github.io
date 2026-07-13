@@ -56,15 +56,15 @@ Die Tastaturzone der linken Hand nimmt die Glyphe „米" als Grundstruktur, die
 - S, D und F liegen in der Zone des horizontalen Strichs der Glyphe „米":
   - S — „一",
   - D — „二",
-  - F — „三" ;
+  - F — „三";
 - E, D und C liegen in der Zone des vertikalen Strichs:
   - E — „丨",
   - D — „〢",
-  - C — „川" ;
+  - C — „川";
 - R, D und X liegen in der Zone des linksgeneigten Strichs:
   - R — „丿",
   - D — „巜",
-  - X — „彡巛" ;
+  - X — „彡巛";
 - W, D und V liegen in der Zone des rechtsgeneigten Strichs:
   - W — „丶",
   - D — „冫丷",
@@ -305,7 +305,7 @@ Die Verteilung der Ziffern-Grundzeichen ist in der Tabelle gezeigt.
   </tr>
 </table></div>
 
-Hinweis: 四 (vier) = 囗 (C) + 儿 (Q); 百 (hundert) = 丆 (N) + 日 (F)
+Hinweis: 四 (vier) = 囗 (C) + 儿 (Q); 百 (hundert) = 丆 (N) + 日 (F).
 
 ## Haupt- und Nebennamen der Tasten
 
@@ -554,9 +554,11 @@ Jede Taste hat einen „Hauptnamen" und einen „Nebennamen". Da die Grundzeiche
 
 *Deutsche Nacherzählung der Feng-Shui-Landschaft:*
 
-**Linke Zone** — im Norden das Fundament großer Berge; im Süden ein großer Fluss, dessen Wasser fruchtbare Felder bewässert; im Westen wunderliche Steine und schöne Weisen, feiner Wein und Schönheiten; im Osten fette Böden und Gelehrte unter der aufgehenden Sonne; ringsum Vieh, Pferde und Vögel, und zur Hand ein guter Bogen; in der Mitte reiche Ernte der fünf Getreidearten.
+**Linke Zone** — im Norden große Berge; im Süden ein großer Fluss, dessen Wasser fruchtbare Felder bewässert; im Westen wunderliche Steine und schöne Weisen, feiner Wein und Schönheiten; im Osten fette Böden und Gelehrte unter der aufgehenden Sonne; ringsum Vieh, Pferde und Vögel, und zur Hand ein guter Bogen; in der Mitte reiche Ernte der fünf Getreidearten.
 
-**Rechte Zone** — zu beiden Seiten Wachen mit Schwertern und Hellebarden, in der Mitte ein Brunnen, der dicke Mond scheint, ein treuer Hund bewacht den Hof, die Familie blüht, sommerliche Insekten zirpen, Melonen und Früchte duften, Kleidung und Speise im Überfluss, die Bildung erblüht, und Fische springen über das Drachentor.
+**Rechte Zone** — zu beiden Seiten Wachen mit Schwertern und Hellebarden, in der Mitte ein Brunnen, der schwere Mond hängt, ein treuer Hund bewacht den Hof, die Familie blüht, sommerliche Insekten zirpen, Melonen und Früchte duften, Kleidung und Speise im Überfluss, die Bildung erblüht, und Fische springen über das Drachentor.
+
+*Chinesischer Originaltext:*
 
 左手区风水格局：北靠大<strong><span class="fs-red">山</span></strong>；南临大<strong><span class="fs-red">川</span></strong>，<strong><span class="fs-red">水</span></strong>泽沃<strong><span class="fs-red">田</span></strong>；<strong><span class="fs-red">西</span></strong>有奇<strong><span class="fs-red">石</span></strong>良<strong><span class="fs-red">曲</span></strong>、美酒（<strong><span class="fs-red">酉</span></strong>）佳人（<strong><span class="fs-red">女</span></strong>）；东有沃<strong><span class="fs-red">土千</span></strong>顷，<strong><span class="fs-red">才</span></strong>人<strong><span class="fs-red">士</span></strong>子，旭<strong><span class="fs-red">日</span></strong>东升；<strong><span class="fs-red">牛马鸟</span></strong>兽（<strong><span class="fs-red">豸、豕</span></strong>）环绕，良<strong><span class="fs-red">弓</span></strong>在侧；中间五谷（<strong><span class="fs-red">米</span></strong>）<strong><span class="fs-red">丰</span></strong>登。
 

@@ -35,7 +35,7 @@ Sogou ist heute die verbreitetste Eingabemethode. So oft ich homophone Erfindung
 
 Chinesische Schriftzeichen beruhen auf der Form, nicht auf der Phonetik. Die Vorherrschaft des Pinyin widerspricht der historischen Tradition der Schriftzeichen und führt unweigerlich zu Verwirrung; die zahlreichen, durch Homophonie erzeugten Fehler sind ihr konkreter Ausdruck.
 
-**5) Verlust von Privatsphäre**
+**5) Preisgabe der Privatsphäre**
 
 Wenn die Menschen Cloud-Wörterbücher nutzen, wird auch ihr Privatleben angreifbar. Man weiß nie, ob jemand einem beim Tippen über die Schulter schaut — und das ist ein unangenehmes Gefühl.
 

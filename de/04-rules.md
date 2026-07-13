@@ -17,7 +17,7 @@ permalink: /de/04-rules/
 
 Ein-Tasten-Zeichen sind die häufigsten Schriftzeichen; sie zu kennen, beschleunigt die Eingabe.
 
-Da der kleine Finger der rechten Hand auf der meist inaktiven Taste „;" liegt und auch beide Daumen oft ungenutzt bleiben — was verschwenderisch ist —, sind die Leertaste, die Semikolontaste (;) und die Apostroptaste (') als drei Kandidaten-Bestätigungstasten konfiguriert. Die Ein-Tasten-Zeichen aller drei Ebenen müssen nicht auswendig gelernt werden: Die Eingabemethode bietet sie automatisch an. Die 78 dreistufigen Ein-Tasten-Zeichen sind die gebräuchlichsten Einzelzeichen; bei dauerhafter Nutzung prägen sie sich auf natürliche Weise ein und beschleunigen die Eingabe erheblich.
+Da der kleine Finger der rechten Hand auf der meist inaktiven Taste „;" liegt und auch beide Daumen oft ungenutzt bleiben — was verschwenderisch ist —, sind die Leertaste, die Semikolontaste (；) und die Apostroptaste (') als drei Kandidaten-Bestätigungstasten konfiguriert. Die Ein-Tasten-Zeichen aller drei Ebenen müssen nicht auswendig gelernt werden: Die Eingabemethode bietet sie automatisch an. Die 78 dreistufigen Ein-Tasten-Zeichen sind die gebräuchlichsten Einzelzeichen; bei dauerhafter Nutzung prägen sie sich auf natürliche Weise ein und beschleunigen die Eingabe erheblich.
 
 <div class="table-wrap"><table class="fs-table kbd yijian">
 <tr><td><span class="k">Q</span></td><td><span class="k">W</span></td><td><span class="k">E</span></td><td><span class="k">R</span></td><td><span class="k">T</span></td><td><span class="k">Y</span></td><td><span class="k">U</span></td><td><span class="k">I</span></td><td><span class="k">O</span></td><td><span class="k">P</span></td><td></td></tr>
@@ -43,7 +43,7 @@ Hinweis: Ein-Tasten-Zeichen der ersten Ebene haben keine anderen Eingabecodes.
 
 ### Wurzelzeichen
 
-Regel für Wurzelzeichen: Die erste Taste ist die, auf der das Zeichen liegt, danach seine phonetische Ergänzung, dann die Leertaste zum Bestätigen. Manche Wurzelzeichen erzeugen eine Kollision: Drücken Sie (;), um den zweiten Kandidaten zu bestätigen.
+Regel für Wurzelzeichen: Die erste Taste ist die, auf der das Zeichen liegt, danach seine phonetische Ergänzung, dann die Leertaste zum Bestätigen. Manche Wurzelzeichen erzeugen eine Kollision: Drücken Sie (；), um den zweiten Kandidaten zu bestätigen.
 
 <div class="table-wrap"><table class="fs-table kbd">
 <tr>
@@ -96,7 +96,7 @@ Regel für Wurzelzeichen: Die erste Taste ist die, auf der das Zeichen liegt, da
 
 ### Gewöhnliche Zeichen
 
-Bei Zeichen mit weniger als vier Codes dient der erste Pinyin-Buchstabe dieses Zeichens als Ergänzung. Bei Zeichen mit mehr als vier Codes ist die vierte Taste der letzte Code des Zeichens.
+Bei Zeichen mit weniger als vier Codes dient der erste Pinyin-Buchstabe dieses Zeichens als Ergänzung. Bei Zeichen mit vier oder mehr Codes ist die vierte Taste der letzte Code des Zeichens.
 
 <table class="fs-table ex">
   <tr><th colspan="4">如　AKR_</th></tr>

@@ -11,7 +11,7 @@ permalink: /de/01-roots/
 # Grundzeichentabelle
 {: .fs-8 }
 
-Die Fengshui-Grundzeichentabelle beruht auf der Struktur der Glyphen **米 (Reis) / 人 (Person)** und verbindet *I Ging*, *Yin-Yang und die Fünf Elemente* mit der alphabetischen Bilderschrift der englischen Buchstaben, wobei Vögel und Tiere, Naturgewalten, Körperteile und Himmelsrichtungen eingeflochten werden. Sie umfasst die Grundzeichen aller 8 105 allgemeinen normativen chinesischen Schriftzeichen.
+Die Fengshui-Grundzeichentabelle beruht auf der Struktur der Glyphen **米 (Reis) / 人 (Person)** und verbindet *I Ging*, *Yin-Yang und die Fünf Elemente* mit der alphabetischen Bilderschrift der englischen Buchstaben, wobei Vögel und Tiere, Naturelemente, Körperteile und Himmelsrichtungen eingeflochten werden. Sie umfasst die Grundzeichen aller 8 105 allgemeinen normativen chinesischen Schriftzeichen.
 
 ![Fengshui-Grundzeichentabelle (Gesamtansicht)](/assets/images/roots-table.png)
 
@@ -23,7 +23,7 @@ Die Tastaturzone der linken Hand nimmt die Glyphe „米" als Grundstruktur und 
 
 ## Grundzeichentabelle für die rechte Hand (Form 人)
 
-Die Tastaturzone der rechten Hand nimmt die Glyphe „人" als Grundstruktur und entspricht den 11 rechten Tasten (Y U I O P / H J K L / N M) sowie den Interpunktuationstasten.
+Die Tastaturzone der rechten Hand nimmt die Glyphe „人" als Grundstruktur und entspricht den 11 rechten Tasten (Y U I O P / H J K L / N M) sowie den Interpunktionstasten.
 
 ![Grundzeichentabelle für die rechte Hand](/assets/images/roots-right.png)
 

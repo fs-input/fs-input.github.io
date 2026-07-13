@@ -11,7 +11,7 @@ permalink: /de/03-decomposition/
 # Zeichenzersetzung
 {: .fs-8 }
 
-Im Folgenden sind 174 Beispiele für die Zeichenzersetzung aufgeführt, die die Verwendungsfälle aller Grundzeichen abdecken. Hat man diese Beispiele verinnerlicht, kann man nach Analogie jedes Schriftzeichen zerlegen. Bei Zeichen mit weniger als vier Codes dient der erste Pinyin-Buchstabe des Zeichens als Ergänzung (phonetische Ergänzung); bei mehrdeutigen Zeichen unterscheiden sich die phonetischen Ergänzungen, was in der Codierung bereits berücksichtigt ist.
+Im Folgenden sind 174 Beispiele für die Zeichenzersetzung aufgeführt, die die Verwendungsfälle aller Grundzeichen abdecken. Hat man diese Beispiele verinnerlicht, kann man nach Analogie jedes Schriftzeichen zerlegen. Bei Zeichen mit weniger als vier Codes dient der erste Pinyin-Buchstabe des Zeichens als Ergänzung (phonetische Ergänzung); bei polyphonen Zeichen unterscheiden sich die phonetischen Ergänzungen, was in der Codierung bereits berücksichtigt ist.
 
 <div class="table-wrap"><table class="fs-table decomp">
 <thead><tr><th>Zeichen</th><th>1.</th><th>2.</th><th>3.</th><th>letzt.</th><th>phon.</th><th></th><th>Zeichen</th><th>1.</th><th>2.</th><th>3.</th><th>letzt.</th><th>phon.</th></tr></thead>

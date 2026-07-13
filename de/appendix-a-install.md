@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Installation der Eingabemethode
 nav_order: 7
 parent: Deutsch
 description: Installationsanleitung für die Fengshui-Eingabemethode — Rime + Fengshui-Schema
@@ -8,7 +8,7 @@ permalink: /de/appendix-a-install/
 
 {% include lang_switch.html %}
 
-# Installation
+# Installation der Eingabemethode
 {: .fs-8 }
 
 ## Rime herunterladen und installieren

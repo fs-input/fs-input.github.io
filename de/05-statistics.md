@@ -13,11 +13,11 @@ permalink: /de/05-statistics/
 
 Zur Kombinatorik: Ein-Tasten-Zeichen ergeben maximal 26 Kombinationen, Zwei-Tasten-Zeichen maximal 26×26=676, Drei-Tasten-Zeichen maximal 26³=17 576, Vier-Tasten-Zeichen maximal 26⁴=456 976, insgesamt rund 470 000 Kombinationen. Bei der Einstellung von drei Kandidaten-Tastenebenen erweitert sich die Anzahl der Codekombinationen zusätzlich.
 
-|  | Kandidat Ebene 1 | Kandidat Ebene 3 |
+|  | Kandidatenebene 1 | Kandidatenebene 3 |
 |---|---|---|
 | Ein-Taste | 26 | 78 |
 | Zwei-Tasten | 676 | 2028 |
-| Drei-Tasten | 17576 | 52728 |
+| Drei-Tasten | 17 576 | 52 728 |
 | Vier-Tasten | 450 000 | 1 370 000 |
 | **Insgesamt** | **470 000** | **1 420 000** |
 
@@ -57,7 +57,7 @@ Wandelt man die vorherige Tabelle in eine Codehäufigkeitstabelle um, erhält ma
 </tbody>
 </table></div>
 
-Aus der Tabelle geht hervor: Der Ein-Tasten-Raum ist zu 100 % ausgelastet; der Zwei-Tasten-Raum erreicht sowohl auf Ebene 1 als auch auf den Ebenen 2–3 100 % (jedem Code sind alle drei Kandidatenebenen zugeordnet); der Drei-Tasten-Raum zu 96,54 % auf Ebene 1 und 87,04 % auf den Ebenen 2–3, was auf eine vollständige Nutzung des Kurzcoderaums hinweist. Die Auslastung des Vier-Tasten-Raums ist vergleichsweise gering (Ebene 1: 24,43 %; Ebenen 2–3: 4,72 %), das heißt, der Vier-Tasten-Coderaum (26⁴=456 976) übersteigt den tatsächlichen Bedarf bei weitem, und Kollisionen sind äußerst selten. In den Drei-Tasten-Zeilen machen Wörter einen beträchtlichen Anteil aus (2 Z.: 41,62 %; 3 Z.: 17,86 %; ≥4 Z.: 14,71 %), das heißt, auch die gebräuchlichsten mehrsilbigen Wörter erhalten einen Drei-Tasten-Kurzcode. In der Regel genügen zwei bis vier Anschläge für die Eingabe der ganz überwiegenden Mehrheit der Zeichen und Wörter: Die Eingabeeffizienz ist sehr hoch.
+Aus der Tabelle geht hervor: Der Ein-Tasten-Raum ist zu 100 % ausgelastet; der Zwei-Tasten-Raum erreicht sowohl auf Ebene 1 als auch auf den Ebenen 2–3 100 % (jedem Code sind alle drei Kandidatenebenen zugeordnet); der Drei-Tasten-Raum zu 96,54 % auf Ebene 1 und 87,04 % auf den Ebenen 2–3, was auf eine vollständige Nutzung des Kurzcoderaums hinweist. Die Auslastung des Vier-Tasten-Raums ist vergleichsweise gering (Ebene 1: 24,43 %; Ebenen 2–3: 4,72 %), das heißt, der Vier-Tasten-Coderaum (26⁴=456 976) übersteigt den tatsächlichen Bedarf bei weitem, und Kollisionen sind äußerst selten. In den Drei-Tasten-Zeilen machen Wörter einen beträchtlichen Anteil aus (2 Z.: 41,62 %; 3 Z.: 17,86 %; ≥4 Z.: 14,71 %), das heißt, auch die gebräuchlichsten mehrzeichenigen Wörter erhalten einen Drei-Tasten-Kurzcode. In der Regel genügen zwei bis vier Anschläge für die Eingabe der ganz überwiegenden Mehrheit der Zeichen und Wörter: Die Eingabeeffizienz ist sehr hoch.
 
 Eine Analyse der Kollisionshäufigkeit nach Codelänge findet sich in der folgenden Tabelle. Alle 26 Ein-Tasten-Codes werden genutzt; alle 676 Zwei-Tasten-Codes enthalten Kollisionen, da ihnen alle drei Kandidatenebenen zugeordnet sind, wobei die maximale Kollision jedoch nur 3 beträgt; bei den Drei-Tasten-Codes beträgt der Anteil ohne Kollisionen 6,27 %, die maximale Kollision 3; bei den Vier-Tasten-Codes erreicht er 71,0 %, und die maximale Kollision beträgt lediglich 5. Insgesamt nutzen 162 000 Zeichen und Wörter nur rund 129 000 Codes, und man muss nie umblättern: Die Kollisionskontrolle ist hervorragend.
 

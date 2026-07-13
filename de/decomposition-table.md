@@ -11,9 +11,9 @@ permalink: /de/decomposition-table/
 # Zeichenzerlegungstabelle
 {: .fs-8 }
 
-Diese Tabelle enthält die Zerlegung in Grundzeichen für 6 775 Schriftzeichen (vom ersten bis zum letzten Code, maximal vier; solche mit weniger als vier Codes werden durch eine phonetische Ergänzung ergänzt). Geben Sie ein **Zeichen oder Grundzeichen** in das Feld oben ein, um in Echtzeit zu filtern
+Diese Tabelle enthält die Zerlegung in Grundzeichen für 6 775 Schriftzeichen (vom ersten bis zum letzten Code, maximal vier; solche mit weniger als vier Codes werden durch eine phonetische Ergänzung ergänzt). Geben Sie ein **Zeichen oder Grundzeichen** in das Feld oben ein, um in Echtzeit zu filtern.
 
-> **Hinweis**: Die benutzerdefinierten Symbole zwischen den Grundzeichen werden durch die eingebettete Schriftart EUDC.ttf gerendert
+> **Hinweis**: Die benutzerdefinierten Symbole zwischen den Grundzeichen werden durch die eingebettete Schriftart EUDC.ttf gerendert.
 
 <input type="text" id="dt-filter" class="dt-filter" placeholder="Geben Sie ein Zeichen oder Grundzeichen zum Filtern ein (z. B. 的, 氵, 宀)…" onkeyup="dtFilter()">
 <div class="table-wrap"><table class="fs-table decomp big" id="dt-table">
