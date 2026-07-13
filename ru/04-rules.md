@@ -35,7 +35,7 @@ permalink: /ru/04-rules/
 <table class="fs-table ex">
   <tr><th colspan="3">我　J_</th></tr>
   <tr><td>1-я клавиша</td><td colspan="2">Пробел для ввода</td></tr>
-  <tr><td>J</td><td colspan="2">Espace</td></tr>
+  <tr><td>J</td><td colspan="2">Пробел</td></tr>
   <tr><td>Одноклавишный знак J</td><td colspan="2">Первый кандидат — нажмите Пробел для ввода</td></tr>
   <tr><td style="background:#eef1f5">可　J；</td><td colspan="2" style="background:#eef1f5">看　J’</td></tr>
   <tr><td>Подтвердить 2-й кандидат</td><td colspan="2">Подтвердить 3-й кандидат</td></tr>
@@ -85,7 +85,7 @@ permalink: /ru/04-rules/
 <table class="fs-table ex">
   <tr><th colspan="3">气　RQ_</th></tr>
   <tr><td>1-я клавиша</td><td>Фонет. доп.</td><td>Пробел для ввода</td></tr>
-  <tr><td>气R</td><td>Q</td><td>Espace</td></tr>
+  <tr><td>气R</td><td>Q</td><td>Пробел</td></tr>
 </table>
 
 <table class="fs-table ex">
@@ -101,7 +101,7 @@ permalink: /ru/04-rules/
 <table class="fs-table ex">
   <tr><th colspan="4">如　AKR_</th></tr>
   <tr><td>1-я клавиша</td><td>2-я клавиша</td><td>Фонет. доп.</td><td>Пробел для ввода</td></tr>
-  <tr><td>女A</td><td>口K</td><td>R</td><td>Espace</td></tr>
+  <tr><td>女A</td><td>口K</td><td>R</td><td>Пробел</td></tr>
 </table>
 
 <table class="fs-table ex">
