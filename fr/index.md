@@ -62,4 +62,4 @@ Le tableau des radicaux repose sur la structure des graphies **米 (riz) / 人 (
 
 Ce tutoriel contient 76 caractères radicaux personnalisés (zone PUA d'Unicode), rendus par la police intégrée `EUDC.ttf`. L'exemple ci-dessous devrait s'afficher comme un **symbole graphique**, et non comme un carré ou un point d'interrogation ; s'il s'affiche incorrectement, actualisez la page ou vérifiez si votre navigateur bloque le chargement des polices.
 
-> Radical d'exemple: （caractère radical personnalisé）
+> Radical d'exemple : （caractère radical personnalisé）

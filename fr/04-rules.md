@@ -17,7 +17,7 @@ permalink: /fr/04-rules/
 
 Les caractères à une touche utilisent les caractères les plus fréquents ; les mémoriser accélère la saisie.
 
-Comme l'auriculaire droit repose sur la touche « ; », généralement inactive, et que les deux pouces sont aussi souvent oisifs — un gaspillage —, la barre d'espace, la touche point-virgule ( ;) et la touche apostrophe (') sont configurées comme les trois touches de confirmation du candidat. Les caractères à une touche des trois niveaux ne nécessitent pas de mémorisation : la méthode d'entrée les suggère automatiquement. Les 78 caractères à une touche de niveau 3 sont les caractères isolés les plus utilisés ; à l'usage prolongé, ils se mémorisent naturellement et accélèrent considérablement la saisie.
+Comme l'auriculaire droit repose sur la touche « ; », généralement inactive, et que les deux pouces sont aussi souvent oisifs — un gaspillage —, la barre d'espace, la touche point-virgule (；) et la touche apostrophe (') sont configurées comme les trois touches de confirmation du candidat. Les caractères à une touche des trois niveaux ne nécessitent pas de mémorisation : la méthode d'entrée les suggère automatiquement. Les 78 caractères à une touche de niveau 3 sont les caractères isolés les plus utilisés ; à l'usage prolongé, ils se mémorisent naturellement et accélèrent considérablement la saisie.
 
 <div class="table-wrap"><table class="fs-table kbd yijian">
 <tr><td><span class="k">Q</span></td><td><span class="k">W</span></td><td><span class="k">E</span></td><td><span class="k">R</span></td><td><span class="k">T</span></td><td><span class="k">Y</span></td><td><span class="k">U</span></td><td><span class="k">I</span></td><td><span class="k">O</span></td><td><span class="k">P</span></td><td></td></tr>
@@ -43,7 +43,7 @@ Note : les caractères à une touche de niveau 1 n'ont pas d'autres codes d'entr
 
 ### Caractères racines
 
-Règle des caractères racines : la première touche est la touche sur laquelle se trouve le caractère, suivie de son supplément phonétique, puis Espace pour confirmer. Certains caractères racines présentent une collision : tapez ( ;) pour confirmer le deuxième candidat.
+Règle des caractères racines : la première touche est la touche sur laquelle se trouve le caractère, suivie de son supplément phonétique, puis Espace pour confirmer. Certains caractères racines présentent une collision : tapez (；) pour confirmer le 2e candidat.
 
 <div class="table-wrap"><table class="fs-table kbd">
 <tr>
@@ -96,7 +96,7 @@ Règle des caractères racines : la première touche est la touche sur laquelle 
 
 ### Caractères ordinaires
 
-Pour les caractères de moins de quatre codes, la première lettre du Pinyin du caractère sert de supplément. Pour les caractères de plus de quatre codes, la quatrième touche est le code final du caractère.
+Pour les caractères de moins de quatre codes, la première lettre du Pinyin du caractère sert de supplément. Pour les caractères de quatre codes ou plus, la quatrième touche est le code final du caractère.
 
 <table class="fs-table ex">
   <tr><th colspan="4">如　AKR_</th></tr>

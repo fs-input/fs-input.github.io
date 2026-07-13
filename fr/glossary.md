@@ -11,7 +11,7 @@ permalink: /fr/glossary/
 # Glossaire
 {: .fs-8 }
 
-Un glossaire bilingue des termes clés utilisés dans ce tutoriel. Les caractères chinois sont conservés alongside de leurs équivalents français pour que vous puissiez les reconnaître dans le tableau des radicaux et dans les exemples de codage.
+Un glossaire bilingue des termes clés utilisés dans ce tutoriel. Les caractères chinois sont conservés à côté de leurs équivalents français pour que vous puissiez les reconnaître dans le tableau des radicaux et dans les exemples de codage.
 
 ## Concepts de base
 

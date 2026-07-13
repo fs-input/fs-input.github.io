@@ -19,9 +19,9 @@ Je crois que tout le monde connaît déjà très bien les méthodes d'entrée Pi
 
 Quand un utilisateur de Pinyin est obligé de saisir un caractère isolé, en général il tape d'abord un mot puis efface les caractères dont il n'a pas besoin ; ou bien il fait défiler les pages de candidats jusqu'à trouver ce caractère. C'est une méthode viable, mais maladroite ; quelque chose que j'ai personnellement du mal à accepter, et c'est pourquoi en général j'évite d'utiliser Pinyin.
 
-**2) La vitesse de saisie est globalement faible**
+**2) La vitesse de saisie est globalement lente**
 
-Si les utilisateurs de Pinyin veulent augmenter leur vitesse, ils peuvent passer à une méthode de double Pinyin, comme le double Pinyin Xiaohe (小鹤双拼). Mais le double Pinyin, tout comme Wubi, présente aussi une courbe d'apprentissage, et c'est pourquoi la grande majorité des utilisateurs de Pinyin ne l'utilisent pas. De plus, le double Pinyin a aussi ses règles de décomposition : c'est un schéma de codage « phonétique-forme ». Cependant, je pense pour ma part que les caractères chinois devraient reposer sur la forme, de sorte qu'il convient d'adopter un schéma « forme-phonétique » : la forme comme base et le phonétisme comme complément. C'est la bonne manière.
+Si les utilisateurs de Pinyin veulent augmenter leur vitesse, ils peuvent passer à une méthode de double Pinyin, comme le double Pinyin Xiaohe (小鹤双拼). Mais le double Pinyin, tout comme Wubi, présente aussi une courbe d'apprentissage, et c'est pourquoi la grande majorité des utilisateurs de Pinyin ne l'utilisent pas. De plus, le double Pinyin a aussi ses règles de décomposition : c'est un schéma de codage « phonétique-forme ». Cependant, je pense pour ma part que les caractères chinois devraient reposer sur la forme, de sorte qu'il convient d'adopter un schéma « forme-phonétique » : la forme comme base et le supplément phonétique comme complément. C'est la bonne manière.
 
 Qu'un romancier du Web utilise le Pinyin de Sogou est un gaspillage ; s'il passait à la méthode Fengshui, il pourrait écrire deux livres dans le temps qu'il lui en fallait auparavant pour en écrire un seul.
 
