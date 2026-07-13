@@ -1,5 +1,5 @@
 ---
-title: インストール
+title: 入力メソッドのインストール
 nav_order: 7
 parent: 日本語
 description: 風水入力メソッドのインストールガイド —— Rime ＋風水スキーマ
@@ -8,7 +8,7 @@ permalink: /ja/appendix-a-install/
 
 {% include lang_switch.html %}
 
-# インストール
+# 入力メソッドのインストール
 {: .fs-8 }
 
 ## Rime 入力メソッドをダウンロードしてインストール

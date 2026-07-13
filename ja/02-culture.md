@@ -61,11 +61,11 @@ permalink: /ja/02-culture/
   - E キーは「丨」、
   - D キーは「〢」、
   - C キーは「川」。
-- R、D、X の各キーは「米」の字形の左撇（なて）線区にあります。
+- R、D、X の各キーは「米」の字形の左撇線区にあります。
   - R キーは「丿」、
   - D キーは「巜」、
   - X キーは「彡巛」。
-- W、D、V の各キーは「米」の字形の右捺（なて）線区にあります。
+- W、D、V の各キーは「米」の字形の右捺線区にあります。
   - W キーは「丶」、
   - D キーは「冫丷」、
   - V キーは「氵灬」。
@@ -305,7 +305,7 @@ permalink: /ja/02-culture/
   </tr>
 </table></div>
 
-注：四 = 囗（C）＋ 儿（Q）、百 = 丆（N）＋ 日（F）
+注：四 = 囗（C）＋ 儿（Q）、百 = 丆（N）＋ 日（F）。
 
 ## 字根の主キー名と副キー名
 
@@ -556,7 +556,9 @@ permalink: /ja/02-culture/
 
 **左手域** —— 北に大山を背にし、南に大川が臨み、水が沃野を潤します。西には奇石と良曲、美酒と佳人があり、東には沃土千頃、才人士子、旭日東昇があります。周囲を牛馬鳥獣（豸、豕）が巡り、良弓が傍らにあり、中央に五穀（米）豊登があります。
 
-**右手域** —— 左右を刀戈が護衛し、水井が中央にあり、明月が沈沈とし、忠犬が院を護り、人丁が興旺し、夏虫が低吟し、瓜果が飄香し、豊衣足食（饣）で、文教が興盛し、魚が躍龍門します。
+**右手域** —— 左右を刀戈が護衛し、水井が中央にあり、明月が重く掛かり、忠犬が院を護り、人丁が興旺し、夏虫が低吟し、瓜果が飄香し、豊衣足食（饣）で、文教が興盛し、魚が躍龍門します。
+
+*中国語原文:*
 
 左手区风水格局：北靠大<strong><span class="fs-red">山</span></strong>；南临大<strong><span class="fs-red">川</span></strong>，<strong><span class="fs-red">水</span></strong>泽沃<strong><span class="fs-red">田</span></strong>；<strong><span class="fs-red">西</span></strong>有奇<strong><span class="fs-red">石</span></strong>良<strong><span class="fs-red">曲</span></strong>、美酒（<strong><span class="fs-red">酉</span></strong>）佳人（<strong><span class="fs-red">女</span></strong>）；东有沃<strong><span class="fs-red">土千</span></strong>顷，<strong><span class="fs-red">才</span></strong>人<strong><span class="fs-red">士</span></strong>子，旭<strong><span class="fs-red">日</span></strong>东升；<strong><span class="fs-red">牛马鸟</span></strong>兽（<strong><span class="fs-red">豸、豕</span></strong>）环绕，良<strong><span class="fs-red">弓</span></strong>在侧；中间五谷（<strong><span class="fs-red">米</span></strong>）<strong><span class="fs-red">丰</span></strong>登。
 
