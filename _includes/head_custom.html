@@ -1,8 +1,43 @@
 <!-- 自定义样式：EUDC 自创字符字体 + 配色 + 表格移动端适配 -->
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-<!-- 按语言路径设置 <html lang>，供 CSS :lang() 按语言切换字体
-     （中文首页 url=/ 不匹配；/zh/ 子页排除以保持 _config.yml 的 lang: zh-CN）-->
+<!-- SEO：jekyll-seo-tag 自动生成 description / Open Graph / Twitter Card / canonical / JSON-LD；
+     title=false 避免与主题自带的 <title> 重复 -->
+{% seo title=false %}
+
+<!-- 多语言 hreflang：让搜索引擎/AI 判断各语言版本的对应关系（多语言 SEO 核心）。
+     仅在 10 语言全覆盖的核心章节输出；glossary / pua-legend 只有部分语言，跳过以免指向 404 -->
+{%- assign segs = page.url | split: '/' -%}
+{%- assign is_full_lang = true -%}
+{%- if page.url contains 'glossary' or page.url contains 'pua-legend' -%}
+  {%- assign is_full_lang = false -%}
+{%- endif -%}
+{%- if is_full_lang -%}
+  {%- assign langs = "zh,en,es,fr,ar,ru,de,ja,vi,ko" | split: ',' -%}
+  {%- assign suffix_parts = "" -%}
+  {%- for s in segs -%}
+    {%- unless s == "" or s == segs[1] -%}
+      {%- assign suffix_parts = suffix_parts | append: s | append: '/' -%}
+    {%- endunless -%}
+  {%- endfor -%}
+  {%- for l in langs -%}
+    {%- if l == "zh" -%}
+      {%- if suffix_parts == "" -%}
+        {%- assign alt_url = "/" -%}
+      {%- else -%}
+        {%- assign alt_url = "/zh/" | append: suffix_parts -%}
+      {%- endif -%}
+    {%- else -%}
+      {%- assign alt_url = "/" | append: l | "/" | append: suffix_parts -%}
+    {%- endif -%}
+  <link rel="alternate" hreflang="{{ l }}" href="{{ alt_url | absolute_url }}">
+  {%- endfor -%}
+  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{%- endif -%}
+
+<!-- 按语言路径设置 <html lang>，供 CSS :lang() 按语言切换字体。
+     注：此处为运行时 JS 设置（对执行 JS 的爬虫有效）；对不执行 JS 的爬虫，
+     语言信号已由上方 hreflang 提供。（中文首页 url=/ 不匹配；/zh/ 子页排除以保持 lang: zh-CN）-->
 {%- assign lang_seg = page.url | split: '/' -%}
 {%- if lang_seg[1] and lang_seg[1] != 'zh' -%}
 <script>document.documentElement.setAttribute('lang', '{{ lang_seg[1] }}');</script>

@@ -1,0 +1,41 @@
+# 风水形音输入法 (https://fs-input.github.io)
+# 欢迎搜索引擎与 AI 爬虫抓取本站内容（含训练与检索用途）。
+
+User-agent: *
+Allow: /
+
+# 显式放开 AI 训练 / 检索爬虫，同意本站内容进入 AI 数据集
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+Sitemap: https://fs-input.github.io/sitemap.xml

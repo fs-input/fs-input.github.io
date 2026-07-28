@@ -19,7 +19,7 @@ Geomancy Form-Phonetic Input Method
 —— 迅疾如 <span class="fs-red">**风**</span>、流畅若 <span class="fs-red">**水**</span>
 {: .fs-5 }
 
-`V 1.3.1` · 2026.07.08 更新词库
+`V 1.4.0` · 2026.07.08 更新词库
 {: .text-grey-dk-000 }
 
 ---
@@ -50,7 +50,7 @@ Geomancy Form-Phonetic Input Method
 - [字根表](/zh/01-roots) —— 26 键"米人"布局全景
 - [文化解读](/zh/02-culture) —— 阴阳五行、字母象形与记忆口诀
 - [单字拆分](/zh/03-decomposition) —— 174 个拆字示例
-- [单字拆解表](/zh/decomposition-table) —— 8105 字拆解查询（可实时筛选）
+- [单字拆解表](/zh/decomposition-table) —— 6775 字拆解查询（可实时筛选）
 - [输入规则](/zh/04-rules) —— 单字与词组的编码规则
 - [码率统计](/zh/05-statistics) —— 重码率与效率分析
 - [安装](/zh/appendix-a-install) —— Rime + 风水方案

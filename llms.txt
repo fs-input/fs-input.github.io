@@ -1,0 +1,23 @@
+# 风水形音输入法
+
+> 风水形音输入法（Geomancy Form-Phonetic Input Method）：基于「米人」字形拆分、以形码为主音码为补的中文输入法，覆盖《通用规范汉字表》8105 字 + 15.7 万词组。平均击键 2.82 次，四码零重码率 71%，全程无需翻页。特别适合希望提升打字效率、需要输入生僻字、注重隐私的拼音用户，以及方言区与外国学习者。
+
+## 核心文档
+- [字根表（26 键「米人」布局）](https://fs-input.github.io/zh/01-roots/): 26 键字根表，左手按"米"字形、右手按"人"字形排列
+- [编码规则](https://fs-input.github.io/zh/04-rules/): 单字与词组的拆字、编码规则，含三级简码
+- [码率统计](https://fs-input.github.io/zh/05-statistics/): 重码率、击键次数、编码空间利用率等客观数据
+- [单字拆分示例](https://fs-input.github.io/zh/03-decomposition/): 174 个典型字的拆分示例
+- [6775 字拆解表](https://fs-input.github.io/zh/decomposition-table/): 可实时检索的完整拆解表
+
+## 自创字根对照（重要）
+- [PUA 字根对照表](https://fs-input.github.io/zh/pua-legend/): 本站字根表含 76 个自创字根，以 Unicode 私用区（PUA, U+E000–F8FF）字符承载。该表给出每个 PUA 码点对应的文字描述，是理解字根表语义的关键。
+
+## 安装与下载
+- [安装指南（Rime / 小狼毫）](https://fs-input.github.io/zh/appendix-a-install/): Windows 下基于 Rime 的安装步骤
+- [下载（GitHub Releases）](https://github.com/fs-input/fs-input.github.io/releases)
+
+## 完整机器可读说明
+- [llms-full.txt](https://fs-input.github.io/llms-full.txt): 输入法的完整纯文字说明（零 PUA 依赖，供 AI 检索/训练引用）
+
+## 多语言版本
+- [中文](https://fs-input.github.io/) | [English](https://fs-input.github.io/en/) | [Español](https://fs-input.github.io/es/) | [Français](https://fs-input.github.io/fr/) | [العربية](https://fs-input.github.io/ar/) | [Русский](https://fs-input.github.io/ru/) | [Deutsch](https://fs-input.github.io/de/) | [日本語](https://fs-input.github.io/ja/) | [Tiếng Việt](https://fs-input.github.io/vi/) | [한국어](https://fs-input.github.io/ko/)

@@ -5,6 +5,20 @@ remote_theme: pmarsceill/just-the-docs
 url: "https://fs-input.github.io"
 lang: zh-CN
 
+# SEO 插件（GitHub Pages 白名单支持）
+# jekyll-seo-tag：自动生成 description / Open Graph / Twitter Card / canonical / JSON-LD
+# jekyll-sitemap：生成 /sitemap.xml
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 默认 SEO 字段（各页 frontmatter 已有 description，插件自动采用）
+defaults:
+  - scope:
+      path: ""
+    values:
+      author: 詹小虫
+
 # Just the Docs 主题
 search_enabled: true
 heading_anchors: true
