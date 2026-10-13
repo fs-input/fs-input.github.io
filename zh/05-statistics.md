@@ -9,103 +9,117 @@ parent: 首页
 # 码率统计与分析
 {: .fs-8 }
 
-根据排列组合：一码字最多有 26 种组合，二码字最多有 26×26=676 种，三码字最多有 26³=17576 种，四码字最多有 26⁴=456976 种，总计 47 万种组合。设置三级候选键后，码数组合进一步扩展。
+当前码表包含 308,453 个不同字词，其中单字 8,214 个、双字词 189,571 个、三字词 74,312 个、四字及以上词 36,356 个。它们对应 390,046 条编码候选、184,055 个已用编码组。
 
-|  | 一级候选 | 三级候选 |
-|---|---|---|
-| 一码字 | 26 | 78 |
-| 二码字 | 676 | 2028 |
-| 三码字 | 17576 | 52728 |
-| 四码字 | 45 万 | 137 万 |
-| **总计** | **47 万** | **142 万** |
+## 词库规模与编码空间
 
-语料库在线网站对 2000 万字资料进行了统计分析，最常用的前 5700 个单字占比高达 99.98%，最常用的前 1.5 万字词占比达 90.4%。设置三级候选键后，三码字就有约 5.27 万种组合，完全足够与常用字词匹配。
-
-风水输入法词库内置了近 15.5 万词条，已经足够绝大多数人的日常输入需要。码数详细统计如下表。
+26 个字母构成一码至四码的编码空间，各码长分别有 26ⁿ 种字母组合。候选位置可以让多个字词共用一个编码，但不会增加字母编码的种类。当前一码、二码、三码默认各保留五个候选，四码默认保留十个；单字全码必留。下表列出默认容量下的候选位置总数。
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>码数</th><th>候选级别</th><th>单字</th><th>双字</th><th>三字</th><th>≥四字</th><th>小计</th><th>击键数</th></tr></thead>
+<caption>字母编码空间与默认候选容量</caption>
+<thead><tr><th>码长</th><th>字母编码数</th><th>每码默认候选数</th><th>候选位置总数</th></tr></thead>
 <tbody>
-<tr><td rowspan="2">一码字</td><td>第一候选</td><td>26</td><td>/</td><td>/</td><td>/</td><td rowspan="2">78</td><td rowspan="2">两次</td></tr>
-<tr><td>二三候选</td><td>52</td><td>/</td><td>/</td><td>/</td></tr>
-<tr><td rowspan="2">二码字</td><td>第一候选</td><td>662</td><td>1</td><td>10</td><td>3</td><td rowspan="2">2028</td><td rowspan="2">三次</td></tr>
-<tr><td>二三候选</td><td>1236</td><td>27</td><td>56</td><td>33</td></tr>
-<tr><td rowspan="2">三码字</td><td>第一候选</td><td>3928</td><td>7315</td><td>3139</td><td>2585</td><td rowspan="2">47563</td><td rowspan="2">四次</td></tr>
-<tr><td>二三候选</td><td>2062</td><td>14060</td><td>7050</td><td>7424</td></tr>
-<tr><td rowspan="3">四码字</td><td>直接上屏</td><td>4873</td><td>47099</td><td>23332</td><td>36328</td><td>111632</td><td>四次</td></tr>
-<tr><td>二三候选</td><td>608</td><td>17138</td><td>11946</td><td>13446</td><td>43138</td><td>五次</td></tr>
-<tr><td>四五候选</td><td>29</td><td>2159</td><td>1869</td><td>1641</td><td>5698</td><td>五次</td></tr>
-<tr><td colspan="2">码数总计</td><td>13476</td><td>87799</td><td>47402</td><td>61460</td><td colspan="2">210137</td></tr>
+<tr><td>一码</td><td>26</td><td>5</td><td>130</td></tr>
+<tr><td>二码</td><td>676</td><td>5</td><td>3,380</td></tr>
+<tr><td>三码</td><td>17,576</td><td>5</td><td>87,880</td></tr>
+<tr><td>四码</td><td>456,976</td><td>10</td><td>4,569,760</td></tr>
+<tr><td>合计</td><td>475,254</td><td>—</td><td>4,661,150</td></tr>
 </tbody>
 </table></div>
 
-将上表转换为码率表，表中百分比为各档位编码空间的利用率（实际编码数 ÷ 该档位可能码数）。
+## 各码长的候选数量与利用率
+
+下表按码长、候选位置和字词长度统计编码条目。第一候选是每个已用编码组的首选；四码首选中，只有同码下没有其他候选的条目，才具备四键直接上屏的条件。第二至第五候选和第六至第十候选分别列出，便于判断选词及翻页需求。
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>码数</th><th>候选级别</th><th>单字</th><th>双字</th><th>三字</th><th>≥四字</th><th>总计</th></tr></thead>
+<caption>编码候选条目统计</caption>
+<thead><tr><th>码长</th><th>候选位置</th><th>单字</th><th>双字词</th><th>三字词</th><th>≥四字词</th><th>合计</th></tr></thead>
 <tbody>
-<tr><td rowspan="2">一码字</td><td>第一候选</td><td>100.00%</td><td>/</td><td>/</td><td>/</td><td>100.00%</td></tr>
-<tr><td>二三候选</td><td>100.00%</td><td>/</td><td>/</td><td>/</td><td>100.00%</td></tr>
-<tr><td rowspan="2">二码字</td><td>第一候选</td><td>97.93%</td><td>0.15%</td><td>1.48%</td><td>0.44%</td><td>100.00%</td></tr>
-<tr><td>二三候选</td><td>91.42%</td><td>2.00%</td><td>4.14%</td><td>2.44%</td><td>100.00%</td></tr>
-<tr><td rowspan="2">三码字</td><td>第一候选</td><td>22.35%</td><td>41.62%</td><td>17.86%</td><td>14.71%</td><td>96.54%</td></tr>
-<tr><td>二三候选</td><td>5.87%</td><td>40.00%</td><td>20.06%</td><td>21.12%</td><td>87.04%</td></tr>
-<tr><td rowspan="2">四码字</td><td>第一候选</td><td>1.07%</td><td>10.31%</td><td>5.11%</td><td>7.95%</td><td>24.43%</td></tr>
-<tr><td>二三候选</td><td>0.07%</td><td>1.88%</td><td>1.31%</td><td>1.47%</td><td>4.72%</td></tr>
+<tr><td>一码</td><td>第一候选</td><td>26</td><td>0</td><td>0</td><td>0</td><td>26</td></tr>
+<tr><td>一码</td><td>第二至第五</td><td>104</td><td>0</td><td>0</td><td>0</td><td>104</td></tr>
+<tr><td>二码</td><td>第一候选</td><td>601</td><td>7</td><td>51</td><td>17</td><td>676</td></tr>
+<tr><td>二码</td><td>第二至第五</td><td>1,228</td><td>878</td><td>357</td><td>241</td><td>2,704</td></tr>
+<tr><td>三码</td><td>第一候选</td><td>2,795</td><td>7,945</td><td>3,792</td><td>2,740</td><td>17,272</td></tr>
+<tr><td>三码</td><td>第二至第五</td><td>2,645</td><td>31,781</td><td>17,477</td><td>11,034</td><td>62,937</td></tr>
+<tr><td>四码</td><td>第一候选</td><td>5,345</td><td>96,541</td><td>37,888</td><td>26,307</td><td>166,081</td></tr>
+<tr><td>四码</td><td>第二至第五</td><td>1,288</td><td>81,063</td><td>31,894</td><td>9,436</td><td>123,681</td></tr>
+<tr><td>四码</td><td>第六至第十</td><td>93</td><td>11,718</td><td>4,214</td><td>540</td><td>16,565</td></tr>
+<tr><td>合计</td><td></td><td>14,125</td><td>229,933</td><td>95,673</td><td>50,315</td><td>390,046</td></tr>
 </tbody>
 </table></div>
 
-从表中可以看出：一码空间已 100% 利用；二码第一候选与二三候选利用率均达 100%（每码均配齐三级候选）；三码第一候选利用率 96.54%，二三候选利用率 87.04%，说明简码空间已被充分利用。四码空间利用率相对较低（第一候选 24.43%，二三候选 4.72%），说明四码编码空间（26⁴=456976 种）远大于实际需求，重码极少。三码行中词组占据了较大比例（双字 41.62%、三字 17.86%、≥四字 14.71%），说明常用的多字词组也设置了三简编码。通常击键两到四次便可完成绝大多数字词的输入，输入效率非常高。
-
-各码长的重码率分析如下表。一码字 26 个编码全部被使用；二码字 676 个编码因配齐三级候选，均有重码、最大重码仅 3；三码字零重码率 6.27%，最大重码 3；四码字零重码率高达 71.0%，最大重码仅为 5。总体来看，16.2 万字词仅使用约 12.9 万个编码，全程无需翻页，重码控制非常优秀。
-
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>码长</th><th>唯一编码数</th><th>零重码数</th><th>零重码率</th><th>重码组数</th><th>最大重码</th><th>总条目数</th></tr></thead>
+<caption>各档候选位置利用率</caption>
+<thead><tr><th>码长</th><th>第一候选</th><th>第二至第五候选</th><th>第六至第十候选</th><th>全档</th></tr></thead>
 <tbody>
-<tr><td>一码</td><td>26</td><td>0</td><td>0.00%</td><td>26</td><td>3</td><td>78</td></tr>
-<tr><td>二码</td><td>676</td><td>0</td><td>0.00%</td><td>676</td><td>3</td><td>2028</td></tr>
-<tr><td>三码</td><td>16967</td><td>1064</td><td>6.27%</td><td>15903</td><td>3</td><td>47563</td></tr>
-<tr><td>四码</td><td>111632</td><td>79264</td><td>71.00%</td><td>32368</td><td>5</td><td>160468</td></tr>
+<tr><td>一码</td><td>100.00%</td><td>100.00%</td><td>—</td><td>100.00%</td></tr>
+<tr><td>二码</td><td>100.00%</td><td>100.00%</td><td>—</td><td>100.00%</td></tr>
+<tr><td>三码</td><td>98.27%</td><td>89.52%</td><td>—</td><td>91.27%</td></tr>
+<tr><td>四码</td><td>36.34%</td><td>6.77%</td><td>0.72%</td><td>6.70%</td></tr>
 </tbody>
 </table></div>
 
-基于频数加权的平均击键次数分析如下表。总体平均击键仅 4.05 次，单字平均仅 2.82 次，说明高频字大多分配了简码，输入效率极高。各类词组的平均击键均在 4.0–4.1 次之间，体现了编码分配的均匀性。
+## 重码与四码直出条件
 
-| 类别 | 单字 | 双字 | 三字 | ≥四字 | 总体 |
-|---|---|---|---|---|---|
-| 平均击键 | 2.82 | 4.04 | 4.11 | 4.09 | 4.05 |
-
-对所有单字的码表进行统计如下表，可见所有键符各级码数分布都很均匀，在合计列中，位于"米人"主键区的"EDC—SDFG—HJKL—I"数量最高，符合设计。
+下表的“单候选组”指同一编码下只有一个候选的组；其占比以该码长的已用编码组为分母。重码组中的首选仍需与其他候选区分，不能全部算作直接上屏。
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>字母</th><th>一码</th><th>二码</th><th>三码</th><th>四码</th><th>音补</th><th>合计</th></tr></thead>
+<caption>各码长的重码情况</caption>
+<thead><tr><th>码长</th><th>已用编码组</th><th>单候选组</th><th>单候选占比</th><th>重码组</th><th>最多候选</th><th>条目数</th></tr></thead>
 <tbody>
-<tr><td>A</td><td>156</td><td>86</td><td>86</td><td>32</td><td>32</td><td>392</td></tr>
-<tr><td>B</td><td>116</td><td>151</td><td>159</td><td>93</td><td>178</td><td>697</td></tr>
-<tr><td><strong>C</strong></td><td>155</td><td>369</td><td>308</td><td>84</td><td>220</td><td><strong>1136</strong></td></tr>
-<tr><td><strong>D</strong></td><td>215</td><td>370</td><td>386</td><td>172</td><td>164</td><td><strong>1307</strong></td></tr>
-<tr><td><strong>E</strong></td><td>377</td><td>295</td><td>274</td><td>156</td><td>34</td><td><strong>1136</strong></td></tr>
-<tr><td><strong>F</strong></td><td>325</td><td>491</td><td>359</td><td>93</td><td>147</td><td><strong>1415</strong></td></tr>
-<tr><td><strong>G</strong></td><td>255</td><td>375</td><td>252</td><td>253</td><td>182</td><td><strong>1317</strong></td></tr>
-<tr><td><strong>H</strong></td><td>491</td><td>276</td><td>117</td><td>32</td><td>170</td><td><strong>1086</strong></td></tr>
-<tr><td><strong>I</strong></td><td>333</td><td>366</td><td>286</td><td>170</td><td>0</td><td><strong>1155</strong></td></tr>
-<tr><td><strong>J</strong></td><td>359</td><td>300</td><td>226</td><td>117</td><td>327</td><td><strong>1329</strong></td></tr>
-<tr><td><strong>K</strong></td><td>365</td><td>335</td><td>474</td><td>218</td><td>123</td><td><strong>1515</strong></td></tr>
-<tr><td><strong>L</strong></td><td>269</td><td>348</td><td>339</td><td>183</td><td>264</td><td><strong>1403</strong></td></tr>
-<tr><td>M</td><td>309</td><td>173</td><td>196</td><td>137</td><td>166</td><td>981</td></tr>
-<tr><td>N</td><td>235</td><td>231</td><td>196</td><td>94</td><td>92</td><td>848</td></tr>
-<tr><td>O</td><td>204</td><td>222</td><td>124</td><td>84</td><td>7</td><td>641</td></tr>
-<tr><td>P</td><td>169</td><td>216</td><td>199</td><td>221</td><td>128</td><td>933</td></tr>
-<tr><td>Q</td><td>252</td><td>135</td><td>153</td><td>130</td><td>193</td><td>863</td></tr>
-<tr><td>R</td><td>323</td><td>313</td><td>172</td><td>53</td><td>61</td><td>922</td></tr>
-<tr><td><strong>S</strong></td><td>243</td><td>273</td><td>306</td><td>70</td><td>256</td><td><strong>1148</strong></td></tr>
-<tr><td>T</td><td>288</td><td>227</td><td>38</td><td>3</td><td>151</td><td>707</td></tr>
-<tr><td>U</td><td>215</td><td>265</td><td>82</td><td>13</td><td>0</td><td>575</td></tr>
-<tr><td>V</td><td>411</td><td>142</td><td>179</td><td>167</td><td>0</td><td>899</td></tr>
-<tr><td>W</td><td>253</td><td>269</td><td>172</td><td>101</td><td>128</td><td>923</td></tr>
-<tr><td>X</td><td>177</td><td>127</td><td>151</td><td>48</td><td>240</td><td>743</td></tr>
-<tr><td>Y</td><td>149</td><td>209</td><td>98</td><td>15</td><td>343</td><td>814</td></tr>
-<tr><td>Z</td><td>131</td><td>64</td><td>105</td><td>89</td><td>340</td><td>729</td></tr>
+<tr><td>一码</td><td>26</td><td>0</td><td>0.00%</td><td>26</td><td>5</td><td>130</td></tr>
+<tr><td>二码</td><td>676</td><td>0</td><td>0.00%</td><td>676</td><td>5</td><td>3,380</td></tr>
+<tr><td>三码</td><td>17,272</td><td>503</td><td>2.91%</td><td>16,769</td><td>5</td><td>80,209</td></tr>
+<tr><td>四码</td><td>166,081</td><td>104,826</td><td>63.12%</td><td>61,255</td><td>10</td><td>306,327</td></tr>
+</tbody>
+</table></div>
+
+## 频数加权的最少击键估算
+
+<div class="table-wrap"><table class="fs-table stats">
+<caption>按字词最短路径估算的频数加权击键次数</caption>
+<thead><tr><th>类别</th><th>单字</th><th>双字词</th><th>三字词</th><th>≥四字词</th><th>总体</th></tr></thead>
+<tbody>
+<tr><td>每字词击键</td><td>2.66</td><td>3.71</td><td>3.97</td><td>3.99</td><td>2.95</td></tr>
+<tr><td>每输出字击键</td><td>2.66</td><td>1.85</td><td>1.32</td><td>0.99</td><td>2.23</td></tr>
+</tbody>
+</table></div>
+
+## 基础单字的键符分布
+
+对所有单字的码表进行统计如下表，可见所有键符各级码数分布都很均匀，在合计列中，位于“米人”主键区的“EDC—SDFG—HJKL—I”数量最高，符合设计。
+
+<div class="table-wrap"><table class="fs-table stats">
+<caption>基础单字形码位置与主读音音补分布</caption>
+<thead><tr><th>键符</th><th>第一根</th><th>第二根</th><th>第三根</th><th>第四根</th><th>音补</th><th>合计</th></tr></thead>
+<tbody>
+<tr><td>A</td><td>207</td><td>101</td><td>107</td><td>34</td><td>36</td><td>485</td></tr>
+<tr><td>B</td><td>130</td><td>173</td><td>195</td><td>134</td><td>217</td><td>849</td></tr>
+<tr><td>C</td><td>179</td><td>444</td><td>392</td><td>114</td><td>252</td><td>1,381</td></tr>
+<tr><td>D</td><td>238</td><td>443</td><td>467</td><td>213</td><td>194</td><td>1,555</td></tr>
+<tr><td>E</td><td>476</td><td>368</td><td>342</td><td>205</td><td>35</td><td>1,426</td></tr>
+<tr><td>F</td><td>482</td><td>615</td><td>450</td><td>124</td><td>166</td><td>1,837</td></tr>
+<tr><td>G</td><td>335</td><td>455</td><td>315</td><td>321</td><td>216</td><td>1,642</td></tr>
+<tr><td>H</td><td>600</td><td>339</td><td>150</td><td>46</td><td>200</td><td>1,335</td></tr>
+<tr><td>I</td><td>396</td><td>451</td><td>345</td><td>206</td><td>0</td><td>1,398</td></tr>
+<tr><td>J</td><td>385</td><td>351</td><td>274</td><td>151</td><td>381</td><td>1,542</td></tr>
+<tr><td>K</td><td>401</td><td>393</td><td>589</td><td>282</td><td>141</td><td>1,806</td></tr>
+<tr><td>L</td><td>311</td><td>400</td><td>421</td><td>218</td><td>299</td><td>1,649</td></tr>
+<tr><td>M</td><td>384</td><td>213</td><td>247</td><td>174</td><td>186</td><td>1,204</td></tr>
+<tr><td>N</td><td>273</td><td>292</td><td>244</td><td>117</td><td>106</td><td>1,032</td></tr>
+<tr><td>O</td><td>269</td><td>264</td><td>158</td><td>112</td><td>10</td><td>813</td></tr>
+<tr><td>P</td><td>209</td><td>265</td><td>233</td><td>280</td><td>153</td><td>1,140</td></tr>
+<tr><td>Q</td><td>308</td><td>164</td><td>197</td><td>179</td><td>234</td><td>1,082</td></tr>
+<tr><td>R</td><td>372</td><td>378</td><td>209</td><td>66</td><td>68</td><td>1,093</td></tr>
+<tr><td>S</td><td>296</td><td>359</td><td>397</td><td>95</td><td>284</td><td>1,431</td></tr>
+<tr><td>T</td><td>322</td><td>269</td><td>53</td><td>3</td><td>175</td><td>822</td></tr>
+<tr><td>U</td><td>238</td><td>328</td><td>108</td><td>14</td><td>0</td><td>688</td></tr>
+<tr><td>V</td><td>542</td><td>168</td><td>208</td><td>226</td><td>0</td><td>1,144</td></tr>
+<tr><td>W</td><td>284</td><td>345</td><td>196</td><td>123</td><td>155</td><td>1,103</td></tr>
+<tr><td>X</td><td>208</td><td>156</td><td>185</td><td>67</td><td>294</td><td>910</td></tr>
+<tr><td>Y</td><td>198</td><td>257</td><td>121</td><td>21</td><td>398</td><td>995</td></tr>
+<tr><td>Z</td><td>171</td><td>73</td><td>123</td><td>113</td><td>376</td><td>856</td></tr>
+<tr><td>合计</td><td>8,214</td><td>8,064</td><td>6,726</td><td>3,638</td><td>4,576</td><td>31,218</td></tr>
 </tbody>
 </table></div>
 
@@ -113,8 +127,8 @@ parent: 首页
 
 综上分析，风水形音输入法具有以下显著优势：
 
-- **词库规模大**：收录 6775 个单字和 15.5 万余个词组，共计 16.2 万个字词，覆盖日常输入所需的绝大多数字词。
-- **简码利用率高**：一码字利用率 100%，二码字三级候选配齐达 100%，三码字第一候选利用率 96.5%、二三候选 87.0%，简码空间得到充分利用。
-- **重码控制优秀**：四码字零重码率高达 71.0%，最大重码数仅为 5，全程无需翻页即可选择。
-- **击键效率高**：频数加权平均击键仅 4.05 次，单字平均仅 2.82 次，高频字均分配了简码。
+- **词库规模大**：收录 8,214 个单字和 300,239 个词组，共计 308,453 个不同字词，覆盖日常输入所需的绝大多数字词。
+- **简码利用率高**：一码字利用率 100%，二码字达 100%，三码字第一候选利用率 98.27%、第二至第五候选 89.52%，简码空间得到充分利用。
+- **高频优先**：高频字、高频词优先。
+- **击键效率高**：单字的频数加权最少击键为 2.66 次，全体字词为 2.95 次，高频字词均分配了简码。
 - **键符分布均匀**：26 个字母键在各码位的分布较为均匀，主键区（EDC—SDFG—HJKL—I）使用频率最高，符合人体工程学设计。

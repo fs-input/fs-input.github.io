@@ -23,7 +23,7 @@ parent: 首页
 
    - `default.yaml` —— 输入法默认设置文件
    - `weasel.yaml` —— 输入法界面设置文件
-   - `geomancy.dict.yaml` —— 风水输入法词库文件（15.7 万词条）
+   - `geomancy.dict.yaml` —— 风水输入法词库文件（39 万词条）
    - `geomancy.extended.dict.yaml` —— 用户自定义词库文件
    - `geomancy.schema.yaml` —— 风水输入法功能设置文件
 
