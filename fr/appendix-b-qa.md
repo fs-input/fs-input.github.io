@@ -51,7 +51,7 @@ Plus il y a de radicaux, plus la décomposition est simple ; mais plus il y a de
 
 Aujourd'hui, on enseigne Pinyin en première année d'école primaire en Chine, mais Pinyin lui-même n'est pas dénué de difficulté. Pour les locuteurs de certaines zones dialectales et pour les amis étrangers, la méthode de décomposition Fengshui peut être plus facile à apprendre que Pinyin.
 
-La méthode Fengshui emploie un codage simplifié de trois niveaux et à trois touches, accompagné d'un grand dictionnaire de 150 000 mots : l'utiliser est merveilleusement fluide.
+La méthode Fengshui emploie un codage simplifié de trois niveaux et à trois touches, accompagné d'un grand dictionnaire d'environ 390,000 entrées de candidats codés : l'utiliser est merveilleusement fluide.
 
 ## À qui s'adresse la méthode Fengshui ?
 

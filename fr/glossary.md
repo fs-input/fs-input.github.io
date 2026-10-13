@@ -37,7 +37,7 @@ Un glossaire bilingue des termes clés utilisés dans ce tutoriel. Les caractèr
 | 音补 / 补码 | supplément phonétique | Un code phonétique servant de touche finale d'identification |
 | 空格上屏 | appuyer sur Espace pour confirmer | Confirmer la sélection avec la barre d'espace |
 | 末码 | code final | La dernière touche d'un code |
-| 词库 | dictionnaire / liste de mots | Le dictionnaire intégré de 157 000 mots |
+| 词库 | dictionnaire / liste de mots | Le dictionnaire intégré d'environ 390,000 entrées de candidats codés |
 
 ## Culture et disposition
 

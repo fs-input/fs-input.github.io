@@ -25,7 +25,7 @@ permalink: /fr/appendix-a-install/
 
    - `default.yaml` — paramètres par défaut de la méthode d'entrée
    - `weasel.yaml` — paramètres de l'interface de la méthode d'entrée
-   - `geomancy.dict.yaml` — dictionnaire de la méthode Fengshui (157 000 mots)
+   - `geomancy.dict.yaml` — dictionnaire de la méthode Fengshui (environ 390,000 entrées de candidats codés)
    - `geomancy.extended.dict.yaml` — dictionnaire personnel de l'utilisateur
    - `geomancy.schema.yaml` — paramètres de fonctionnement de la méthode Fengshui
 

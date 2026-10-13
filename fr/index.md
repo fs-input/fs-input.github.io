@@ -34,7 +34,7 @@ has_toc: false
 
 La **méthode d'entrée Fengshui forme-phonétique** (风水形音输入法, abrégée en « méthode Fengshui ») a été développée en combinant les idées de conception des méthodes d'entrée chinoises les plus avancées. Elle surmonte les inconvénients des méthodes traditionnelles Pinyin et Wubi — difficiles à apprendre et à utiliser — et absorbe la disposition des radicaux selon la graphie « 米 » (riz) et l'idée d'utiliser un code phonétique comme touche finale d'identification du « Wubi moderne », ainsi que le large éventail de radicaux et le grand dictionnaire du Wubi 091. C'est une méthode d'entrée de chinois simplifié pensée pour le plus grand public.
 
-Sa couverture des caractères isolés englobe entièrement la *Table des caractères chinois standard généraux* : **8 105** caractères au total (3 500 de niveau 1 à usage fréquent, 3 000 de niveau 2 à usage moins fréquent et 1 605 de niveau 3 spécialisés), outre un dictionnaire allant jusqu'à **157 000 mots**.
+Sa couverture des caractères isolés englobe entièrement la *Table des caractères chinois standard généraux* : **8 105** caractères au total (3 500 de niveau 1 à usage fréquent, 3 000 de niveau 2 à usage moins fréquent et 1 605 de niveau 3 spécialisés), outre un dictionnaire d'environ **390,000 entrées de candidats codés**.
 
 Le tableau des radicaux repose sur la structure des graphies **米 (riz) / 人 (personne)** et combine le *Yi Jing*, le *Yin-Yang et les Cinq Éléments* avec la pictographie alphabétique, en y entrelaçant oiseaux et bêtes, éléments naturels, parties du corps et points cardinaux. Non seulement il est facile à mémoriser, mais — dit-on — il apporte à l'utilisateur et à sa descendance une prospérité durable : un chef-d'œuvre qui fond la décomposition des caractères chinois avec la philosophie traditionnelle chinoise.
 
@@ -42,7 +42,7 @@ Le tableau des radicaux repose sur la structure des graphies **米 (riz) / 人 (
 
 - Un tableau des radicaux disposé selon le Feng Shui
 - Décomposition simple : aucun caractère n'est difficile à diviser
-- Un dictionnaire large (157 000 mots)
+- Un dictionnaire large (environ 390,000 entrées de candidats codés)
 - Les codes de forme comme base, les codes phonétiques comme complément
 - Trois niveaux de mots candidats, à portée de doigt
 - Saisie précise, maîtrise de tout le clavier
