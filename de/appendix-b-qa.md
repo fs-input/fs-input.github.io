@@ -51,7 +51,7 @@ Je mehr Grundzeichen, desto einfacher die Zerlegung; doch je mehr Zeichen, desto
 
 Heute wird Pinyin schon in der ersten Klasse der chinesischen Schule unterrichtet, doch es ist an sich nicht ohne Schwierigkeiten. Für Sprecher mancher Dialektregionen und für Ausländer ist die Zerlegung nach der Fengshui-Methode höchstwahrscheinlich leichter zu bewältigen als Pinyin.
 
-Die Fengshui-Methode verwendet einen dreistufigen Drei-Tasten-Kurzcode in Verbindung mit einem großen Wörterbuch von 150 000 Wörtern — es ist außerordentlich angenehm, sie zu verwenden.
+Die Fengshui-Methode verwendet einen dreistufigen Drei-Tasten-Kurzcode in Verbindung mit einem großen Wörterbuch mit ungefähr 390,000 codierten Kandidateneinträgen — es ist außerordentlich angenehm, sie zu verwenden.
 
 ## Für wen eignet sich die Fengshui-Methode?
 

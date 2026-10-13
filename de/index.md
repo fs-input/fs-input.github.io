@@ -34,7 +34,7 @@ has_toc: false
 
 **Die Fengshui Form-Phonetic-Eingabemethode** (风水形音输入法, kurz „Fengshui-Methode") wurde auf der Grundlage der Ideen der fortschrittlichsten chinesischen Eingabemethoden entwickelt. Sie überwindet die Nachteile der traditionellen Pinyin- und Wubi-Methoden — schwer zu erlernen und anzuwenden — und nimmt die Belegung der Grundzeichen nach der Glyphe „米" (Reis) und die Idee, den phonetischen Code als letzte identifizierende Taste zu verwenden, aus dem „modernen Wubi" auf, dazu einen großen Satz an Grundzeichen und das große Wubi-091-Wörterbuch. Es handelt sich um eine Eingabemethode für vereinfachtes Chinesisch, geschaffen für einen möglichst weiten Nutzerkreis.
 
-Ihre Abdeckung an Einzelzeichen schließt die *Tabelle der allgemeinen normativen chinesischen Schriftzeichen* vollständig ein: insgesamt **8 105** Zeichen (3 500 der Stufe 1 — häufige Verwendung, 3 000 der Stufe 2 — weniger häufige und 1 605 der Stufe 3 — spezielle), dazu ein Wörterbuch von bis zu **157 000 Wörtern**.
+Ihre Abdeckung an Einzelzeichen schließt die *Tabelle der allgemeinen normativen chinesischen Schriftzeichen* vollständig ein: insgesamt **8 105** Zeichen (3 500 der Stufe 1 — häufige Verwendung, 3 000 der Stufe 2 — weniger häufige und 1 605 der Stufe 3 — spezielle), dazu ein Wörterbuch mit ungefähr **390,000 codierten Kandidateneinträgen**.
 
 Die Grundzeichentabelle beruht auf der Struktur der Glyphen **米 (Reis) / 人 (Person)** und verbindet *I Ging*, *Yin-Yang und die Fünf Elemente* mit der alphabetischen Bilderschrift, wobei Vögel und Tiere, Naturelemente, Körperteile und Himmelsrichtungen eingeflochten werden. Sie prägt sich nicht nur leicht ein, sondern bringt dem Nutzer und seinen Nachkommen, wie man sagt, dauerhaftes Glück: ein Meisterwerk, das die Zerlegung chinesischer Schriftzeichen mit der traditionellen chinesischen Philosophie verbindet.
 
@@ -42,7 +42,7 @@ Die Grundzeichentabelle beruht auf der Struktur der Glyphen **米 (Reis) / 人 (
 
 - Die nach Feng-Shui aufgebaute Grundzeichentabelle
 - Einfache Zerlegung: Kein Zeichen ist schwer zu zerlegen
-- Großes Wörterbuch (157 000 Wörter)
+- Großes Wörterbuch (ungefähr 390,000 codierte Kandidateneinträge)
 - Formcodes als Grundlage, phonetische Codes als Ergänzung
 - Drei Ebenen von Wortkandidaten — griffbereit
 - Präzise Eingabe, Beherrschung der gesamten Tastatur

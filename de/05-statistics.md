@@ -11,112 +11,126 @@ permalink: /de/05-statistics/
 # Codestatistik und -analyse
 {: .fs-8 }
 
-Zur Kombinatorik: Ein-Tasten-Zeichen ergeben maximal 26 Kombinationen, Zwei-Tasten-Zeichen maximal 26×26=676, Drei-Tasten-Zeichen maximal 26³=17 576, Vier-Tasten-Zeichen maximal 26⁴=456 976, insgesamt rund 470 000 Kombinationen. Bei der Einstellung von drei Kandidaten-Tastenebenen erweitert sich die Anzahl der Codekombinationen zusätzlich.
+Die aktuelle Codetabelle enthält 308,453 unterschiedliche Zeichen und Wörter: 8,214 Einzelzeichen, 189,571 Wörter mit zwei Zeichen, 74,312 Wörter mit drei Zeichen und 36,356 Wörter mit vier oder mehr Zeichen. Ihnen entsprechen 390,046 codierte Kandidateneinträge und 184,055 belegte Codegruppen.
 
-|  | Kandidatenebene 1 | Kandidatenebene 3 |
-|---|---|---|
-| Ein-Taste | 26 | 78 |
-| Zwei-Tasten | 676 | 2028 |
-| Drei-Tasten | 17 576 | 52 728 |
-| Vier-Tasten | 450 000 | 1 370 000 |
-| **Insgesamt** | **470 000** | **1 420 000** |
+## Wörterbuchumfang und Coderaum
 
-Eine Korpusanalyse-Website wertete 20 Millionen Zeichen aus: Die 5 700 häufigsten Einzelzeichen machen nicht weniger als 99,98 % aus, die 15 000 häufigsten Wörter 90,4 %. Bei drei Kandidaten-Tastenebenen liefern allein die Drei-Tasten-Zeichen rund 52 700 Kombinationen — mehr als genug, um die üblichen Zeichen und Wörter abzudecken.
-
-Das Wörterbuch der Fengshui-Methode enthält rund 155 000 Einträge — das reicht für die alltägliche Eingabe der ganz überwiegenden Mehrheit der Menschen. Eine detaillierte Codestatistik findet sich in der folgenden Tabelle.
+Die 26 Buchstaben bilden den Coderaum für Codes mit einer bis vier Tasten. Für jede Codelänge gibt es 26ⁿ Buchstabenkombinationen. Kandidatenpositionen ermöglichen es mehreren Zeichen oder Wörtern, denselben Code zu verwenden, erhöhen aber nicht die Anzahl der unterschiedlichen Buchstabencodes. Für Codes mit einer, zwei oder drei Tasten werden standardmäßig jeweils fünf Kandidaten beibehalten, für Codes mit vier Tasten zehn. Vollständige Codes für Einzelzeichen bleiben stets erhalten. Die folgende Tabelle zeigt die Gesamtzahl der Kandidatenpositionen bei diesen Standardkapazitäten.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Tasten</th><th>Kandidatenebene</th><th>Einzelzeichen</th><th>2 Z.</th><th>3 Z.</th><th>≥4 Z.</th><th>Zwischensumme</th><th>Anschläge</th></tr></thead>
+<caption>Buchstabencoderaum und standardmäßige Kandidatenkapazität</caption>
+<thead><tr><th>Codelänge</th><th>Anzahl der Buchstabencodes</th><th>Standardkandidaten pro Code</th><th>Kandidatenpositionen insgesamt</th></tr></thead>
 <tbody>
-<tr><td rowspan="2">Ein-Taste</td><td>Ebene 1</td><td>26</td><td>/</td><td>/</td><td>/</td><td rowspan="2">78</td><td rowspan="2">2</td></tr>
-<tr><td>Ebenen 2–3</td><td>52</td><td>/</td><td>/</td><td>/</td></tr>
-<tr><td rowspan="2">Zwei-Tasten</td><td>Ebene 1</td><td>662</td><td>1</td><td>10</td><td>3</td><td rowspan="2">2028</td><td rowspan="2">3</td></tr>
-<tr><td>Ebenen 2–3</td><td>1236</td><td>27</td><td>56</td><td>33</td></tr>
-<tr><td rowspan="2">Drei-Tasten</td><td>Ebene 1</td><td>3928</td><td>7315</td><td>3139</td><td>2585</td><td rowspan="2">47563</td><td rowspan="2">4</td></tr>
-<tr><td>Ebenen 2–3</td><td>2062</td><td>14060</td><td>7050</td><td>7424</td></tr>
-<tr><td rowspan="3">Vier-Tasten</td><td>Direkteingabe</td><td>4873</td><td>47099</td><td>23332</td><td>36328</td><td>111632</td><td>4</td></tr>
-<tr><td>Ebenen 2–3</td><td>608</td><td>17138</td><td>11946</td><td>13446</td><td>43138</td><td>5</td></tr>
-<tr><td>Ebenen 4–5</td><td>29</td><td>2159</td><td>1869</td><td>1641</td><td>5698</td><td>5</td></tr>
-<tr><td colspan="2">Insgesamt</td><td>13476</td><td>87799</td><td>47402</td><td>61460</td><td colspan="2">210137</td></tr>
+<tr><td>1 Taste</td><td>26</td><td>5</td><td>130</td></tr>
+<tr><td>2 Tasten</td><td>676</td><td>5</td><td>3,380</td></tr>
+<tr><td>3 Tasten</td><td>17,576</td><td>5</td><td>87,880</td></tr>
+<tr><td>4 Tasten</td><td>456,976</td><td>10</td><td>4,569,760</td></tr>
+<tr><td>Insgesamt</td><td>475,254</td><td>—</td><td>4,661,150</td></tr>
 </tbody>
 </table></div>
 
-Wandelt man die vorherige Tabelle in eine Codehäufigkeitstabelle um, erhält man Prozentanteile — den Auslastungsgrad des Coderaums jeder Ebene (tatsächliche Codes ÷ mögliche Codes dieser Ebene).
+## Kandidatenzahl und Auslastung nach Codelänge
+
+Die folgende Tabelle zählt die codierten Einträge nach Codelänge, Kandidatenposition und Länge des Zeichens oder Worts. Der erste Kandidat ist die erste Auswahl jeder belegten Codegruppe. Unter den ersten Kandidaten mit vier Tasten erfüllen nur Einträge ohne weitere Kandidaten unter demselben Code die Voraussetzung für eine direkte Übernahme nach vier Anschlägen. Die Kandidaten an den Positionen zwei bis fünf und sechs bis zehn werden getrennt aufgeführt, damit sich der Bedarf an Kandidatenauswahl und Umblättern beurteilen lässt.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Tasten</th><th>Kandidatenebene</th><th>Einzelzeichen</th><th>2 Z.</th><th>3 Z.</th><th>≥4 Z.</th><th>Gesamt</th></tr></thead>
+<caption>Statistik der codierten Kandidateneinträge</caption>
+<thead><tr><th>Codelänge</th><th>Kandidatenposition</th><th>Einzelzeichen</th><th>Wörter mit 2 Zeichen</th><th>Wörter mit 3 Zeichen</th><th>Wörter mit ≥4 Zeichen</th><th>Insgesamt</th></tr></thead>
 <tbody>
-<tr><td rowspan="2">Ein-Taste</td><td>Ebene 1</td><td>100,00 %</td><td>/</td><td>/</td><td>/</td><td>100,00 %</td></tr>
-<tr><td>Ebenen 2–3</td><td>100,00 %</td><td>/</td><td>/</td><td>/</td><td>100,00 %</td></tr>
-<tr><td rowspan="2">Zwei-Tasten</td><td>Ebene 1</td><td>97,93 %</td><td>0,15 %</td><td>1,48 %</td><td>0,44 %</td><td>100,00 %</td></tr>
-<tr><td>Ebenen 2–3</td><td>91,42 %</td><td>2,00 %</td><td>4,14 %</td><td>2,44 %</td><td>100,00 %</td></tr>
-<tr><td rowspan="2">Drei-Tasten</td><td>Ebene 1</td><td>22,35 %</td><td>41,62 %</td><td>17,86 %</td><td>14,71 %</td><td>96,54 %</td></tr>
-<tr><td>Ebenen 2–3</td><td>5,87 %</td><td>40,00 %</td><td>20,06 %</td><td>21,12 %</td><td>87,04 %</td></tr>
-<tr><td rowspan="2">Vier-Tasten</td><td>Ebene 1</td><td>1,07 %</td><td>10,31 %</td><td>5,11 %</td><td>7,95 %</td><td>24,43 %</td></tr>
-<tr><td>Ebenen 2–3</td><td>0,07 %</td><td>1,88 %</td><td>1,31 %</td><td>1,47 %</td><td>4,72 %</td></tr>
+<tr><td>1 Taste</td><td>Erster Kandidat</td><td>26</td><td>0</td><td>0</td><td>0</td><td>26</td></tr>
+<tr><td>1 Taste</td><td>Positionen 2–5</td><td>104</td><td>0</td><td>0</td><td>0</td><td>104</td></tr>
+<tr><td>2 Tasten</td><td>Erster Kandidat</td><td>601</td><td>7</td><td>51</td><td>17</td><td>676</td></tr>
+<tr><td>2 Tasten</td><td>Positionen 2–5</td><td>1,228</td><td>878</td><td>357</td><td>241</td><td>2,704</td></tr>
+<tr><td>3 Tasten</td><td>Erster Kandidat</td><td>2,795</td><td>7,945</td><td>3,792</td><td>2,740</td><td>17,272</td></tr>
+<tr><td>3 Tasten</td><td>Positionen 2–5</td><td>2,645</td><td>31,781</td><td>17,477</td><td>11,034</td><td>62,937</td></tr>
+<tr><td>4 Tasten</td><td>Erster Kandidat</td><td>5,345</td><td>96,541</td><td>37,888</td><td>26,307</td><td>166,081</td></tr>
+<tr><td>4 Tasten</td><td>Positionen 2–5</td><td>1,288</td><td>81,063</td><td>31,894</td><td>9,436</td><td>123,681</td></tr>
+<tr><td>4 Tasten</td><td>Positionen 6–10</td><td>93</td><td>11,718</td><td>4,214</td><td>540</td><td>16,565</td></tr>
+<tr><td>Insgesamt</td><td></td><td>14,125</td><td>229,933</td><td>95,673</td><td>50,315</td><td>390,046</td></tr>
 </tbody>
 </table></div>
 
-Aus der Tabelle geht hervor: Der Ein-Tasten-Raum ist zu 100 % ausgelastet; der Zwei-Tasten-Raum erreicht sowohl auf Ebene 1 als auch auf den Ebenen 2–3 100 % (jedem Code sind alle drei Kandidatenebenen zugeordnet); der Drei-Tasten-Raum zu 96,54 % auf Ebene 1 und 87,04 % auf den Ebenen 2–3, was auf eine vollständige Nutzung des Kurzcoderaums hinweist. Die Auslastung des Vier-Tasten-Raums ist vergleichsweise gering (Ebene 1: 24,43 %; Ebenen 2–3: 4,72 %), das heißt, der Vier-Tasten-Coderaum (26⁴=456 976) übersteigt den tatsächlichen Bedarf bei weitem, und Kollisionen sind äußerst selten. In den Drei-Tasten-Zeilen machen Wörter einen beträchtlichen Anteil aus (2 Z.: 41,62 %; 3 Z.: 17,86 %; ≥4 Z.: 14,71 %), das heißt, auch die gebräuchlichsten mehrzeichenigen Wörter erhalten einen Drei-Tasten-Kurzcode. In der Regel genügen zwei bis vier Anschläge für die Eingabe der ganz überwiegenden Mehrheit der Zeichen und Wörter: Die Eingabeeffizienz ist sehr hoch.
-
-Eine Analyse der Kollisionshäufigkeit nach Codelänge findet sich in der folgenden Tabelle. Alle 26 Ein-Tasten-Codes werden genutzt; alle 676 Zwei-Tasten-Codes enthalten Kollisionen, da ihnen alle drei Kandidatenebenen zugeordnet sind, wobei die maximale Kollision jedoch nur 3 beträgt; bei den Drei-Tasten-Codes beträgt der Anteil ohne Kollisionen 6,27 %, die maximale Kollision 3; bei den Vier-Tasten-Codes erreicht er 71,0 %, und die maximale Kollision beträgt lediglich 5. Insgesamt nutzen 162 000 Zeichen und Wörter nur rund 129 000 Codes, und man muss nie umblättern: Die Kollisionskontrolle ist hervorragend.
-
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Länge</th><th>Eindeutige Codes</th><th>Codes ohne Kollision</th><th>Anteil ohne Kollision</th><th>Gruppen mit Kollision</th><th>Max. Kollisionen</th><th>Einträge gesamt</th></tr></thead>
+<caption>Auslastung der Kandidatenpositionen nach Bereich</caption>
+<thead><tr><th>Codelänge</th><th>Erster Kandidat</th><th>Kandidaten 2–5</th><th>Kandidaten 6–10</th><th>Alle Positionen</th></tr></thead>
 <tbody>
-<tr><td>1 Taste</td><td>26</td><td>0</td><td>0,00 %</td><td>26</td><td>3</td><td>78</td></tr>
-<tr><td>2 Tasten</td><td>676</td><td>0</td><td>0,00 %</td><td>676</td><td>3</td><td>2028</td></tr>
-<tr><td>3 Tasten</td><td>16967</td><td>1064</td><td>6,27 %</td><td>15903</td><td>3</td><td>47563</td></tr>
-<tr><td>4 Tasten</td><td>111632</td><td>79264</td><td>71,00 %</td><td>32368</td><td>5</td><td>160468</td></tr>
+<tr><td>1 Taste</td><td>100.00%</td><td>100.00%</td><td>—</td><td>100.00%</td></tr>
+<tr><td>2 Tasten</td><td>100.00%</td><td>100.00%</td><td>—</td><td>100.00%</td></tr>
+<tr><td>3 Tasten</td><td>98.27%</td><td>89.52%</td><td>—</td><td>91.27%</td></tr>
+<tr><td>4 Tasten</td><td>36.34%</td><td>6.77%</td><td>0.72%</td><td>6.70%</td></tr>
 </tbody>
 </table></div>
 
-Eine Analyse der durchschnittlichen, nach Häufigkeit gewichteten Anschlagszahl folgt unten. Der Gesamtdurchschnitt liegt bei nur 4,05 Anschlägen, für Einzelzeichen bei nur 2,82: Das bedeutet, dass die meisten hochfrequenten Zeichen kurze Codes erhalten haben und die Eingabeeffizienz äußerst hoch ist. Die durchschnittliche Anschlagszahl für jede Wortkategorie liegt im Bereich 4,0–4,1, was die Gleichmäßigkeit der Codeverteilung widerspiegelt.
+## Code-Kollisionen und Voraussetzungen für die direkte Übernahme mit vier Tasten
 
-| Kategorie | Einzelzeichen | 2 Z. | 3 Z. | ≥4 Z. | Gesamt |
-|---|---|---|---|---|---|
-| Ø Anschläge | 2,82 | 4,04 | 4,11 | 4,09 | 4,05 |
-
-Eine Statistik zur Codetabelle aller Einzelzeichen folgt unten. Man erkennt, dass die Codeverteilung über die Ebenen für alle Tasten recht gleichmäßig ist, und in der Spalte „Insgesamt" weisen die Tasten der Kernzone „米人" — „EDC—SDFG—HJKL—I" — die größten Werte auf, ganz wie vom Konzept vorgesehen.
+„Gruppen mit einem Kandidaten“ bezeichnet in der folgenden Tabelle Codegruppen, denen nur ein einziger Kandidat zugeordnet ist. Ihr Anteil wird auf die belegten Codegruppen der jeweiligen Codelänge bezogen. In Gruppen mit Code-Kollisionen muss auch der erste Kandidat von den anderen unterschieden werden; daher dürfen nicht alle ersten Kandidaten als direkt übernommene Einträge gezählt werden.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Taste</th><th>1 Taste</th><th>2 Tasten</th><th>3 Tasten</th><th>4 Tasten</th><th>Phonet. Erg.</th><th>Insgesamt</th></tr></thead>
+<caption>Code-Kollisionen nach Codelänge</caption>
+<thead><tr><th>Codelänge</th><th>Belegte Codegruppen</th><th>Gruppen mit einem Kandidaten</th><th>Anteil mit einem Kandidaten</th><th>Gruppen mit Code-Kollisionen</th><th>Max. Kandidatenzahl</th><th>Eintragszahl</th></tr></thead>
 <tbody>
-<tr><td>A</td><td>156</td><td>86</td><td>86</td><td>32</td><td>32</td><td>392</td></tr>
-<tr><td>B</td><td>116</td><td>151</td><td>159</td><td>93</td><td>178</td><td>697</td></tr>
-<tr><td><strong>C</strong></td><td>155</td><td>369</td><td>308</td><td>84</td><td>220</td><td><strong>1136</strong></td></tr>
-<tr><td><strong>D</strong></td><td>215</td><td>370</td><td>386</td><td>172</td><td>164</td><td><strong>1307</strong></td></tr>
-<tr><td><strong>E</strong></td><td>377</td><td>295</td><td>274</td><td>156</td><td>34</td><td><strong>1136</strong></td></tr>
-<tr><td><strong>F</strong></td><td>325</td><td>491</td><td>359</td><td>93</td><td>147</td><td><strong>1415</strong></td></tr>
-<tr><td><strong>G</strong></td><td>255</td><td>375</td><td>252</td><td>253</td><td>182</td><td><strong>1317</strong></td></tr>
-<tr><td><strong>H</strong></td><td>491</td><td>276</td><td>117</td><td>32</td><td>170</td><td><strong>1086</strong></td></tr>
-<tr><td><strong>I</strong></td><td>333</td><td>366</td><td>286</td><td>170</td><td>0</td><td><strong>1155</strong></td></tr>
-<tr><td><strong>J</strong></td><td>359</td><td>300</td><td>226</td><td>117</td><td>327</td><td><strong>1329</strong></td></tr>
-<tr><td><strong>K</strong></td><td>365</td><td>335</td><td>474</td><td>218</td><td>123</td><td><strong>1515</strong></td></tr>
-<tr><td><strong>L</strong></td><td>269</td><td>348</td><td>339</td><td>183</td><td>264</td><td><strong>1403</strong></td></tr>
-<tr><td>M</td><td>309</td><td>173</td><td>196</td><td>137</td><td>166</td><td>981</td></tr>
-<tr><td>N</td><td>235</td><td>231</td><td>196</td><td>94</td><td>92</td><td>848</td></tr>
-<tr><td>O</td><td>204</td><td>222</td><td>124</td><td>84</td><td>7</td><td>641</td></tr>
-<tr><td>P</td><td>169</td><td>216</td><td>199</td><td>221</td><td>128</td><td>933</td></tr>
-<tr><td>Q</td><td>252</td><td>135</td><td>153</td><td>130</td><td>193</td><td>863</td></tr>
-<tr><td>R</td><td>323</td><td>313</td><td>172</td><td>53</td><td>61</td><td>922</td></tr>
-<tr><td><strong>S</strong></td><td>243</td><td>273</td><td>306</td><td>70</td><td>256</td><td><strong>1148</strong></td></tr>
-<tr><td>T</td><td>288</td><td>227</td><td>38</td><td>3</td><td>151</td><td>707</td></tr>
-<tr><td>U</td><td>215</td><td>265</td><td>82</td><td>13</td><td>0</td><td>575</td></tr>
-<tr><td>V</td><td>411</td><td>142</td><td>179</td><td>167</td><td>0</td><td>899</td></tr>
-<tr><td>W</td><td>253</td><td>269</td><td>172</td><td>101</td><td>128</td><td>923</td></tr>
-<tr><td>X</td><td>177</td><td>127</td><td>151</td><td>48</td><td>240</td><td>743</td></tr>
-<tr><td>Y</td><td>149</td><td>209</td><td>98</td><td>15</td><td>343</td><td>814</td></tr>
-<tr><td>Z</td><td>131</td><td>64</td><td>105</td><td>89</td><td>340</td><td>729</td></tr>
+<tr><td>1 Taste</td><td>26</td><td>0</td><td>0.00%</td><td>26</td><td>5</td><td>130</td></tr>
+<tr><td>2 Tasten</td><td>676</td><td>0</td><td>0.00%</td><td>676</td><td>5</td><td>3,380</td></tr>
+<tr><td>3 Tasten</td><td>17,272</td><td>503</td><td>2.91%</td><td>16,769</td><td>5</td><td>80,209</td></tr>
+<tr><td>4 Tasten</td><td>166,081</td><td>104,826</td><td>63.12%</td><td>61,255</td><td>10</td><td>306,327</td></tr>
+</tbody>
+</table></div>
+
+## Nach Häufigkeit gewichtete Schätzung der minimalen Anschlagszahl
+
+<div class="table-wrap"><table class="fs-table stats">
+<caption>Nach Häufigkeit gewichtete Anschlagszahl, geschätzt anhand des kürzesten Eingabewegs je Zeichen oder Wort</caption>
+<thead><tr><th>Kategorie</th><th>Einzelzeichen</th><th>Wörter mit 2 Zeichen</th><th>Wörter mit 3 Zeichen</th><th>Wörter mit ≥4 Zeichen</th><th>Gesamt</th></tr></thead>
+<tbody>
+<tr><td>Anschläge pro Zeichen oder Wort</td><td>2.66</td><td>3.71</td><td>3.97</td><td>3.99</td><td>2.95</td></tr>
+<tr><td>Anschläge pro ausgegebenem Zeichen</td><td>2.66</td><td>1.85</td><td>1.32</td><td>0.99</td><td>2.23</td></tr>
+</tbody>
+</table></div>
+
+## Tastenverteilung der grundlegenden Einzelzeichen
+
+Die folgende Tabelle enthält die Statistik zur Codetabelle aller Einzelzeichen. Die Verteilung über die Codepositionen ist für alle Tasten recht gleichmäßig. In der Spalte „Insgesamt“ weisen die Tasten der Kernzone „米人“ — „EDC—SDFG—HJKL—I“ — die höchsten Werte auf, wie vom Konzept vorgesehen.
+
+<div class="table-wrap"><table class="fs-table stats">
+<caption>Verteilung der Formcodepositionen und phonetischen Ergänzungen nach Hauptaussprache für grundlegende Einzelzeichen</caption>
+<thead><tr><th>Taste</th><th>1. Grundzeichen</th><th>2. Grundzeichen</th><th>3. Grundzeichen</th><th>4. Grundzeichen</th><th>Phonetische Ergänzung</th><th>Insgesamt</th></tr></thead>
+<tbody>
+<tr><td>A</td><td>207</td><td>101</td><td>107</td><td>34</td><td>36</td><td>485</td></tr>
+<tr><td>B</td><td>130</td><td>173</td><td>195</td><td>134</td><td>217</td><td>849</td></tr>
+<tr><td>C</td><td>179</td><td>444</td><td>392</td><td>114</td><td>252</td><td>1,381</td></tr>
+<tr><td>D</td><td>238</td><td>443</td><td>467</td><td>213</td><td>194</td><td>1,555</td></tr>
+<tr><td>E</td><td>476</td><td>368</td><td>342</td><td>205</td><td>35</td><td>1,426</td></tr>
+<tr><td>F</td><td>482</td><td>615</td><td>450</td><td>124</td><td>166</td><td>1,837</td></tr>
+<tr><td>G</td><td>335</td><td>455</td><td>315</td><td>321</td><td>216</td><td>1,642</td></tr>
+<tr><td>H</td><td>600</td><td>339</td><td>150</td><td>46</td><td>200</td><td>1,335</td></tr>
+<tr><td>I</td><td>396</td><td>451</td><td>345</td><td>206</td><td>0</td><td>1,398</td></tr>
+<tr><td>J</td><td>385</td><td>351</td><td>274</td><td>151</td><td>381</td><td>1,542</td></tr>
+<tr><td>K</td><td>401</td><td>393</td><td>589</td><td>282</td><td>141</td><td>1,806</td></tr>
+<tr><td>L</td><td>311</td><td>400</td><td>421</td><td>218</td><td>299</td><td>1,649</td></tr>
+<tr><td>M</td><td>384</td><td>213</td><td>247</td><td>174</td><td>186</td><td>1,204</td></tr>
+<tr><td>N</td><td>273</td><td>292</td><td>244</td><td>117</td><td>106</td><td>1,032</td></tr>
+<tr><td>O</td><td>269</td><td>264</td><td>158</td><td>112</td><td>10</td><td>813</td></tr>
+<tr><td>P</td><td>209</td><td>265</td><td>233</td><td>280</td><td>153</td><td>1,140</td></tr>
+<tr><td>Q</td><td>308</td><td>164</td><td>197</td><td>179</td><td>234</td><td>1,082</td></tr>
+<tr><td>R</td><td>372</td><td>378</td><td>209</td><td>66</td><td>68</td><td>1,093</td></tr>
+<tr><td>S</td><td>296</td><td>359</td><td>397</td><td>95</td><td>284</td><td>1,431</td></tr>
+<tr><td>T</td><td>322</td><td>269</td><td>53</td><td>3</td><td>175</td><td>822</td></tr>
+<tr><td>U</td><td>238</td><td>328</td><td>108</td><td>14</td><td>0</td><td>688</td></tr>
+<tr><td>V</td><td>542</td><td>168</td><td>208</td><td>226</td><td>0</td><td>1,144</td></tr>
+<tr><td>W</td><td>284</td><td>345</td><td>196</td><td>123</td><td>155</td><td>1,103</td></tr>
+<tr><td>X</td><td>208</td><td>156</td><td>185</td><td>67</td><td>294</td><td>910</td></tr>
+<tr><td>Y</td><td>198</td><td>257</td><td>121</td><td>21</td><td>398</td><td>995</td></tr>
+<tr><td>Z</td><td>171</td><td>73</td><td>123</td><td>113</td><td>376</td><td>856</td></tr>
+<tr><td>Insgesamt</td><td>8,214</td><td>8,064</td><td>6,726</td><td>3,638</td><td>4,576</td><td>31,218</td></tr>
 </tbody>
 </table></div>
 
 ## Gesamtbewertung der Codierung
 
-Aus der durchgeführten Analyse geht hervor, dass die Fengshui-Eingabemethode „Form-Phonetic" folgende nennenswerte Vorzüge besitzt:
+Aus der durchgeführten Analyse geht hervor, dass die Fengshui Form-Phonetic-Eingabemethode folgende nennenswerte Vorzüge besitzt:
 
-- **Großes Wörterbuch**: umfasst 6 775 Einzelzeichen und über 155 000 Wörter — insgesamt 162 000 Einträge — und deckt die ganz überwiegende Mehrheit der für die alltägliche Eingabe benötigten Zeichen und Wörter ab.
-- **Hohe Kurzcodeauslastung**: Ein-Tasten — 100 %, Zwei-Tasten mit vollständigem Satz aller drei Kandidatenebenen — 100 %, Drei-Tasten: Ebene 1 96,5 %, Ebenen 2–3 — 87,0 %; der Kurzcoderaum wird voll ausgeschöpft.
-- **Ausgezeichnete Kollisionskontrolle**: Der Anteil der Vier-Tasten-Codes ohne Kollisionen erreicht 71,0 %, die maximale Kollision beträgt lediglich 5; Umblättern ist nie nötig.
-- **Hohe Anschlagseffizienz**: Die nach Häufigkeit gewichtete durchschnittliche Anschlagszahl liegt bei nur 4,05, für Einzelzeichen bei nur 2,82; hochfrequente Zeichen haben kurze Codes erhalten.
-- **Gleichmäßige Verteilung über die Tasten**: Die 26 Buchstabentasten sind recht gleichmäßig über die Codepositionen verteilt, und die Kern-Tastaturzone (EDC—SDFG—HJKL—I) wird am häufigsten genutzt, was dem ergonomischen Konzept entspricht.
+- **Großes Wörterbuch**: Es umfasst 8,214 Einzelzeichen und 300,239 Wörter, insgesamt 308,453 unterschiedliche Zeichen und Wörter, und deckt die ganz überwiegende Mehrheit der für die alltägliche Eingabe benötigten Zeichen und Wörter ab.
+- **Hohe Kurzcodeauslastung**: Die Auslastung bei einer Taste beträgt 100 %, bei zwei Tasten ebenfalls 100 %. Bei drei Tasten liegt sie für die erste Kandidatenposition bei 98.27 % und für die Positionen zwei bis fünf bei 89.52 %. Der Kurzcoderaum wird umfassend genutzt.
+- **Vorrang für häufige Einträge**: Häufige Zeichen und Wörter werden bevorzugt.
+- **Hohe Anschlagseffizienz**: Die nach Häufigkeit gewichtete minimale Anschlagszahl beträgt für Einzelzeichen 2.66 und für alle Zeichen und Wörter 2.95. Häufige Zeichen und Wörter erhalten Kurzcodes.
+- **Gleichmäßige Verteilung über die Tasten**: Die 26 Buchstabentasten sind recht gleichmäßig über die Codepositionen verteilt. Die Kern-Tastaturzone (EDC—SDFG—HJKL—I) wird am häufigsten genutzt, was dem ergonomischen Konzept entspricht.

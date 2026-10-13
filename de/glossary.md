@@ -37,7 +37,7 @@ Ein zweisprachiges Glossar der Schlüsselbegriffe, die in diesem Tutorial verwen
 | 音补 / 补码 | phonetische Ergänzung | Ein phonetischer Code als letzte identifizierende Taste |
 | 空格上屏 | Leertaste zum Bestätigen | Die Auswahl mit der Leertaste bestätigen |
 | 末码 | letzter Code | Die letzte Taste eines Codes |
-| 词库 | Wörterbuch / Wortliste | Das eingebaute Wörterbuch (157 000 Wörter) |
+| 词库 | Wörterbuch / Wortliste | Das eingebaute Wörterbuch (ungefähr 390,000 codierte Kandidateneinträge) |
 
 ## Kultur & Tastaturbelegung
 
