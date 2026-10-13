@@ -37,7 +37,7 @@ Un glosario bilingüe de los términos clave que aparecen en este tutorial. Los 
 | 音补 / 补码 | suplemento fonético | Un código fonético que sirve como tecla final identificadora |
 | 空格上屏 | pulsar Espacio para confirmar | Confirmar la selección con la barra espaciadora |
 | 末码 | código final | La última tecla de un código |
-| 词库 | diccionario / lista de palabras | El diccionario integrado de 157 000 palabras |
+| 词库 | diccionario / lista de palabras | El diccionario integrado de aproximadamente 390,000 entradas de candidatos codificados |
 
 ## Cultura y disposición
 

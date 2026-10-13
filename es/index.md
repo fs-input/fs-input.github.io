@@ -34,7 +34,7 @@ has_toc: false
 
 El **método de entrada Fengshui forma-fonética** (风水形音输入法, abreviado como «método Fengshui») se ha desarrollado combinando las ideas de diseño de los métodos de entrada chinos más avanzados. Supera los inconvenientes de los métodos tradicionales Pinyin y Wubi —difíciles de aprender y de usar— y absorbe la disposición de radicales según el glifo «米» (arroz) y la idea de usar un código fonético como tecla final de identificación del «Wubi moderno», junto con el amplio catálogo de radicales y el gran diccionario del Wubi 091. Es un método de entrada de chino simplificado pensado para el mayor público posible.
 
-Su cobertura de caracteres individuales abarca por completo la *Tabla de caracteres chinos estándar generales*: **8 105** caracteres en total (3 500 de nivel 1 de uso frecuente, 3 000 de nivel 2 de uso menos frecuente y 1 605 de nivel 3 especializados), además de un diccionario de hasta **157 000 palabras**.
+Su cobertura de caracteres individuales abarca por completo la *Tabla de caracteres chinos estándar generales*: **8 105** caracteres en total (3 500 de nivel 1 de uso frecuente, 3 000 de nivel 2 de uso menos frecuente y 1 605 de nivel 3 especializados), además de un diccionario de aproximadamente **390,000 entradas de candidatos codificados**.
 
 La tabla de radicales se basa en la estructura de los glifos **米 (arroz) / 人 (persona)** y combina el *I Ching*, el *Yin-Yang y los Cinco Elementos* con la pictografía alfabética, entretejiendo además aves y bestias, elementos naturales, partes del cuerpo y puntos cardinales. No solo es fácil de memorizar, sino que —se dice— aporta una prosperidad duradera al usuario y a sus descendientes: una obra maestra que funde la descomposición de los caracteres chinos con la filosofía tradicional china.
 
@@ -42,7 +42,7 @@ La tabla de radicales se basa en la estructura de los glifos **米 (arroz) / 人
 
 - Una tabla de radicales dispuesta según el Feng Shui
 - Descomposición sencilla: ningún carácter es difícil de dividir
-- Un diccionario amplio (157 000 palabras)
+- Un diccionario amplio (aproximadamente 390,000 entradas de candidatos codificados)
 - Códigos de forma como base, códigos fonéticos como complemento
 - Tres niveles de palabras candidatas, al alcance de los dedos
 - Escritura precisa, dominio de todo el teclado

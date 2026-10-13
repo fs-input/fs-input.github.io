@@ -25,7 +25,7 @@ permalink: /es/appendix-a-install/
 
    - `default.yaml` — ajustes predeterminados del método de entrada
    - `weasel.yaml` — ajustes de la interfaz del método de entrada
-   - `geomancy.dict.yaml` — diccionario del método Fengshui (157 000 palabras)
+   - `geomancy.dict.yaml` — diccionario del método Fengshui (aproximadamente 390,000 entradas de candidatos codificados)
    - `geomancy.extended.dict.yaml` — diccionario personalizado del usuario
    - `geomancy.schema.yaml` — ajustes de funcionamiento del método Fengshui
 

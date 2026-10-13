@@ -11,103 +11,117 @@ permalink: /es/05-statistics/
 # Estadísticas y análisis de codificación
 {: .fs-8 }
 
-Según el cálculo combinatorio: los caracteres de una tecla tienen como máximo 26 combinaciones, los de dos teclas como máximo 26×26=676, los de tres teclas como máximo 26³=17 576 y los de cuatro teclas como máximo 26⁴=456 976, en total unas 470 000 combinaciones. Al configurar tres niveles de teclas candidatas, el número de combinaciones de códigos se amplía aún más.
+La tabla de códigos actual contiene 308,453 caracteres y palabras distintos: 8,214 caracteres individuales, 189,571 palabras de dos caracteres, 74,312 palabras de tres caracteres y 36,356 palabras de cuatro o más caracteres. Corresponden a 390,046 entradas de candidatos codificados y 184,055 grupos de código en uso.
 
-|  | Candidato de nivel 1 | Candidato de nivel 3 |
-|---|---|---|
-| Una tecla | 26 | 78 |
-| Dos teclas | 676 | 2028 |
-| Tres teclas | 17576 | 52728 |
-| Cuatro teclas | 450 000 | 1 370 000 |
-| **Total** | **470 000** | **1 420 000** |
+## Tamaño del diccionario y espacio de codificación
 
-Un sitio web de análisis de corpus realizó estadísticas sobre 20 millones de caracteres: los 5 700 caracteres individuales más usados representan nada menos que el 99,98 %, y las 15 000 palabras más usadas, el 90,4 %. Al configurar tres niveles de teclas candidatas, los caracteres de tres teclas ofrecen por sí solos unas 52 700 combinaciones, más que suficientes para cubrir los caracteres y palabras habituales.
-
-El diccionario del método Fengshui incorpora casi 155 000 entradas, suficientes para las necesidades de escritura diaria de la gran mayoría de las personas. Las estadísticas detalladas de códigos se muestran a continuación.
+Las 26 letras forman el espacio de codificación de una a cuatro teclas, con 26ⁿ combinaciones de letras para cada longitud de código. Las posiciones de los candidatos permiten que varios caracteres o palabras compartan un mismo código, pero no aumentan el número de códigos de letras distintos. Actualmente, los códigos de una, dos y tres teclas conservan por defecto cinco candidatos cada uno, y los de cuatro teclas, diez; siempre se conserva el código completo de cada carácter individual. La siguiente tabla muestra el número total de posiciones de candidatos con esta capacidad predeterminada.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Teclas</th><th>Nivel de candidato</th><th>Carácter simple</th><th>2 car.</th><th>3 car.</th><th>≥4 car.</th><th>Subtotal</th><th>Pulsaciones</th></tr></thead>
+<caption>Espacio de códigos de letras y capacidad predeterminada de candidatos</caption>
+<thead><tr><th>Longitud del código</th><th>Número de códigos de letras</th><th>Candidatos por código por defecto</th><th>Total de posiciones de candidatos</th></tr></thead>
 <tbody>
-<tr><td rowspan="2">Una tecla</td><td>Nivel 1</td><td>26</td><td>/</td><td>/</td><td>/</td><td rowspan="2">78</td><td rowspan="2">2</td></tr>
-<tr><td>Niveles 2–3</td><td>52</td><td>/</td><td>/</td><td>/</td></tr>
-<tr><td rowspan="2">Dos teclas</td><td>Nivel 1</td><td>662</td><td>1</td><td>10</td><td>3</td><td rowspan="2">2028</td><td rowspan="2">3</td></tr>
-<tr><td>Niveles 2–3</td><td>1236</td><td>27</td><td>56</td><td>33</td></tr>
-<tr><td rowspan="2">Tres teclas</td><td>Nivel 1</td><td>3928</td><td>7315</td><td>3139</td><td>2585</td><td rowspan="2">47563</td><td rowspan="2">4</td></tr>
-<tr><td>Niveles 2–3</td><td>2062</td><td>14060</td><td>7050</td><td>7424</td></tr>
-<tr><td rowspan="3">Cuatro teclas</td><td>Confirmación directa</td><td>4873</td><td>47099</td><td>23332</td><td>36328</td><td>111632</td><td>4</td></tr>
-<tr><td>Niveles 2–3</td><td>608</td><td>17138</td><td>11946</td><td>13446</td><td>43138</td><td>5</td></tr>
-<tr><td>Niveles 4–5</td><td>29</td><td>2159</td><td>1869</td><td>1641</td><td>5698</td><td>5</td></tr>
-<tr><td colspan="2">Total</td><td>13476</td><td>87799</td><td>47402</td><td>61460</td><td colspan="2">210137</td></tr>
+<tr><td>Una tecla</td><td>26</td><td>5</td><td>130</td></tr>
+<tr><td>Dos teclas</td><td>676</td><td>5</td><td>3,380</td></tr>
+<tr><td>Tres teclas</td><td>17,576</td><td>5</td><td>87,880</td></tr>
+<tr><td>Cuatro teclas</td><td>456,976</td><td>10</td><td>4,569,760</td></tr>
+<tr><td>Total</td><td>475,254</td><td>—</td><td>4,661,150</td></tr>
 </tbody>
 </table></div>
 
-Convirtiendo la tabla anterior en una tabla de tasas de codificación, los porcentajes expresan la utilización del espacio de codificación de cada nivel (códigos reales ÷ códigos posibles en ese nivel).
+## Número de candidatos y utilización por longitud de código
+
+La siguiente tabla cuenta las entradas codificadas según la longitud del código, la posición del candidato y el número de caracteres de cada carácter o palabra. El primer candidato es la primera opción de cada grupo de código en uso; entre los primeros candidatos de cuatro teclas, solo las entradas cuyo código no tiene otros candidatos reúnen las condiciones para confirmarse directamente con cuatro pulsaciones. Los candidatos de las posiciones segunda a quinta y sexta a décima se presentan por separado para facilitar la evaluación de las necesidades de selección de palabras y cambio de página.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Teclas</th><th>Nivel de candidato</th><th>Carácter simple</th><th>2 car.</th><th>3 car.</th><th>≥4 car.</th><th>Total</th></tr></thead>
+<caption>Estadísticas de entradas de candidatos codificados</caption>
+<thead><tr><th>Longitud del código</th><th>Posición del candidato</th><th>Carácter individual</th><th>Palabra de 2 caracteres</th><th>Palabra de 3 caracteres</th><th>Palabra de ≥4 caracteres</th><th>Total</th></tr></thead>
 <tbody>
-<tr><td rowspan="2">Una tecla</td><td>Nivel 1</td><td>100,00 %</td><td>/</td><td>/</td><td>/</td><td>100,00 %</td></tr>
-<tr><td>Niveles 2–3</td><td>100,00 %</td><td>/</td><td>/</td><td>/</td><td>100,00 %</td></tr>
-<tr><td rowspan="2">Dos teclas</td><td>Nivel 1</td><td>97,93 %</td><td>0,15 %</td><td>1,48 %</td><td>0,44 %</td><td>100,00 %</td></tr>
-<tr><td>Niveles 2–3</td><td>91,42 %</td><td>2,00 %</td><td>4,14 %</td><td>2,44 %</td><td>100,00 %</td></tr>
-<tr><td rowspan="2">Tres teclas</td><td>Nivel 1</td><td>22,35 %</td><td>41,62 %</td><td>17,86 %</td><td>14,71 %</td><td>96,54 %</td></tr>
-<tr><td>Niveles 2–3</td><td>5,87 %</td><td>40,00 %</td><td>20,06 %</td><td>21,12 %</td><td>87,04 %</td></tr>
-<tr><td rowspan="2">Cuatro teclas</td><td>Nivel 1</td><td>1,07 %</td><td>10,31 %</td><td>5,11 %</td><td>7,95 %</td><td>24,43 %</td></tr>
-<tr><td>Niveles 2–3</td><td>0,07 %</td><td>1,88 %</td><td>1,31 %</td><td>1,47 %</td><td>4,72 %</td></tr>
+<tr><td>Una tecla</td><td>Primer candidato</td><td>26</td><td>0</td><td>0</td><td>0</td><td>26</td></tr>
+<tr><td>Una tecla</td><td>Segundo a quinto</td><td>104</td><td>0</td><td>0</td><td>0</td><td>104</td></tr>
+<tr><td>Dos teclas</td><td>Primer candidato</td><td>601</td><td>7</td><td>51</td><td>17</td><td>676</td></tr>
+<tr><td>Dos teclas</td><td>Segundo a quinto</td><td>1,228</td><td>878</td><td>357</td><td>241</td><td>2,704</td></tr>
+<tr><td>Tres teclas</td><td>Primer candidato</td><td>2,795</td><td>7,945</td><td>3,792</td><td>2,740</td><td>17,272</td></tr>
+<tr><td>Tres teclas</td><td>Segundo a quinto</td><td>2,645</td><td>31,781</td><td>17,477</td><td>11,034</td><td>62,937</td></tr>
+<tr><td>Cuatro teclas</td><td>Primer candidato</td><td>5,345</td><td>96,541</td><td>37,888</td><td>26,307</td><td>166,081</td></tr>
+<tr><td>Cuatro teclas</td><td>Segundo a quinto</td><td>1,288</td><td>81,063</td><td>31,894</td><td>9,436</td><td>123,681</td></tr>
+<tr><td>Cuatro teclas</td><td>Sexto a décimo</td><td>93</td><td>11,718</td><td>4,214</td><td>540</td><td>16,565</td></tr>
+<tr><td>Total</td><td></td><td>14,125</td><td>229,933</td><td>95,673</td><td>50,315</td><td>390,046</td></tr>
 </tbody>
 </table></div>
 
-De la tabla se desprende: el espacio de una tecla está aprovechado al 100 %; el de dos teclas alcanza el 100 % tanto en el nivel 1 como en los niveles 2–3 (cada código lleva asignados los tres niveles de candidatos); el de tres teclas tiene una utilización del 96,54 % en el nivel 1 y del 87,04 % en los niveles 2–3, lo que indica que el espacio de códigos cortos está plenamente aprovechado. La utilización del espacio de cuatro teclas es relativamente baja (nivel 1: 24,43 %; niveles 2–3: 4,72 %), lo que significa que el espacio de codificación de cuatro teclas (26⁴=456 976) es muy superior al realmente necesario y las colisiones son escasísimas. En las filas de tres teclas, las palabras ocupan una gran proporción (2 car.: 41,62 %; 3 car.: 17,86 %; ≥4 car.: 14,71 %), lo que indica que las palabras de varios caracteres más habituales también tienen asignado un código simplificado de tres teclas. Normalmente, entre dos y cuatro pulsaciones bastan para escribir la inmensa mayoría de caracteres y palabras: la eficiencia de entrada es muy alta.
-
-El análisis de la tasa de colisión por longitud de código se muestra a continuación. Los 26 códigos de una tecla están todos en uso; los 676 códigos de dos teclas presentan todos colisión por llevar asignados los tres niveles de candidatos, con un máximo de colisión de solo 3; la tasa de cero colisiones de tres teclas es del 6,27 %, con un máximo de colisión de 3; la de cuatro teclas alcanza el 71,0 %, con un máximo de colisión de solo 5. En conjunto, 162 000 caracteres y palabras usan solo unos 129 000 códigos, sin necesidad de pasar de página en ningún momento: el control de colisiones es excelente.
-
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Longitud</th><th>Códigos únicos</th><th>Códigos sin colisión</th><th>Tasa cero colisión</th><th>Grupos con colisión</th><th>Colisión máx.</th><th>Entradas totales</th></tr></thead>
+<caption>Utilización de posiciones por intervalo de candidatos</caption>
+<thead><tr><th>Longitud del código</th><th>Primer candidato</th><th>Candidatos segundo a quinto</th><th>Candidatos sexto a décimo</th><th>Todos los intervalos</th></tr></thead>
 <tbody>
-<tr><td>1 tecla</td><td>26</td><td>0</td><td>0,00 %</td><td>26</td><td>3</td><td>78</td></tr>
-<tr><td>2 teclas</td><td>676</td><td>0</td><td>0,00 %</td><td>676</td><td>3</td><td>2028</td></tr>
-<tr><td>3 teclas</td><td>16967</td><td>1064</td><td>6,27 %</td><td>15903</td><td>3</td><td>47563</td></tr>
-<tr><td>4 teclas</td><td>111632</td><td>79264</td><td>71,00 %</td><td>32368</td><td>5</td><td>160468</td></tr>
+<tr><td>Una tecla</td><td>100.00%</td><td>100.00%</td><td>—</td><td>100.00%</td></tr>
+<tr><td>Dos teclas</td><td>100.00%</td><td>100.00%</td><td>—</td><td>100.00%</td></tr>
+<tr><td>Tres teclas</td><td>98.27%</td><td>89.52%</td><td>—</td><td>91.27%</td></tr>
+<tr><td>Cuatro teclas</td><td>36.34%</td><td>6.77%</td><td>0.72%</td><td>6.70%</td></tr>
 </tbody>
 </table></div>
 
-El análisis de la media de pulsaciones ponderada por frecuencia se muestra a continuación. La media global es de solo 4,05 pulsaciones, y de solo 2,82 para caracteres individuales, lo que indica que los caracteres de alta frecuencia llevan asignados en su mayoría códigos cortos: la eficiencia de entrada es altísima. La media de pulsaciones de cada categoría de palabras se sitúa entre 4,0 y 4,1, lo que refleja la uniformidad en la asignación de códigos.
+## Colisiones de código y condiciones de confirmación directa con cuatro teclas
 
-| Categoría | Carácter simple | 2 car. | 3 car. | ≥4 car. | Global |
-|---|---|---|---|---|---|
-| Media de pulsaciones | 2,82 | 4,04 | 4,11 | 4,09 | 4,05 |
-
-Las estadísticas de la tabla de códigos de todos los caracteres individuales se muestran a continuación. Se observa que la distribución de los códigos en los distintos niveles es bastante uniforme para todas las teclas. En la columna Total, las teclas de la zona principal «米人» —«EDC—SDFG—HJKL—I»— presentan los valores más altos, tal y como dicta el diseño.
+En la siguiente tabla, un «grupo con un solo candidato» es un grupo cuyo código corresponde a un único candidato; su proporción se calcula sobre los grupos de código en uso de esa longitud. La primera opción de un grupo con colisión debe seguir distinguiéndose de los demás candidatos, por lo que no todas las primeras opciones pueden contarse como confirmaciones directas.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Tecla</th><th>1 tecla</th><th>2 teclas</th><th>3 teclas</th><th>4 teclas</th><th>Supl. fonét.</th><th>Total</th></tr></thead>
+<caption>Colisiones por longitud de código</caption>
+<thead><tr><th>Longitud del código</th><th>Grupos de código en uso</th><th>Grupos con un solo candidato</th><th>Proporción con un solo candidato</th><th>Grupos con colisión</th><th>Máximo de candidatos</th><th>Número de entradas</th></tr></thead>
 <tbody>
-<tr><td>A</td><td>156</td><td>86</td><td>86</td><td>32</td><td>32</td><td>392</td></tr>
-<tr><td>B</td><td>116</td><td>151</td><td>159</td><td>93</td><td>178</td><td>697</td></tr>
-<tr><td><strong>C</strong></td><td>155</td><td>369</td><td>308</td><td>84</td><td>220</td><td><strong>1136</strong></td></tr>
-<tr><td><strong>D</strong></td><td>215</td><td>370</td><td>386</td><td>172</td><td>164</td><td><strong>1307</strong></td></tr>
-<tr><td><strong>E</strong></td><td>377</td><td>295</td><td>274</td><td>156</td><td>34</td><td><strong>1136</strong></td></tr>
-<tr><td><strong>F</strong></td><td>325</td><td>491</td><td>359</td><td>93</td><td>147</td><td><strong>1415</strong></td></tr>
-<tr><td><strong>G</strong></td><td>255</td><td>375</td><td>252</td><td>253</td><td>182</td><td><strong>1317</strong></td></tr>
-<tr><td><strong>H</strong></td><td>491</td><td>276</td><td>117</td><td>32</td><td>170</td><td><strong>1086</strong></td></tr>
-<tr><td><strong>I</strong></td><td>333</td><td>366</td><td>286</td><td>170</td><td>0</td><td><strong>1155</strong></td></tr>
-<tr><td><strong>J</strong></td><td>359</td><td>300</td><td>226</td><td>117</td><td>327</td><td><strong>1329</strong></td></tr>
-<tr><td><strong>K</strong></td><td>365</td><td>335</td><td>474</td><td>218</td><td>123</td><td><strong>1515</strong></td></tr>
-<tr><td><strong>L</strong></td><td>269</td><td>348</td><td>339</td><td>183</td><td>264</td><td><strong>1403</strong></td></tr>
-<tr><td>M</td><td>309</td><td>173</td><td>196</td><td>137</td><td>166</td><td>981</td></tr>
-<tr><td>N</td><td>235</td><td>231</td><td>196</td><td>94</td><td>92</td><td>848</td></tr>
-<tr><td>O</td><td>204</td><td>222</td><td>124</td><td>84</td><td>7</td><td>641</td></tr>
-<tr><td>P</td><td>169</td><td>216</td><td>199</td><td>221</td><td>128</td><td>933</td></tr>
-<tr><td>Q</td><td>252</td><td>135</td><td>153</td><td>130</td><td>193</td><td>863</td></tr>
-<tr><td>R</td><td>323</td><td>313</td><td>172</td><td>53</td><td>61</td><td>922</td></tr>
-<tr><td><strong>S</strong></td><td>243</td><td>273</td><td>306</td><td>70</td><td>256</td><td><strong>1148</strong></td></tr>
-<tr><td>T</td><td>288</td><td>227</td><td>38</td><td>3</td><td>151</td><td>707</td></tr>
-<tr><td>U</td><td>215</td><td>265</td><td>82</td><td>13</td><td>0</td><td>575</td></tr>
-<tr><td>V</td><td>411</td><td>142</td><td>179</td><td>167</td><td>0</td><td>899</td></tr>
-<tr><td>W</td><td>253</td><td>269</td><td>172</td><td>101</td><td>128</td><td>923</td></tr>
-<tr><td>X</td><td>177</td><td>127</td><td>151</td><td>48</td><td>240</td><td>743</td></tr>
-<tr><td>Y</td><td>149</td><td>209</td><td>98</td><td>15</td><td>343</td><td>814</td></tr>
-<tr><td>Z</td><td>131</td><td>64</td><td>105</td><td>89</td><td>340</td><td>729</td></tr>
+<tr><td>Una tecla</td><td>26</td><td>0</td><td>0.00%</td><td>26</td><td>5</td><td>130</td></tr>
+<tr><td>Dos teclas</td><td>676</td><td>0</td><td>0.00%</td><td>676</td><td>5</td><td>3,380</td></tr>
+<tr><td>Tres teclas</td><td>17,272</td><td>503</td><td>2.91%</td><td>16,769</td><td>5</td><td>80,209</td></tr>
+<tr><td>Cuatro teclas</td><td>166,081</td><td>104,826</td><td>63.12%</td><td>61,255</td><td>10</td><td>306,327</td></tr>
+</tbody>
+</table></div>
+
+## Estimación de las pulsaciones mínimas ponderadas por frecuencia
+
+<div class="table-wrap"><table class="fs-table stats">
+<caption>Pulsaciones ponderadas por frecuencia estimadas según la ruta más corta de cada carácter o palabra</caption>
+<thead><tr><th>Categoría</th><th>Carácter individual</th><th>Palabra de 2 caracteres</th><th>Palabra de 3 caracteres</th><th>Palabra de ≥4 caracteres</th><th>Global</th></tr></thead>
+<tbody>
+<tr><td>Pulsaciones por carácter o palabra</td><td>2.66</td><td>3.71</td><td>3.97</td><td>3.99</td><td>2.95</td></tr>
+<tr><td>Pulsaciones por carácter producido</td><td>2.66</td><td>1.85</td><td>1.32</td><td>0.99</td><td>2.23</td></tr>
+</tbody>
+</table></div>
+
+## Distribución de teclas de los caracteres individuales básicos
+
+La siguiente tabla presenta las estadísticas de los códigos de todos los caracteres individuales. Se observa que la distribución de los códigos en los distintos niveles es bastante uniforme para todas las teclas. En la columna Total, las teclas de la zona principal «米人» —«EDC—SDFG—HJKL—I»— presentan los valores más altos, tal y como dicta el diseño.
+
+<div class="table-wrap"><table class="fs-table stats">
+<caption>Distribución de las posiciones del código de forma y del suplemento fonético de la pronunciación principal en los caracteres individuales básicos</caption>
+<thead><tr><th>Tecla</th><th>Primer radical</th><th>Segundo radical</th><th>Tercer radical</th><th>Cuarto radical</th><th>Suplemento fonético</th><th>Total</th></tr></thead>
+<tbody>
+<tr><td>A</td><td>207</td><td>101</td><td>107</td><td>34</td><td>36</td><td>485</td></tr>
+<tr><td>B</td><td>130</td><td>173</td><td>195</td><td>134</td><td>217</td><td>849</td></tr>
+<tr><td>C</td><td>179</td><td>444</td><td>392</td><td>114</td><td>252</td><td>1,381</td></tr>
+<tr><td>D</td><td>238</td><td>443</td><td>467</td><td>213</td><td>194</td><td>1,555</td></tr>
+<tr><td>E</td><td>476</td><td>368</td><td>342</td><td>205</td><td>35</td><td>1,426</td></tr>
+<tr><td>F</td><td>482</td><td>615</td><td>450</td><td>124</td><td>166</td><td>1,837</td></tr>
+<tr><td>G</td><td>335</td><td>455</td><td>315</td><td>321</td><td>216</td><td>1,642</td></tr>
+<tr><td>H</td><td>600</td><td>339</td><td>150</td><td>46</td><td>200</td><td>1,335</td></tr>
+<tr><td>I</td><td>396</td><td>451</td><td>345</td><td>206</td><td>0</td><td>1,398</td></tr>
+<tr><td>J</td><td>385</td><td>351</td><td>274</td><td>151</td><td>381</td><td>1,542</td></tr>
+<tr><td>K</td><td>401</td><td>393</td><td>589</td><td>282</td><td>141</td><td>1,806</td></tr>
+<tr><td>L</td><td>311</td><td>400</td><td>421</td><td>218</td><td>299</td><td>1,649</td></tr>
+<tr><td>M</td><td>384</td><td>213</td><td>247</td><td>174</td><td>186</td><td>1,204</td></tr>
+<tr><td>N</td><td>273</td><td>292</td><td>244</td><td>117</td><td>106</td><td>1,032</td></tr>
+<tr><td>O</td><td>269</td><td>264</td><td>158</td><td>112</td><td>10</td><td>813</td></tr>
+<tr><td>P</td><td>209</td><td>265</td><td>233</td><td>280</td><td>153</td><td>1,140</td></tr>
+<tr><td>Q</td><td>308</td><td>164</td><td>197</td><td>179</td><td>234</td><td>1,082</td></tr>
+<tr><td>R</td><td>372</td><td>378</td><td>209</td><td>66</td><td>68</td><td>1,093</td></tr>
+<tr><td>S</td><td>296</td><td>359</td><td>397</td><td>95</td><td>284</td><td>1,431</td></tr>
+<tr><td>T</td><td>322</td><td>269</td><td>53</td><td>3</td><td>175</td><td>822</td></tr>
+<tr><td>U</td><td>238</td><td>328</td><td>108</td><td>14</td><td>0</td><td>688</td></tr>
+<tr><td>V</td><td>542</td><td>168</td><td>208</td><td>226</td><td>0</td><td>1,144</td></tr>
+<tr><td>W</td><td>284</td><td>345</td><td>196</td><td>123</td><td>155</td><td>1,103</td></tr>
+<tr><td>X</td><td>208</td><td>156</td><td>185</td><td>67</td><td>294</td><td>910</td></tr>
+<tr><td>Y</td><td>198</td><td>257</td><td>121</td><td>21</td><td>398</td><td>995</td></tr>
+<tr><td>Z</td><td>171</td><td>73</td><td>123</td><td>113</td><td>376</td><td>856</td></tr>
+<tr><td>Total</td><td>8,214</td><td>8,064</td><td>6,726</td><td>3,638</td><td>4,576</td><td>31,218</td></tr>
 </tbody>
 </table></div>
 
@@ -115,8 +129,8 @@ Las estadísticas de la tabla de códigos de todos los caracteres individuales s
 
 A partir del análisis anterior, el método de entrada Fengshui forma-fonética presenta las siguientes ventajas destacadas:
 
-- **Diccionario amplio**: recoge 6 775 caracteres individuales y más de 155 000 palabras, en total 162 000 entradas, y cubre la inmensa mayoría de caracteres y palabras necesarios para la escritura diaria.
-- **Alta utilización de códigos cortos**: una tecla, 100 %; dos teclas con candidatos de nivel 3 completos, 100 %; tres teclas, nivel 1 al 96,5 % y niveles 2–3 al 87,0 %; el espacio de códigos cortos está plenamente aprovechado.
-- **Control de colisiones excelente**: la tasa de cero colisiones de cuatro teclas alcanza el 71,0 %, con un máximo de colisión de solo 5; no hace falta pasar de página en ningún momento.
-- **Alta eficiencia de pulsaciones**: la media ponderada por frecuencia es de solo 4,05 pulsaciones, y de solo 2,82 para caracteres individuales; los caracteres de alta frecuencia llevan asignados códigos cortos.
+- **Diccionario amplio**: recoge 8,214 caracteres individuales y 300,239 palabras, en total 308,453 caracteres y palabras distintos, y cubre la inmensa mayoría de caracteres y palabras necesarios para la escritura diaria.
+- **Alta utilización de códigos cortos**: los códigos de una tecla tienen una utilización del 100 %, los de dos teclas alcanzan el 100 %, y los de tres teclas tienen una utilización del 98.27 % para el primer candidato y del 89.52 % para los candidatos de las posiciones segunda a quinta; el espacio de códigos cortos está plenamente aprovechado.
+- **Prioridad a los más frecuentes**: se da prioridad a los caracteres y palabras de alta frecuencia.
+- **Alta eficiencia de pulsaciones**: la estimación de las pulsaciones mínimas ponderadas por frecuencia es de 2.66 para los caracteres individuales y de 2.95 para el conjunto de caracteres y palabras; los caracteres y palabras de alta frecuencia tienen asignados códigos cortos.
 - **Distribución uniforme de teclas**: las 26 teclas de letras se distribuyen de forma bastante uniforme por posiciones de código, y la zona de teclas principales (EDC—SDFG—HJKL—I) es la más usada, de acuerdo con un diseño ergonómico.
