@@ -34,7 +34,7 @@ has_toc: false
 
 The **Fengshui Form-Phonetic Input Method** (风水形音输入法, "Fengshui" for short) was developed by combining the design ideas of the most advanced Chinese input methods. It overcomes the shortcomings of traditional Pinyin and Wubi methods — hard to learn and hard to use — while absorbing the **米 (rice) glyph radical arrangement** and the idea of using a phonetic code as the final-key identifier from "Modern Wubi", together with the large radical table and large dictionary of 091 Wubi. It is a Simplified Chinese input method suited to the widest range of users.
 
-Its single-character coverage spans the entire *Table of General Standard Chinese Characters* — **8,105** characters in total (3,500 Level-1 common, 3,000 Level-2 less-common, 1,605 Level-3 specialized), plus a dictionary of up to **157,000 words**.
+Its single-character coverage spans the entire *Table of General Standard Chinese Characters* — **8,105** characters in total (3,500 Level-1 common, 3,000 Level-2 less-common, 1,605 Level-3 specialized), plus a dictionary of up to **390,000 coded candidate entries**.
 
 The radical table is built on the **米 (rice) / 人 (person)** glyph structure, combining the *I Ching*, *Yin-Yang and the Five Elements* with alphabetic pictography, and weaving in birds and beasts, natural elements, body parts and cardinal directions. It is not only easy to memorize, but also — it is said — brings lasting good fortune to the user and their descendants, a masterwork that fuses Chinese-character decomposition with traditional Chinese philosophy.
 
@@ -42,7 +42,7 @@ The radical table is built on the **米 (rice) / 人 (person)** glyph structure,
 
 - A radical table laid out by Feng Shui
 - Simple decomposition — no hard-to-split characters
-- A large dictionary (157,000 words)
+- A large dictionary (390,000 coded candidate entries)
 - Form codes as the backbone, phonetic codes as the supplement
 - Three tiers of candidate words, at your fingertips
 - Precise input, full keyboard mastery

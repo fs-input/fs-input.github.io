@@ -37,7 +37,7 @@ A bilingual glossary of the key terms used throughout this tutorial. Chinese cha
 | 音补 / 补码 | phonetic supplement | A phonetic code used as the final identifying key |
 | 空格上屏 | press Space to commit | Confirm the selection with the Space bar |
 | 末码 | final code | The last key of a code |
-| 词库 | dictionary / word list | The 157,000-word built-in dictionary |
+| 词库 | dictionary / word list | The built-in dictionary of about 390,000 coded candidate entries |
 
 ## Culture & Layout
 

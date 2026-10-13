@@ -25,7 +25,7 @@ permalink: /en/appendix-a-install/
 
    - `default.yaml` — default input method settings
    - `weasel.yaml` — input method interface settings
-   - `geomancy.dict.yaml` — Fengshui input method dictionary (157,000 words)
+   - `geomancy.dict.yaml` — Fengshui input method dictionary (390,000 coded candidate entries)
    - `geomancy.extended.dict.yaml` — user custom dictionary
    - `geomancy.schema.yaml` — Fengshui input method behavior settings
 

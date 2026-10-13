@@ -51,7 +51,7 @@ The more radicals there are, the simpler decomposition becomes — but the more 
 
 Today, Pinyin is taught in the first grade of Chinese primary schools, but Pinyin itself is not without difficulty. For speakers in some dialect regions and for foreign friends, the Fengshui decomposition method may well be easier to learn than Pinyin.
 
-The Fengshui Input Method uses three-tier, three-key simplified coding, together with a matching 150,000-word large dictionary — using it feels wonderfully smooth.
+The Fengshui Input Method uses three-tier, three-key simplified coding, together with a matching large dictionary of about 390,000 coded candidate entries — using it feels wonderfully smooth.
 
 ## Who is the Fengshui Input Method for?
 

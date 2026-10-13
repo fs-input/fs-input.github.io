@@ -11,112 +11,126 @@ permalink: /en/05-statistics/
 # Coding Statistics & Analysis
 {: .fs-8 }
 
-By combinatorics: one-key characters have at most 26 combinations, two-key characters at most 26×26=676, three-key characters at most 26³=17,576, and four-key characters at most 26⁴=456,976 — about 470,000 combinations in total. With three tiers of candidate keys configured, the number of code combinations expands further.
+The current code table contains 308,453 distinct characters and words: 8,214 single characters, 189,571 two-character words, 74,312 three-character words, and 36,356 words of four or more characters. They correspond to 390,046 coded candidate entries and 184,055 code groups in use.
 
-|  | Tier-1 candidate | Tier-3 candidate |
-|---|---|---|
-| One-key | 26 | 78 |
-| Two-key | 676 | 2028 |
-| Three-key | 17576 | 52728 |
-| Four-key | 450,000 | 1,370,000 |
-| **Total** | **470,000** | **1,420,000** |
+## Dictionary Size and Coding Space
 
-A corpus analysis website performed statistics on 20 million characters of material: the top 5,700 most frequently used single characters account for as much as 99.98%, and the top 15,000 most frequently used words account for 90.4%. With three tiers of candidate keys configured, three-key characters alone offer about 52,700 combinations — more than enough to cover common characters and words.
-
-The Fengshui dictionary comes with nearly 155,000 built-in entries, sufficient for the daily input needs of the vast majority of people. The detailed code-count statistics are shown below.
+The 26 letters form the space of one- to four-key codes, with 26ⁿ letter combinations for each code length. Candidate positions allow several characters or words to share a code, but do not increase the number of distinct letter codes. By default, one-, two-, and three-key codes each retain five candidates, and four-key codes retain ten; full codes for single characters are always retained. The table below lists the total candidate positions at these default capacities.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Keys</th><th>Candidate tier</th><th>Single char</th><th>2-char</th><th>3-char</th><th>≥4-char</th><th>Subtotal</th><th>Keystrokes</th></tr></thead>
+<caption>Letter-Code Space and Default Candidate Capacity</caption>
+<thead><tr><th>Code length</th><th>Letter codes</th><th>Default candidates per code</th><th>Total candidate positions</th></tr></thead>
 <tbody>
-<tr><td rowspan="2">One-key</td><td>Tier 1</td><td>26</td><td>/</td><td>/</td><td>/</td><td rowspan="2">78</td><td rowspan="2">2</td></tr>
-<tr><td>Tiers 2–3</td><td>52</td><td>/</td><td>/</td><td>/</td></tr>
-<tr><td rowspan="2">Two-key</td><td>Tier 1</td><td>662</td><td>1</td><td>10</td><td>3</td><td rowspan="2">2028</td><td rowspan="2">3</td></tr>
-<tr><td>Tiers 2–3</td><td>1236</td><td>27</td><td>56</td><td>33</td></tr>
-<tr><td rowspan="2">Three-key</td><td>Tier 1</td><td>3928</td><td>7315</td><td>3139</td><td>2585</td><td rowspan="2">47563</td><td rowspan="2">4</td></tr>
-<tr><td>Tiers 2–3</td><td>2062</td><td>14060</td><td>7050</td><td>7424</td></tr>
-<tr><td rowspan="3">Four-key</td><td>Direct commit</td><td>4873</td><td>47099</td><td>23332</td><td>36328</td><td>111632</td><td>4</td></tr>
-<tr><td>Tiers 2–3</td><td>608</td><td>17138</td><td>11946</td><td>13446</td><td>43138</td><td>5</td></tr>
-<tr><td>Tiers 4–5</td><td>29</td><td>2159</td><td>1869</td><td>1641</td><td>5698</td><td>5</td></tr>
-<tr><td colspan="2">Total</td><td>13476</td><td>87799</td><td>47402</td><td>61460</td><td colspan="2">210137</td></tr>
+<tr><td>One-key</td><td>26</td><td>5</td><td>130</td></tr>
+<tr><td>Two-key</td><td>676</td><td>5</td><td>3,380</td></tr>
+<tr><td>Three-key</td><td>17,576</td><td>5</td><td>87,880</td></tr>
+<tr><td>Four-key</td><td>456,976</td><td>10</td><td>4,569,760</td></tr>
+<tr><td>Total</td><td>475,254</td><td>—</td><td>4,661,150</td></tr>
 </tbody>
 </table></div>
 
-Converting the table above into a code-rate table, the percentages are the utilization of each tier's coding space (actual codes ÷ possible codes for that tier).
+## Candidate Counts and Utilization by Code Length
+
+The following table counts coded entries by code length, candidate position, and character or word length. The first candidate is the preferred entry in each code group in use. Among first candidates for four-key codes, only entries with no other candidates under the same code meet the condition for direct commit with four keystrokes. Positions two through five and six through ten are listed separately to help assess candidate selection and paging needs.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Keys</th><th>Candidate tier</th><th>Single char</th><th>2-char</th><th>3-char</th><th>≥4-char</th><th>Total</th></tr></thead>
+<caption>Coded Candidate Entry Counts</caption>
+<thead><tr><th>Code length</th><th>Candidate position</th><th>Single characters</th><th>Two-character words</th><th>Three-character words</th><th>Words of ≥4 characters</th><th>Total</th></tr></thead>
 <tbody>
-<tr><td rowspan="2">One-key</td><td>Tier 1</td><td>100.00%</td><td>/</td><td>/</td><td>/</td><td>100.00%</td></tr>
-<tr><td>Tiers 2–3</td><td>100.00%</td><td>/</td><td>/</td><td>/</td><td>100.00%</td></tr>
-<tr><td rowspan="2">Two-key</td><td>Tier 1</td><td>97.93%</td><td>0.15%</td><td>1.48%</td><td>0.44%</td><td>100.00%</td></tr>
-<tr><td>Tiers 2–3</td><td>91.42%</td><td>2.00%</td><td>4.14%</td><td>2.44%</td><td>100.00%</td></tr>
-<tr><td rowspan="2">Three-key</td><td>Tier 1</td><td>22.35%</td><td>41.62%</td><td>17.86%</td><td>14.71%</td><td>96.54%</td></tr>
-<tr><td>Tiers 2–3</td><td>5.87%</td><td>40.00%</td><td>20.06%</td><td>21.12%</td><td>87.04%</td></tr>
-<tr><td rowspan="2">Four-key</td><td>Tier 1</td><td>1.07%</td><td>10.31%</td><td>5.11%</td><td>7.95%</td><td>24.43%</td></tr>
-<tr><td>Tiers 2–3</td><td>0.07%</td><td>1.88%</td><td>1.31%</td><td>1.47%</td><td>4.72%</td></tr>
+<tr><td>One-key</td><td>First candidate</td><td>26</td><td>0</td><td>0</td><td>0</td><td>26</td></tr>
+<tr><td>One-key</td><td>Second through fifth</td><td>104</td><td>0</td><td>0</td><td>0</td><td>104</td></tr>
+<tr><td>Two-key</td><td>First candidate</td><td>601</td><td>7</td><td>51</td><td>17</td><td>676</td></tr>
+<tr><td>Two-key</td><td>Second through fifth</td><td>1,228</td><td>878</td><td>357</td><td>241</td><td>2,704</td></tr>
+<tr><td>Three-key</td><td>First candidate</td><td>2,795</td><td>7,945</td><td>3,792</td><td>2,740</td><td>17,272</td></tr>
+<tr><td>Three-key</td><td>Second through fifth</td><td>2,645</td><td>31,781</td><td>17,477</td><td>11,034</td><td>62,937</td></tr>
+<tr><td>Four-key</td><td>First candidate</td><td>5,345</td><td>96,541</td><td>37,888</td><td>26,307</td><td>166,081</td></tr>
+<tr><td>Four-key</td><td>Second through fifth</td><td>1,288</td><td>81,063</td><td>31,894</td><td>9,436</td><td>123,681</td></tr>
+<tr><td>Four-key</td><td>Sixth through tenth</td><td>93</td><td>11,718</td><td>4,214</td><td>540</td><td>16,565</td></tr>
+<tr><td>Total</td><td></td><td>14,125</td><td>229,933</td><td>95,673</td><td>50,315</td><td>390,046</td></tr>
 </tbody>
 </table></div>
 
-From the table we can see: the one-key space is 100% utilized; the two-key tier-1 and tiers 2–3 both reach 100% (every code is equipped with all three candidate tiers); the three-key tier-1 utilization is 96.54% and tiers 2–3 is 87.04%, indicating the short-code space is fully used. The four-key space utilization is relatively low (tier-1 24.43%, tiers 2–3 4.72%), which means the four-key coding space (26⁴=456,976) is far larger than actually needed and collisions are very rare. In the three-key rows, words occupy a large share (2-char 41.62%, 3-char 17.86%, ≥4-char 14.71%), showing that common multi-character words are also assigned three-key simplified codes. Usually two to four keystrokes are enough to input the vast majority of characters and words — the input efficiency is very high.
-
-The collision-rate analysis by key length is shown below. All 26 one-key codes are in use; the 676 two-key codes all have collisions because all three candidate tiers are configured, with a maximum collision of only 3; the three-key zero-collision rate is 6.27% with a maximum collision of 3; the four-key zero-collision rate is as high as 71.0% with a maximum collision of only 5. Overall, 162,000 characters and words use only about 129,000 codes, with no paging needed at any point — the collision control is excellent.
-
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Key length</th><th>Unique codes</th><th>Zero-collision codes</th><th>Zero-collision rate</th><th>Collision groups</th><th>Max collision</th><th>Total entries</th></tr></thead>
+<caption>Candidate-Position Utilization by Range</caption>
+<thead><tr><th>Code length</th><th>First candidate</th><th>Second through fifth candidates</th><th>Sixth through tenth candidates</th><th>All positions</th></tr></thead>
 <tbody>
-<tr><td>1-key</td><td>26</td><td>0</td><td>0.00%</td><td>26</td><td>3</td><td>78</td></tr>
-<tr><td>2-key</td><td>676</td><td>0</td><td>0.00%</td><td>676</td><td>3</td><td>2028</td></tr>
-<tr><td>3-key</td><td>16967</td><td>1064</td><td>6.27%</td><td>15903</td><td>3</td><td>47563</td></tr>
-<tr><td>4-key</td><td>111632</td><td>79264</td><td>71.00%</td><td>32368</td><td>5</td><td>160468</td></tr>
+<tr><td>One-key</td><td>100.00%</td><td>100.00%</td><td>—</td><td>100.00%</td></tr>
+<tr><td>Two-key</td><td>100.00%</td><td>100.00%</td><td>—</td><td>100.00%</td></tr>
+<tr><td>Three-key</td><td>98.27%</td><td>89.52%</td><td>—</td><td>91.27%</td></tr>
+<tr><td>Four-key</td><td>36.34%</td><td>6.77%</td><td>0.72%</td><td>6.70%</td></tr>
 </tbody>
 </table></div>
 
-The frequency-weighted average keystroke analysis is shown below. The overall average is only 4.05 keystrokes, and only 2.82 for single characters, showing that high-frequency characters are mostly assigned short codes — the input efficiency is extremely high. The average keystrokes for each word category all fall between 4.0 and 4.1, reflecting the evenness of code allocation.
+## Code Collisions and Conditions for Four-Key Direct Commit
 
-| Category | Single char | 2-char | 3-char | ≥4-char | Overall |
-|---|---|---|---|---|---|
-| Avg keystrokes | 2.82 | 4.04 | 4.11 | 4.09 | 4.05 |
-
-Statistics on the code table of all single characters are shown below. The code counts are fairly evenly distributed across all keys and tiers. In the Total column, the keys in the "米人" home area — "EDC—SDFG—HJKL—I" — carry the highest counts, exactly as designed.
+A single-candidate group in the table below is a code group containing only one candidate. Its percentage uses the number of code groups in use at that code length as the denominator. The first candidate in a collision group still needs to be distinguished from other candidates; these first candidates cannot all be counted as direct commits.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Key</th><th>1-key</th><th>2-key</th><th>3-key</th><th>4-key</th><th>Phonetic suppl.</th><th>Total</th></tr></thead>
+<caption>Code Collisions by Code Length</caption>
+<thead><tr><th>Code length</th><th>Code groups in use</th><th>Single-candidate groups</th><th>Single-candidate share</th><th>Collision groups</th><th>Maximum candidates</th><th>Entries</th></tr></thead>
 <tbody>
-<tr><td>A</td><td>156</td><td>86</td><td>86</td><td>32</td><td>32</td><td>392</td></tr>
-<tr><td>B</td><td>116</td><td>151</td><td>159</td><td>93</td><td>178</td><td>697</td></tr>
-<tr><td><strong>C</strong></td><td>155</td><td>369</td><td>308</td><td>84</td><td>220</td><td><strong>1136</strong></td></tr>
-<tr><td><strong>D</strong></td><td>215</td><td>370</td><td>386</td><td>172</td><td>164</td><td><strong>1307</strong></td></tr>
-<tr><td><strong>E</strong></td><td>377</td><td>295</td><td>274</td><td>156</td><td>34</td><td><strong>1136</strong></td></tr>
-<tr><td><strong>F</strong></td><td>325</td><td>491</td><td>359</td><td>93</td><td>147</td><td><strong>1415</strong></td></tr>
-<tr><td><strong>G</strong></td><td>255</td><td>375</td><td>252</td><td>253</td><td>182</td><td><strong>1317</strong></td></tr>
-<tr><td><strong>H</strong></td><td>491</td><td>276</td><td>117</td><td>32</td><td>170</td><td><strong>1086</strong></td></tr>
-<tr><td><strong>I</strong></td><td>333</td><td>366</td><td>286</td><td>170</td><td>0</td><td><strong>1155</strong></td></tr>
-<tr><td><strong>J</strong></td><td>359</td><td>300</td><td>226</td><td>117</td><td>327</td><td><strong>1329</strong></td></tr>
-<tr><td><strong>K</strong></td><td>365</td><td>335</td><td>474</td><td>218</td><td>123</td><td><strong>1515</strong></td></tr>
-<tr><td><strong>L</strong></td><td>269</td><td>348</td><td>339</td><td>183</td><td>264</td><td><strong>1403</strong></td></tr>
-<tr><td>M</td><td>309</td><td>173</td><td>196</td><td>137</td><td>166</td><td>981</td></tr>
-<tr><td>N</td><td>235</td><td>231</td><td>196</td><td>94</td><td>92</td><td>848</td></tr>
-<tr><td>O</td><td>204</td><td>222</td><td>124</td><td>84</td><td>7</td><td>641</td></tr>
-<tr><td>P</td><td>169</td><td>216</td><td>199</td><td>221</td><td>128</td><td>933</td></tr>
-<tr><td>Q</td><td>252</td><td>135</td><td>153</td><td>130</td><td>193</td><td>863</td></tr>
-<tr><td>R</td><td>323</td><td>313</td><td>172</td><td>53</td><td>61</td><td>922</td></tr>
-<tr><td><strong>S</strong></td><td>243</td><td>273</td><td>306</td><td>70</td><td>256</td><td><strong>1148</strong></td></tr>
-<tr><td>T</td><td>288</td><td>227</td><td>38</td><td>3</td><td>151</td><td>707</td></tr>
-<tr><td>U</td><td>215</td><td>265</td><td>82</td><td>13</td><td>0</td><td>575</td></tr>
-<tr><td>V</td><td>411</td><td>142</td><td>179</td><td>167</td><td>0</td><td>899</td></tr>
-<tr><td>W</td><td>253</td><td>269</td><td>172</td><td>101</td><td>128</td><td>923</td></tr>
-<tr><td>X</td><td>177</td><td>127</td><td>151</td><td>48</td><td>240</td><td>743</td></tr>
-<tr><td>Y</td><td>149</td><td>209</td><td>98</td><td>15</td><td>343</td><td>814</td></tr>
-<tr><td>Z</td><td>131</td><td>64</td><td>105</td><td>89</td><td>340</td><td>729</td></tr>
+<tr><td>One-key</td><td>26</td><td>0</td><td>0.00%</td><td>26</td><td>5</td><td>130</td></tr>
+<tr><td>Two-key</td><td>676</td><td>0</td><td>0.00%</td><td>676</td><td>5</td><td>3,380</td></tr>
+<tr><td>Three-key</td><td>17,272</td><td>503</td><td>2.91%</td><td>16,769</td><td>5</td><td>80,209</td></tr>
+<tr><td>Four-key</td><td>166,081</td><td>104,826</td><td>63.12%</td><td>61,255</td><td>10</td><td>306,327</td></tr>
 </tbody>
 </table></div>
 
-## Overall Assessment
+## Frequency-Weighted Minimum Keystroke Estimates
 
-Based on the above analysis, the Fengshui Form-Phonetic Input Method has the following notable advantages:
+<div class="table-wrap"><table class="fs-table stats">
+<caption>Frequency-Weighted Keystrokes Estimated from the Shortest Path for Each Character or Word</caption>
+<thead><tr><th>Category</th><th>Single characters</th><th>Two-character words</th><th>Three-character words</th><th>Words of ≥4 characters</th><th>Overall</th></tr></thead>
+<tbody>
+<tr><td>Keystrokes per character or word</td><td>2.66</td><td>3.71</td><td>3.97</td><td>3.99</td><td>2.95</td></tr>
+<tr><td>Keystrokes per output character</td><td>2.66</td><td>1.85</td><td>1.32</td><td>0.99</td><td>2.23</td></tr>
+</tbody>
+</table></div>
 
-- **Large dictionary** — 6,775 single characters and over 155,000 words, totaling 162,000 entries, covering the vast majority of characters and words needed for daily input.
-- **High short-code utilization** — one-key 100%, two-key tier-3 candidates fully configured at 100%, three-key tier-1 at 96.5% and tiers 2–3 at 87.0%; the short-code space is fully utilized.
-- **Excellent collision control** — the four-key zero-collision rate reaches 71.0%, with a maximum collision count of only 5; no paging is needed throughout.
-- **High keystroke efficiency** — the frequency-weighted average is only 4.05 keystrokes, and only 2.82 for single characters; high-frequency characters are all assigned short codes.
-- **Even key distribution** — the 26 letter keys are fairly evenly distributed across code positions, with the home key area (EDC—SDFG—HJKL—I) used most frequently, in line with ergonomic design.
+## Key Distribution for Basic Single Characters
+
+The table below summarizes the codes of all single characters. The counts across keys and code positions are fairly evenly distributed. In the Total column, the keys in the 米/人 main area, “EDC—SDFG—HJKL—I”, have the highest counts, as intended by the design.
+
+<div class="table-wrap"><table class="fs-table stats">
+<caption>Form-Code Positions and Primary-Pronunciation Supplements for Basic Single Characters</caption>
+<thead><tr><th>Key</th><th>First radical</th><th>Second radical</th><th>Third radical</th><th>Fourth radical</th><th>Phonetic supplement</th><th>Total</th></tr></thead>
+<tbody>
+<tr><td>A</td><td>207</td><td>101</td><td>107</td><td>34</td><td>36</td><td>485</td></tr>
+<tr><td>B</td><td>130</td><td>173</td><td>195</td><td>134</td><td>217</td><td>849</td></tr>
+<tr><td>C</td><td>179</td><td>444</td><td>392</td><td>114</td><td>252</td><td>1,381</td></tr>
+<tr><td>D</td><td>238</td><td>443</td><td>467</td><td>213</td><td>194</td><td>1,555</td></tr>
+<tr><td>E</td><td>476</td><td>368</td><td>342</td><td>205</td><td>35</td><td>1,426</td></tr>
+<tr><td>F</td><td>482</td><td>615</td><td>450</td><td>124</td><td>166</td><td>1,837</td></tr>
+<tr><td>G</td><td>335</td><td>455</td><td>315</td><td>321</td><td>216</td><td>1,642</td></tr>
+<tr><td>H</td><td>600</td><td>339</td><td>150</td><td>46</td><td>200</td><td>1,335</td></tr>
+<tr><td>I</td><td>396</td><td>451</td><td>345</td><td>206</td><td>0</td><td>1,398</td></tr>
+<tr><td>J</td><td>385</td><td>351</td><td>274</td><td>151</td><td>381</td><td>1,542</td></tr>
+<tr><td>K</td><td>401</td><td>393</td><td>589</td><td>282</td><td>141</td><td>1,806</td></tr>
+<tr><td>L</td><td>311</td><td>400</td><td>421</td><td>218</td><td>299</td><td>1,649</td></tr>
+<tr><td>M</td><td>384</td><td>213</td><td>247</td><td>174</td><td>186</td><td>1,204</td></tr>
+<tr><td>N</td><td>273</td><td>292</td><td>244</td><td>117</td><td>106</td><td>1,032</td></tr>
+<tr><td>O</td><td>269</td><td>264</td><td>158</td><td>112</td><td>10</td><td>813</td></tr>
+<tr><td>P</td><td>209</td><td>265</td><td>233</td><td>280</td><td>153</td><td>1,140</td></tr>
+<tr><td>Q</td><td>308</td><td>164</td><td>197</td><td>179</td><td>234</td><td>1,082</td></tr>
+<tr><td>R</td><td>372</td><td>378</td><td>209</td><td>66</td><td>68</td><td>1,093</td></tr>
+<tr><td>S</td><td>296</td><td>359</td><td>397</td><td>95</td><td>284</td><td>1,431</td></tr>
+<tr><td>T</td><td>322</td><td>269</td><td>53</td><td>3</td><td>175</td><td>822</td></tr>
+<tr><td>U</td><td>238</td><td>328</td><td>108</td><td>14</td><td>0</td><td>688</td></tr>
+<tr><td>V</td><td>542</td><td>168</td><td>208</td><td>226</td><td>0</td><td>1,144</td></tr>
+<tr><td>W</td><td>284</td><td>345</td><td>196</td><td>123</td><td>155</td><td>1,103</td></tr>
+<tr><td>X</td><td>208</td><td>156</td><td>185</td><td>67</td><td>294</td><td>910</td></tr>
+<tr><td>Y</td><td>198</td><td>257</td><td>121</td><td>21</td><td>398</td><td>995</td></tr>
+<tr><td>Z</td><td>171</td><td>73</td><td>123</td><td>113</td><td>376</td><td>856</td></tr>
+<tr><td>Total</td><td>8,214</td><td>8,064</td><td>6,726</td><td>3,638</td><td>4,576</td><td>31,218</td></tr>
+</tbody>
+</table></div>
+
+## Overall Coding Assessment
+
+The analysis shows the following advantages of the Fengshui Form-Phonetic Input Method:
+
+- **Large dictionary**: 8,214 single characters and 300,239 words, totaling 308,453 distinct characters and words, cover the vast majority of everyday input needs.
+- **High short-code utilization**: one- and two-key candidate positions are 100% utilized. For three-key codes, first-candidate utilization is 98.27%, and utilization of positions two through five is 89.52%, making good use of the short-code space.
+- **Frequency priority**: high-frequency characters and words take priority.
+- **Keystroke efficiency**: the frequency-weighted minimum is 2.66 keystrokes for single characters and 2.95 for all characters and words. High-frequency characters and words are assigned short codes.
+- **Even key distribution**: the 26 letter keys are fairly evenly distributed across code positions, with the main area (EDC—SDFG—HJKL—I) used most, in line with the ergonomic design.
