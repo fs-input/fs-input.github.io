@@ -25,7 +25,7 @@ permalink: /ja/appendix-a-install/
 
    - `default.yaml` —— 入力メソッドの既定設定ファイル
    - `weasel.yaml` —— 入力メソッドのインターフェース設定ファイル
-   - `geomancy.dict.yaml` —— 風水入力メソッドの辞書ファイル（15.7 万エントリ）
+   - `geomancy.dict.yaml` —— 風水入力メソッドの辞書ファイル（約 390,000 件のコード付き候補エントリ）
    - `geomancy.extended.dict.yaml` —— ユーザー定義辞書ファイル
    - `geomancy.schema.yaml` —— 風水入力メソッドの機能設定ファイル
 
