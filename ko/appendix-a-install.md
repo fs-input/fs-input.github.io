@@ -25,7 +25,7 @@ permalink: /ko/appendix-a-install/
 
    - `default.yaml` —— 입력법 기본 설정 파일
    - `weasel.yaml` —— 입력법 인터페이스 설정 파일
-   - `geomancy.dict.yaml` —— 풍수 입력법 사전 파일 (157 000 표제어)
+   - `geomancy.dict.yaml` —— 풍수 입력법 사전 파일 (약 390,000개의 코드가 부여된 후보 항목)
    - `geomancy.extended.dict.yaml` —— 사용자 자체 정의 사전 파일
    - `geomancy.schema.yaml` —— 풍수 입력법 기능 설정 파일
 
