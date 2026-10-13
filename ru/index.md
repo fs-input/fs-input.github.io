@@ -10,6 +10,8 @@ has_toc: false
 
 {% include lang_switch.html %}
 
+<div class="fs-cover" markdown="1">
+
 # Метод ввода Фэншуй «форма-фонетика»
 {: .fs-9 }
 
@@ -22,6 +24,8 @@ has_toc: false
 `V 1.5.0` · Словарь обновлён 2026.10.09
 {: .text-grey-dk-000 }
 
+
+</div>
 ---
 
 ![Таблица основных знаков Фэншуй](/assets/images/roots-table.png)

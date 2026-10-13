@@ -10,6 +10,8 @@ has_toc: false
 
 {% include lang_switch.html %}
 
+<div class="fs-cover" markdown="1">
+
 # 風水形音入力メソッド
 {: .fs-9 }
 
@@ -22,6 +24,8 @@ has_toc: false
 `V 1.5.0` · 2026.10.09 辞書更新
 {: .text-grey-dk-000 }
 
+
+</div>
 ---
 
 ![風水字根表](/assets/images/roots-table.png)

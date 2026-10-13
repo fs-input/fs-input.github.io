@@ -10,6 +10,8 @@ has_toc: false
 
 {% include lang_switch.html %}
 
+<div class="fs-cover" markdown="1">
+
 # 풍수형음 입력법
 {: .fs-9 }
 
@@ -22,6 +24,8 @@ has_toc: false
 `V 1.5.0` · 2026.10.09 사전 업데이트
 {: .text-grey-dk-000 }
 
+
+</div>
 ---
 
 ![풍수 자근표](/assets/images/roots-table.png)

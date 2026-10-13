@@ -10,6 +10,8 @@ has_toc: false
 
 {% include lang_switch.html %}
 
+<div class="fs-cover" markdown="1">
+
 # Bộ gõ Phong Thủy Hình Âm
 {: .fs-9 }
 
@@ -22,6 +24,8 @@ has_toc: false
 `V 1.5.0` · 2026.10.09 cập nhật từ điển
 {: .text-grey-dk-000 }
 
+
+</div>
 ---
 
 ![Bảng căn chữ Phong Thủy](/assets/images/roots-table.png)

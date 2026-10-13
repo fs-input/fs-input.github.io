@@ -10,6 +10,8 @@ has_toc: false
 
 {% include lang_switch.html %}
 
+<div class="fs-cover" markdown="1">
+
 # 风水形音输入法
 {: .fs-9 }
 
@@ -22,6 +24,8 @@ Geomancy Form-Phonetic Input Method
 `V 1.5.0` · 2026.10.09 更新词库
 {: .text-grey-dk-000 }
 
+
+</div>
 ---
 
 ![风水字根表](/assets/images/roots-table.png)

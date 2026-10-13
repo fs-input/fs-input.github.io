@@ -10,6 +10,8 @@ has_toc: false
 
 {% include lang_switch.html %}
 
+<div class="fs-cover" markdown="1">
+
 # Méthode d'entrée Fengshui forme-phonétique
 {: .fs-9 }
 
@@ -22,6 +24,8 @@ has_toc: false
 `V 1.5.0` · Dictionnaire mis à jour 2026.10.09
 {: .text-grey-dk-000 }
 
+
+</div>
 ---
 
 ![Tableau des radicaux Fengshui](/assets/images/roots-table.png)
