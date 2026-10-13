@@ -19,7 +19,7 @@ has_toc: false
 — Schnell wie der <span class="fs-red">**Wind**</span>, fließend wie das <span class="fs-red">**Wasser**</span>
 {: .fs-5 }
 
-`V 1.3.1` · Wörterbuch aktualisiert 2026.07.08
+`V 1.5.0` · Wörterbuch aktualisiert 2026.10.09
 {: .text-grey-dk-000 }
 
 ---

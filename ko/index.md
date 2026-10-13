@@ -19,7 +19,7 @@ has_toc: false
 —— <span class="fs-red">**풍**</span>은 빠르고, <span class="fs-red">**수**</span>는 부드럽다
 {: .fs-5 }
 
-`V 1.3.1` · 2026.07.08 사전 업데이트
+`V 1.5.0` · 2026.10.09 사전 업데이트
 {: .text-grey-dk-000 }
 
 ---

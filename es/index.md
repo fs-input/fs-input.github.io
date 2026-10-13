@@ -19,7 +19,7 @@ has_toc: false
 — Veloz como <span class="fs-red">**el viento**</span>, fluido como <span class="fs-red">**el agua**</span>
 {: .fs-5 }
 
-`V 1.3.1` · Diccionario actualizado 2026.07.08
+`V 1.5.0` · Diccionario actualizado 2026.10.09
 {: .text-grey-dk-000 }
 
 ---

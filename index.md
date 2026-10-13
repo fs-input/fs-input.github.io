@@ -19,7 +19,7 @@ Geomancy Form-Phonetic Input Method
 —— 迅疾如 <span class="fs-red">**风**</span>、流畅若 <span class="fs-red">**水**</span>
 {: .fs-5 }
 
-`V 1.4.0` · 2026.07.08 更新词库
+`V 1.5.0` · 2026.10.09 更新词库
 {: .text-grey-dk-000 }
 
 ---

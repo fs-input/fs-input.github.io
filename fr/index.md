@@ -19,7 +19,7 @@ has_toc: false
 — Véloce comme <span class="fs-red">**le vent**</span>, fluide comme <span class="fs-red">**l'eau**</span>
 {: .fs-5 }
 
-`V 1.3.1` · Dictionnaire mis à jour 2026.07.08
+`V 1.5.0` · Dictionnaire mis à jour 2026.10.09
 {: .text-grey-dk-000 }
 
 ---

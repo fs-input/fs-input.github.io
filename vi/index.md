@@ -19,7 +19,7 @@ has_toc: false
 —— <span class="fs-red">**Phong**</span> thì nhanh, <span class="fs-red">**Thủy**</span> thì mượt
 {: .fs-5 }
 
-`V 1.3.1` · 2026.07.08 cập nhật từ điển
+`V 1.5.0` · 2026.10.09 cập nhật từ điển
 {: .text-grey-dk-000 }
 
 ---

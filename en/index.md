@@ -19,7 +19,7 @@ has_toc: false
 — Swift as <span class="fs-red">**wind**</span>, fluid as <span class="fs-red">**water**</span>
 {: .fs-5 }
 
-`V 1.3.1` · Dictionary updated 2026.07.08
+`V 1.5.0` · Dictionary updated 2026.10.09
 {: .text-grey-dk-000 }
 
 ---

@@ -2,7 +2,7 @@
 
 **Geomancy Form-Phonetic Input Method**
 
-> 迅疾如风、流畅若水 · V 1.3.1（2026.07.08 更新词库）
+> 迅疾如风、流畅若水 · V 1.5.0（2026.10.09 更新词库）
 
 ![风水字根表](assets/images/roots-table.png)
 

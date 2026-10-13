@@ -19,7 +19,7 @@ has_toc: false
 —— <span class="fs-red">**風**</span>のように速く、<span class="fs-red">**水**</span>のように滑らか
 {: .fs-5 }
 
-`V 1.3.1` · 2026.07.08 辞書更新
+`V 1.5.0` · 2026.10.09 辞書更新
 {: .text-grey-dk-000 }
 
 ---

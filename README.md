@@ -2,7 +2,7 @@
 
 **风水形音输入法** · Geomancy Form-Phonetic Input Method
 
-> *Swift as wind, fluid as water.* · V 1.3.1 (dictionary updated 2026.07.08)
+> *Swift as wind, fluid as water.* · V 1.5.0 (dictionary updated 2026.10.09)
 
 ![Fengshui radical table](assets/images/roots-table.png)
 
