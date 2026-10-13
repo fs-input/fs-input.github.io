@@ -25,7 +25,7 @@ permalink: /ar/appendix-a-install/
 
    - `default.yaml` — الإعدادات الافتراضية لطريقة الإدخال
    - `weasel.yaml` — إعدادات واجهة طريقة الإدخال
-   - `geomancy.dict.yaml` — قاموس طريقة فنغ شوي (157 000 كلمة)
+   - `geomancy.dict.yaml` — قاموس طريقة فنغ شوي (نحو 390,000 مدخل مرشّح مرمّز)
    - `geomancy.extended.dict.yaml` — القاموس الشخصي للمستخدم
    - `geomancy.schema.yaml` — إعدادات عمل طريقة فنغ شوي
 
