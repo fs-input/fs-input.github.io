@@ -25,7 +25,7 @@ permalink: /ru/appendix-a-install/
 
    - `default.yaml` — параметры метода ввода по умолчанию
    - `weasel.yaml` — параметры интерфейса метода ввода
-   - `geomancy.dict.yaml` — словарь метода Фэншуй (157 000 слов)
+   - `geomancy.dict.yaml` — словарь метода Фэншуй (примерно 390,000 записей кандидатов с кодами)
    - `geomancy.extended.dict.yaml` — пользовательский словарь
    - `geomancy.schema.yaml` — параметры работы метода Фэншуй
 
