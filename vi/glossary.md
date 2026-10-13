@@ -37,7 +37,7 @@ Bảng thuật ngữ song ngữ các từ khóa dùng xuyên suốt bài giảng
 | 音补 / 补码 | bổ âm / mã bổ sung | Mã âm dùng làm phím nhận diện cuối |
 | 空格上屏 | nhấn Space để xác nhận | Xác nhận lựa chọn bằng phím Space |
 | 末码 | mã cuối | Phím cuối cùng của một mã |
-| 词库 | từ điển / kho từ | Từ điển tích hợp sẵn 157 000 từ |
+| 词库 | từ điển / kho từ | Từ điển tích hợp sẵn khoảng 390,000 mục ứng viên được gán mã |
 
 ## Văn hóa và bố trí
 

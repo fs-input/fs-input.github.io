@@ -51,7 +51,7 @@ Căn chữ nhiều thì phân giải dễ, nhưng căn chữ cần nhớ khi m�
 
 Hiện nay, tiểu học lớp 1 Trung Quốc dạy pinyin, mà bản thân pinyin cũng không phải hoàn toàn không khó. Đối với người vùng phương ngữ và người nước ngoài, phương pháp phân giải của Phong Thủy có khả năng dễ học hơn pinyin.
 
-Bộ gõ Phong Thủy kết hợp mã tắt 3 phím 3 cấp với từ điển lớn 150 000 mục từ, dùng rất thoải mái.
+Bộ gõ Phong Thủy kết hợp mã tắt 3 phím 3 cấp với từ điển lớn gồm khoảng 390,000 mục ứng viên được gán mã, dùng rất thoải mái.
 
 ## Ai phù hợp dùng bộ gõ Phong Thủy?
 

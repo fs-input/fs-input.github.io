@@ -25,7 +25,7 @@ permalink: /vi/appendix-a-install/
 
    - `default.yaml` —— tệp cấu hình mặc định của bộ gõ
    - `weasel.yaml` —— tệp cấu hình giao diện của bộ gõ
-   - `geomancy.dict.yaml` —— tệp từ điển của bộ gõ Phong Thủy (157 000 mục từ)
+   - `geomancy.dict.yaml` —— tệp từ điển của bộ gõ Phong Thủy (khoảng 390,000 mục ứng viên được gán mã)
    - `geomancy.extended.dict.yaml` —— tệp từ điển tự định nghĩa của người dùng
    - `geomancy.schema.yaml` —— tệp cấu hình chức năng của bộ gõ Phong Thủy
 

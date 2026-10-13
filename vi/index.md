@@ -34,7 +34,7 @@ has_toc: false
 
 **Bộ gõ Phong Thủy Hình Âm** (sau đây gọi tắt là **bộ gõ Phong Thủy**) được phát triển trên cơ sở kết hợp tư tưởng thiết kế của các bộ gõ chữ Hán tiên tiến nhất hiện nay. Vượt qua nhược điểm khó học, khó dùng của bộ gõ pinyin và Ngũ bút truyền thống, nó tiếp thu cách bố trí căn chữ theo hình dáng nét "mễ" của "Ngũ bút hiện đại", ý tưởng dùng mã âm làm mã nhận diện nét cuối, cùng thiết kế bảng căn chữ lớn và từ điển lớn của "091 Ngũ bút" —— là bộ gõ tiếng Hán giản thể phù hợp với đông đảo người dùng nhất.
 
-Các chữ đơn được hỗ trợ bao gồm toàn bộ chữ Hán trong *Bảng chữ Hán quy phạm thông dụng*, tổng cộng **8 105** chữ (thường dùng cấp 1: 3 500 chữ, thường dùng cấp 2: 3 000 chữ, chữ đặc biệt cấp 3: 1 605 chữ), đi kèm từ điển tối đa **157 000 từ**.
+Các chữ đơn được hỗ trợ bao gồm toàn bộ chữ Hán trong *Bảng chữ Hán quy phạm thông dụng*, tổng cộng **8 105** chữ (thường dùng cấp 1: 3 500 chữ, thường dùng cấp 2: 3 000 chữ, chữ đặc biệt cấp 3: 1 605 chữ), đi kèm từ điển gồm khoảng **390,000 mục ứng viên được gán mã**.
 
 Bảng căn chữ lấy hình dáng nét "mễ - nhân" làm cấu trúc cơ bản, kết hợp học thuyết "Kinh Dịch" "Âm Dương Ngũ Hành" với tượng hình chữ cái tiếng Anh, đồng thời đưa thêm vào chim thú, yếu tố tự nhiên, bộ phận cơ thể và phương vị trước - sau. Không chỉ dễ nhớ, đây còn là kiệt tác tích hợp phân tích hình dáng chữ Hán và triết học truyền thống Trung Quốc, được cho là mang lại phúc lành lâu dài cho người sử dụng và con cháu họ.
 
@@ -42,7 +42,7 @@ Bảng căn chữ lấy hình dáng nét "mễ - nhân" làm cấu trúc cơ b�
 
 - Bảng căn chữ dựa trên Phong Thủy
 - Phân giải chữ Hán dễ dàng, không có chữ khó phân giải
-- Từ điển lớn (157 000 từ)
+- Từ điển lớn (khoảng 390,000 mục ứng viên được gán mã)
 - Mã hình làm chủ, mã âm làm phụ
 - Từ ứng viên 3 cấp, linh hoạt
 - Nhập liệu chính xác, làm chủ toàn bộ bàn phím

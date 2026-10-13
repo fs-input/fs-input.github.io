@@ -11,103 +11,117 @@ permalink: /vi/05-statistics/
 # Thống kê và phân tích mã
 {: .fs-8 }
 
-Theo phép chỉnh hợp: chữ 1 phím có tối đa 26 tổ hợp, chữ 2 phím tối đa 26×26=676 tổ hợp, chữ 3 phím tối đa 26³=17 576 tổ hợp, chữ 4 phím tối đa 26⁴=456 976 tổ hợp, tổng cộng khoảng 470 000 tổ hợp. Đặt thêm 3 cấp phím ứng viên thì số tổ hợp mã còn mở rộng hơn nữa.
+Bảng mã hiện tại chứa 308,453 chữ và từ khác nhau, gồm 8,214 chữ đơn, 189,571 từ hai chữ, 74,312 từ ba chữ và 36,356 từ từ bốn chữ trở lên. Chúng tương ứng với 390,046 mục ứng viên được gán mã và 184,055 nhóm mã đã dùng.
 
-|  | Ứng viên cấp 1 | Ứng viên cấp 3 |
-|---|---|---|
-| 1 phím | 26 | 78 |
-| 2 phím | 676 | 2028 |
-| 3 phím | 17576 | 52728 |
-| 4 phím | 450 000 | 1 370 000 |
-| **Tổng cộng** | **470 000** | **1 420 000** |
+## Quy mô từ điển và không gian mã
 
-Trang web ngữ liệu thống kê phân tích tài liệu 20 000 000 chữ, phát hiện 5 700 chữ đơn thường dùng nhất chiếm 99,98 %, 15 000 từ thường dùng nhất chiếm 90,4 %. Đặt 3 cấp phím ứng viên thì chỉ riêng chữ 3 phím đã có khoảng 52 700 tổ hợp, đủ để khớp hoàn toàn với các chữ và từ thường dùng.
-
-Từ điển của bộ gõ Phong Thủy tích hợp khoảng 155 000 mục từ, đủ đáp ứng nhu cầu nhập hàng ngày của đại đa số người. Thống kê chi tiết số mã như bảng dưới.
+26 chữ cái tạo thành không gian mã có độ dài từ một đến bốn phím; mỗi độ dài mã có 26ⁿ tổ hợp chữ cái. Các vị trí ứng viên cho phép nhiều chữ và từ dùng chung một mã, nhưng không làm tăng số loại mã chữ cái. Hiện tại, mã một, hai và ba phím mặc định giữ lại năm ứng viên mỗi mã, còn mã bốn phím giữ lại mười ứng viên; mã đầy đủ của chữ đơn luôn được giữ lại. Bảng dưới liệt kê tổng số vị trí ứng viên theo sức chứa mặc định.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Số phím</th><th>Cấp ứng viên</th><th>1 chữ</th><th>2 chữ</th><th>3 chữ</th><th>≥4 chữ</th><th>Tổng phụ</th><th>Số gõ</th></tr></thead>
+<caption>Không gian mã chữ cái và sức chứa ứng viên mặc định</caption>
+<thead><tr><th>Độ dài mã</th><th>Số mã chữ cái</th><th>Số ứng viên mặc định mỗi mã</th><th>Tổng số vị trí ứng viên</th></tr></thead>
 <tbody>
-<tr><td rowspan="2">1 phím</td><td>Cấp 1</td><td>26</td><td>/</td><td>/</td><td>/</td><td rowspan="2">78</td><td rowspan="2">2 lần</td></tr>
-<tr><td>Cấp 2–3</td><td>52</td><td>/</td><td>/</td><td>/</td></tr>
-<tr><td rowspan="2">2 phím</td><td>Cấp 1</td><td>662</td><td>1</td><td>10</td><td>3</td><td rowspan="2">2028</td><td rowspan="2">3 lần</td></tr>
-<tr><td>Cấp 2–3</td><td>1236</td><td>27</td><td>56</td><td>33</td></tr>
-<tr><td rowspan="2">3 phím</td><td>Cấp 1</td><td>3928</td><td>7315</td><td>3139</td><td>2585</td><td rowspan="2">47563</td><td rowspan="2">4 lần</td></tr>
-<tr><td>Cấp 2–3</td><td>2062</td><td>14060</td><td>7050</td><td>7424</td></tr>
-<tr><td rowspan="3">4 phím</td><td>Xác nhận trực tiếp</td><td>4873</td><td>47099</td><td>23332</td><td>36328</td><td>111632</td><td>4 lần</td></tr>
-<tr><td>Cấp 2–3</td><td>608</td><td>17138</td><td>11946</td><td>13446</td><td>43138</td><td>5 lần</td></tr>
-<tr><td>Cấp 4–5</td><td>29</td><td>2159</td><td>1869</td><td>1641</td><td>5698</td><td>5 lần</td></tr>
-<tr><td colspan="2">Tổng số mã</td><td>13476</td><td>87799</td><td>47402</td><td>61460</td><td colspan="2">210137</td></tr>
+<tr><td>1 phím</td><td>26</td><td>5</td><td>130</td></tr>
+<tr><td>2 phím</td><td>676</td><td>5</td><td>3,380</td></tr>
+<tr><td>3 phím</td><td>17,576</td><td>5</td><td>87,880</td></tr>
+<tr><td>4 phím</td><td>456,976</td><td>10</td><td>4,569,760</td></tr>
+<tr><td>Tổng cộng</td><td>475,254</td><td>—</td><td>4,661,150</td></tr>
 </tbody>
 </table></div>
 
-Chuyển bảng trên thành bảng tỷ lệ mã, phần trăm trong bảng là tỷ lệ tận dụng không gian mã của từng hạng (số mã thực tế ÷ số mã khả dĩ ở hạng đó).
+## Số lượng ứng viên và tỷ lệ sử dụng theo độ dài mã
+
+Bảng dưới thống kê các mục được gán mã theo độ dài mã, vị trí ứng viên và độ dài chữ hoặc từ. Ứng viên thứ nhất là lựa chọn đầu tiên của mỗi nhóm mã đã dùng. Trong số các ứng viên thứ nhất của mã bốn phím, chỉ những mục không có ứng viên nào khác cùng mã mới đáp ứng điều kiện xác nhận trực tiếp bằng bốn lần gõ phím. Ứng viên thứ hai đến thứ năm và thứ sáu đến thứ mười được liệt kê riêng để dễ đánh giá nhu cầu chọn từ và lật trang.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Số phím</th><th>Cấp ứng viên</th><th>1 chữ</th><th>2 chữ</th><th>3 chữ</th><th>≥4 chữ</th><th>Tổng cộng</th></tr></thead>
+<caption>Thống kê mục ứng viên được gán mã</caption>
+<thead><tr><th>Độ dài mã</th><th>Vị trí ứng viên</th><th>Chữ đơn</th><th>Từ hai chữ</th><th>Từ ba chữ</th><th>Từ ≥4 chữ</th><th>Tổng cộng</th></tr></thead>
 <tbody>
-<tr><td rowspan="2">1 phím</td><td>Cấp 1</td><td>100,00 %</td><td>/</td><td>/</td><td>/</td><td>100,00 %</td></tr>
-<tr><td>Cấp 2–3</td><td>100,00 %</td><td>/</td><td>/</td><td>/</td><td>100,00 %</td></tr>
-<tr><td rowspan="2">2 phím</td><td>Cấp 1</td><td>97,93 %</td><td>0,15 %</td><td>1,48 %</td><td>0,44 %</td><td>100,00 %</td></tr>
-<tr><td>Cấp 2–3</td><td>91,42 %</td><td>2,00 %</td><td>4,14 %</td><td>2,44 %</td><td>100,00 %</td></tr>
-<tr><td rowspan="2">3 phím</td><td>Cấp 1</td><td>22,35 %</td><td>41,62 %</td><td>17,86 %</td><td>14,71 %</td><td>96,54 %</td></tr>
-<tr><td>Cấp 2–3</td><td>5,87 %</td><td>40,00 %</td><td>20,06 %</td><td>21,12 %</td><td>87,04 %</td></tr>
-<tr><td rowspan="2">4 phím</td><td>Cấp 1</td><td>1,07 %</td><td>10,31 %</td><td>5,11 %</td><td>7,95 %</td><td>24,43 %</td></tr>
-<tr><td>Cấp 2–3</td><td>0,07 %</td><td>1,88 %</td><td>1,31 %</td><td>1,47 %</td><td>4,72 %</td></tr>
+<tr><td>1 phím</td><td>Ứng viên thứ nhất</td><td>26</td><td>0</td><td>0</td><td>0</td><td>26</td></tr>
+<tr><td>1 phím</td><td>Thứ hai đến thứ năm</td><td>104</td><td>0</td><td>0</td><td>0</td><td>104</td></tr>
+<tr><td>2 phím</td><td>Ứng viên thứ nhất</td><td>601</td><td>7</td><td>51</td><td>17</td><td>676</td></tr>
+<tr><td>2 phím</td><td>Thứ hai đến thứ năm</td><td>1,228</td><td>878</td><td>357</td><td>241</td><td>2,704</td></tr>
+<tr><td>3 phím</td><td>Ứng viên thứ nhất</td><td>2,795</td><td>7,945</td><td>3,792</td><td>2,740</td><td>17,272</td></tr>
+<tr><td>3 phím</td><td>Thứ hai đến thứ năm</td><td>2,645</td><td>31,781</td><td>17,477</td><td>11,034</td><td>62,937</td></tr>
+<tr><td>4 phím</td><td>Ứng viên thứ nhất</td><td>5,345</td><td>96,541</td><td>37,888</td><td>26,307</td><td>166,081</td></tr>
+<tr><td>4 phím</td><td>Thứ hai đến thứ năm</td><td>1,288</td><td>81,063</td><td>31,894</td><td>9,436</td><td>123,681</td></tr>
+<tr><td>4 phím</td><td>Thứ sáu đến thứ mười</td><td>93</td><td>11,718</td><td>4,214</td><td>540</td><td>16,565</td></tr>
+<tr><td>Tổng cộng</td><td></td><td>14,125</td><td>229,933</td><td>95,673</td><td>50,315</td><td>390,046</td></tr>
 </tbody>
 </table></div>
 
-Nhìn từ bảng: không gian 1 phím đã được tận dụng 100 %; tỷ lệ tận dụng ứng viên cấp 1 và ứng viên cấp 2–3 của 2 phím đều đạt 100 % (mỗi mã được gán đủ 3 cấp ứng viên), tỷ lệ tận dụng ứng viên cấp 1 của 3 phím là 96,54 %, ứng viên cấp 2–3 là 87,04 %, cho thấy không gian mã tắt được tận dụng đầy đủ. Tỷ lệ tận dụng không gian 4 phím khá thấp (ứng viên cấp 1 24,43 %, ứng viên cấp 2–3 4,72 %), cho thấy không gian mã 4 phím (26⁴=456 976 tổ hợp) vượt xa nhu cầu thực tế, trùng mã (xung đột) cực kỳ ít. Ở hàng 3 phím, từ chiếm tỷ trọng khá lớn (2 chữ 41,62 %, 3 chữ 17,86 %, ≥4 chữ 14,71 %), cho thấy các từ nhiều chữ thường dùng cũng được gán mã tắt 3 phím. Thông thường, 2 đến 4 lần gõ phím là có thể hoàn tất nhập đại đa số chữ và từ, hiệu suất nhập rất cao.
-
-Phân tích tỷ lệ trùng mã theo từng độ dài mã như bảng dưới. 26 mã của chữ 1 phím đều được dùng; 676 mã của chữ 2 phím do được gán 3 cấp ứng viên nên đều có trùng mã, trùng mã tối đa chỉ 3; tỷ lệ không xung đột của chữ 3 phím là 6,27 %, trùng mã tối đa 3; tỷ lệ không xung đột của chữ 4 phím đạt 71,0 %, trùng mã tối đa chỉ 5. Nhìn chung, 162 000 chữ - từ chỉ dùng khoảng 129 000 mã, toàn quá trình không cần lật trang, kiểm soát trùng mã rất xuất sắc.
-
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Độ dài</th><th>Số mã duy nhất</th><th>Số mã không xung đột</th><th>Tỷ lệ không xung đột</th><th>Số nhóm xung đột</th><th>Xung đột tối đa</th><th>Tổng số mục</th></tr></thead>
+<caption>Tỷ lệ sử dụng vị trí ứng viên theo nhóm</caption>
+<thead><tr><th>Độ dài mã</th><th>Ứng viên thứ nhất</th><th>Ứng viên thứ hai đến thứ năm</th><th>Ứng viên thứ sáu đến thứ mười</th><th>Tất cả các nhóm</th></tr></thead>
 <tbody>
-<tr><td>1 phím</td><td>26</td><td>0</td><td>0,00 %</td><td>26</td><td>3</td><td>78</td></tr>
-<tr><td>2 phím</td><td>676</td><td>0</td><td>0,00 %</td><td>676</td><td>3</td><td>2028</td></tr>
-<tr><td>3 phím</td><td>16967</td><td>1064</td><td>6,27 %</td><td>15903</td><td>3</td><td>47563</td></tr>
-<tr><td>4 phím</td><td>111632</td><td>79264</td><td>71,00 %</td><td>32368</td><td>5</td><td>160468</td></tr>
+<tr><td>1 phím</td><td>100.00%</td><td>100.00%</td><td>—</td><td>100.00%</td></tr>
+<tr><td>2 phím</td><td>100.00%</td><td>100.00%</td><td>—</td><td>100.00%</td></tr>
+<tr><td>3 phím</td><td>98.27%</td><td>89.52%</td><td>—</td><td>91.27%</td></tr>
+<tr><td>4 phím</td><td>36.34%</td><td>6.77%</td><td>0.72%</td><td>6.70%</td></tr>
 </tbody>
 </table></div>
 
-Phân tích số gõ phím trung bình có trọng số tần suất như bảng dưới. Số gõ phím trung bình toàn thể chỉ 4,05 lần, trung bình chữ đơn chỉ 2,82 lần, phần lớn chữ tần suất cao được gán mã tắt, cho thấy hiệu suất nhập cực kỳ cao. Số gõ phím trung bình của từ ở mỗi phân loại đều trong khoảng 4,0 đến 4,1 lần, thể hiện tính đồng đều của phân bổ mã.
+## Trùng mã và điều kiện xác nhận trực tiếp bằng mã bốn phím
 
-| Phân loại | 1 chữ | 2 chữ | 3 chữ | ≥4 chữ | Tổng thể |
-|---|---|---|---|---|---|
-| Trung bình gõ phím | 2,82 | 4,04 | 4,11 | 4,09 | 4,05 |
-
-Thống kê trên bảng mã của tất cả chữ đơn như bảng dưới. Có thể thấy phân bố số mã ở mỗi cấp của mọi phím khá đồng đều. Ở cột tổng cộng, số của vùng phím chính «mễ - nhân» «EDC—SDFG—HJKL—I» là nhiều nhất, phù hợp với thiết kế.
+Trong bảng dưới, «nhóm một ứng viên» là nhóm chỉ có một ứng viên cho cùng một mã. Tỷ lệ của nhóm này lấy tổng số nhóm mã đã dùng ở độ dài mã tương ứng làm mẫu số. Ứng viên thứ nhất trong nhóm trùng mã vẫn cần được phân biệt với các ứng viên khác, nên không thể tính tất cả là xác nhận trực tiếp.
 
 <div class="table-wrap"><table class="fs-table stats">
-<thead><tr><th>Phím</th><th>1 phím</th><th>2 phím</th><th>3 phím</th><th>4 phím</th><th>Bổ âm</th><th>Tổng cộng</th></tr></thead>
+<caption>Tình trạng trùng mã theo độ dài mã</caption>
+<thead><tr><th>Độ dài mã</th><th>Nhóm mã đã dùng</th><th>Nhóm một ứng viên</th><th>Tỷ lệ nhóm một ứng viên</th><th>Nhóm trùng mã</th><th>Số ứng viên tối đa</th><th>Số mục</th></tr></thead>
 <tbody>
-<tr><td>A</td><td>156</td><td>86</td><td>86</td><td>32</td><td>32</td><td>392</td></tr>
-<tr><td>B</td><td>116</td><td>151</td><td>159</td><td>93</td><td>178</td><td>697</td></tr>
-<tr><td><strong>C</strong></td><td>155</td><td>369</td><td>308</td><td>84</td><td>220</td><td><strong>1136</strong></td></tr>
-<tr><td><strong>D</strong></td><td>215</td><td>370</td><td>386</td><td>172</td><td>164</td><td><strong>1307</strong></td></tr>
-<tr><td><strong>E</strong></td><td>377</td><td>295</td><td>274</td><td>156</td><td>34</td><td><strong>1136</strong></td></tr>
-<tr><td><strong>F</strong></td><td>325</td><td>491</td><td>359</td><td>93</td><td>147</td><td><strong>1415</strong></td></tr>
-<tr><td><strong>G</strong></td><td>255</td><td>375</td><td>252</td><td>253</td><td>182</td><td><strong>1317</strong></td></tr>
-<tr><td><strong>H</strong></td><td>491</td><td>276</td><td>117</td><td>32</td><td>170</td><td><strong>1086</strong></td></tr>
-<tr><td><strong>I</strong></td><td>333</td><td>366</td><td>286</td><td>170</td><td>0</td><td><strong>1155</strong></td></tr>
-<tr><td><strong>J</strong></td><td>359</td><td>300</td><td>226</td><td>117</td><td>327</td><td><strong>1329</strong></td></tr>
-<tr><td><strong>K</strong></td><td>365</td><td>335</td><td>474</td><td>218</td><td>123</td><td><strong>1515</strong></td></tr>
-<tr><td><strong>L</strong></td><td>269</td><td>348</td><td>339</td><td>183</td><td>264</td><td><strong>1403</strong></td></tr>
-<tr><td>M</td><td>309</td><td>173</td><td>196</td><td>137</td><td>166</td><td>981</td></tr>
-<tr><td>N</td><td>235</td><td>231</td><td>196</td><td>94</td><td>92</td><td>848</td></tr>
-<tr><td>O</td><td>204</td><td>222</td><td>124</td><td>84</td><td>7</td><td>641</td></tr>
-<tr><td>P</td><td>169</td><td>216</td><td>199</td><td>221</td><td>128</td><td>933</td></tr>
-<tr><td>Q</td><td>252</td><td>135</td><td>153</td><td>130</td><td>193</td><td>863</td></tr>
-<tr><td>R</td><td>323</td><td>313</td><td>172</td><td>53</td><td>61</td><td>922</td></tr>
-<tr><td><strong>S</strong></td><td>243</td><td>273</td><td>306</td><td>70</td><td>256</td><td><strong>1148</strong></td></tr>
-<tr><td>T</td><td>288</td><td>227</td><td>38</td><td>3</td><td>151</td><td>707</td></tr>
-<tr><td>U</td><td>215</td><td>265</td><td>82</td><td>13</td><td>0</td><td>575</td></tr>
-<tr><td>V</td><td>411</td><td>142</td><td>179</td><td>167</td><td>0</td><td>899</td></tr>
-<tr><td>W</td><td>253</td><td>269</td><td>172</td><td>101</td><td>128</td><td>923</td></tr>
-<tr><td>X</td><td>177</td><td>127</td><td>151</td><td>48</td><td>240</td><td>743</td></tr>
-<tr><td>Y</td><td>149</td><td>209</td><td>98</td><td>15</td><td>343</td><td>814</td></tr>
-<tr><td>Z</td><td>131</td><td>64</td><td>105</td><td>89</td><td>340</td><td>729</td></tr>
+<tr><td>1 phím</td><td>26</td><td>0</td><td>0.00%</td><td>26</td><td>5</td><td>130</td></tr>
+<tr><td>2 phím</td><td>676</td><td>0</td><td>0.00%</td><td>676</td><td>5</td><td>3,380</td></tr>
+<tr><td>3 phím</td><td>17,272</td><td>503</td><td>2.91%</td><td>16,769</td><td>5</td><td>80,209</td></tr>
+<tr><td>4 phím</td><td>166,081</td><td>104,826</td><td>63.12%</td><td>61,255</td><td>10</td><td>306,327</td></tr>
+</tbody>
+</table></div>
+
+## Ước tính số lần gõ phím tối thiểu có trọng số tần suất
+
+<div class="table-wrap"><table class="fs-table stats">
+<caption>Số lần gõ phím có trọng số tần suất ước tính theo đường đi ngắn nhất của chữ và từ</caption>
+<thead><tr><th>Phân loại</th><th>Chữ đơn</th><th>Từ hai chữ</th><th>Từ ba chữ</th><th>Từ ≥4 chữ</th><th>Tổng thể</th></tr></thead>
+<tbody>
+<tr><td>Số lần gõ trên mỗi chữ hoặc từ</td><td>2.66</td><td>3.71</td><td>3.97</td><td>3.99</td><td>2.95</td></tr>
+<tr><td>Số lần gõ trên mỗi chữ đầu ra</td><td>2.66</td><td>1.85</td><td>1.32</td><td>0.99</td><td>2.23</td></tr>
+</tbody>
+</table></div>
+
+## Phân bố phím của chữ đơn cơ bản
+
+Bảng dưới thống kê bảng mã của tất cả chữ đơn. Có thể thấy phân bố ở các vị trí mã của mọi phím khá đồng đều. Trong cột tổng cộng, vùng phím chính «mễ - nhân» «EDC—SDFG—HJKL—I» có số lượng cao nhất, phù hợp với thiết kế.
+
+<div class="table-wrap"><table class="fs-table stats">
+<caption>Phân bố vị trí mã hình và bổ âm theo cách đọc chính của chữ đơn cơ bản</caption>
+<thead><tr><th>Phím</th><th>Căn thứ nhất</th><th>Căn thứ hai</th><th>Căn thứ ba</th><th>Căn thứ tư</th><th>Bổ âm</th><th>Tổng cộng</th></tr></thead>
+<tbody>
+<tr><td>A</td><td>207</td><td>101</td><td>107</td><td>34</td><td>36</td><td>485</td></tr>
+<tr><td>B</td><td>130</td><td>173</td><td>195</td><td>134</td><td>217</td><td>849</td></tr>
+<tr><td>C</td><td>179</td><td>444</td><td>392</td><td>114</td><td>252</td><td>1,381</td></tr>
+<tr><td>D</td><td>238</td><td>443</td><td>467</td><td>213</td><td>194</td><td>1,555</td></tr>
+<tr><td>E</td><td>476</td><td>368</td><td>342</td><td>205</td><td>35</td><td>1,426</td></tr>
+<tr><td>F</td><td>482</td><td>615</td><td>450</td><td>124</td><td>166</td><td>1,837</td></tr>
+<tr><td>G</td><td>335</td><td>455</td><td>315</td><td>321</td><td>216</td><td>1,642</td></tr>
+<tr><td>H</td><td>600</td><td>339</td><td>150</td><td>46</td><td>200</td><td>1,335</td></tr>
+<tr><td>I</td><td>396</td><td>451</td><td>345</td><td>206</td><td>0</td><td>1,398</td></tr>
+<tr><td>J</td><td>385</td><td>351</td><td>274</td><td>151</td><td>381</td><td>1,542</td></tr>
+<tr><td>K</td><td>401</td><td>393</td><td>589</td><td>282</td><td>141</td><td>1,806</td></tr>
+<tr><td>L</td><td>311</td><td>400</td><td>421</td><td>218</td><td>299</td><td>1,649</td></tr>
+<tr><td>M</td><td>384</td><td>213</td><td>247</td><td>174</td><td>186</td><td>1,204</td></tr>
+<tr><td>N</td><td>273</td><td>292</td><td>244</td><td>117</td><td>106</td><td>1,032</td></tr>
+<tr><td>O</td><td>269</td><td>264</td><td>158</td><td>112</td><td>10</td><td>813</td></tr>
+<tr><td>P</td><td>209</td><td>265</td><td>233</td><td>280</td><td>153</td><td>1,140</td></tr>
+<tr><td>Q</td><td>308</td><td>164</td><td>197</td><td>179</td><td>234</td><td>1,082</td></tr>
+<tr><td>R</td><td>372</td><td>378</td><td>209</td><td>66</td><td>68</td><td>1,093</td></tr>
+<tr><td>S</td><td>296</td><td>359</td><td>397</td><td>95</td><td>284</td><td>1,431</td></tr>
+<tr><td>T</td><td>322</td><td>269</td><td>53</td><td>3</td><td>175</td><td>822</td></tr>
+<tr><td>U</td><td>238</td><td>328</td><td>108</td><td>14</td><td>0</td><td>688</td></tr>
+<tr><td>V</td><td>542</td><td>168</td><td>208</td><td>226</td><td>0</td><td>1,144</td></tr>
+<tr><td>W</td><td>284</td><td>345</td><td>196</td><td>123</td><td>155</td><td>1,103</td></tr>
+<tr><td>X</td><td>208</td><td>156</td><td>185</td><td>67</td><td>294</td><td>910</td></tr>
+<tr><td>Y</td><td>198</td><td>257</td><td>121</td><td>21</td><td>398</td><td>995</td></tr>
+<tr><td>Z</td><td>171</td><td>73</td><td>123</td><td>113</td><td>376</td><td>856</td></tr>
+<tr><td>Tổng cộng</td><td>8,214</td><td>8,064</td><td>6,726</td><td>3,638</td><td>4,576</td><td>31,218</td></tr>
 </tbody>
 </table></div>
 
@@ -115,8 +129,8 @@ Thống kê trên bảng mã của tất cả chữ đơn như bảng dưới. C
 
 Từ phân tích trên, bộ gõ Phong Thủy Hình Âm có những ưu điểm nổi bật sau:
 
-- **Quy mô từ điển lớn**: thu nạp 6 775 chữ đơn và hơn 155 000 từ, tổng 162 000 chữ - từ, bao trùm đại đa số chữ - từ cần thiết cho nhập liệu hàng ngày.
-- **Tỷ lệ dùng mã tắt cao**: tỷ lệ dùng chữ 1 phím 100 %, chữ 2 phím đủ 3 cấp ứng viên 100 %, tỷ lệ dùng ứng viên cấp 1 của chữ 3 phím 96,5 %, ứng viên cấp 2–3 là 87,0 %. Không gian mã tắt được tận dụng đầy đủ.
-- **Kiểm soát trùng mã xuất sắc**: tỷ lệ không xung đột của chữ 4 phím đạt 71,0 %, số trùng mã tối đa chỉ 5. Toàn quá trình không cần lật trang là có thể chọn.
-- **Hiệu suất gõ phím cao**: số gõ phím trung bình có trọng số tần suất chỉ 4,05 lần, trung bình chữ đơn chỉ 2,82 lần. Chữ tần suất cao đã được gán mã tắt.
-- **Phân bố phím đồng đều**: 26 phím chữ cái phân bố khá đồng đều ở mỗi vị trí mã, vùng phím chính (EDC—SDFG—HJKL—I) có tần suất dùng cao nhất, phù hợp thiết kế công thái học.
+- **Quy mô từ điển lớn**: chứa 8,214 chữ đơn và 300,239 từ, tổng cộng 308,453 chữ và từ khác nhau, bao phủ đại đa số chữ và từ cần thiết cho nhập liệu hàng ngày.
+- **Tỷ lệ sử dụng mã tắt cao**: tỷ lệ sử dụng mã một phím là 100%, mã hai phím đạt 100%; với mã ba phím, tỷ lệ sử dụng ứng viên thứ nhất là 98.27%, ứng viên thứ hai đến thứ năm là 89.52%. Không gian mã tắt được tận dụng đầy đủ.
+- **Ưu tiên tần suất cao**: ưu tiên các chữ và từ có tần suất cao.
+- **Hiệu suất gõ phím cao**: số lần gõ phím tối thiểu có trọng số tần suất là 2.66 lần cho chữ đơn và 2.95 lần cho toàn bộ chữ và từ. Các chữ và từ có tần suất cao đều được gán mã tắt.
+- **Phân bố phím đồng đều**: 26 phím chữ cái phân bố khá đồng đều ở các vị trí mã; vùng phím chính (EDC—SDFG—HJKL—I) có tần suất sử dụng cao nhất, phù hợp với thiết kế công thái học.
